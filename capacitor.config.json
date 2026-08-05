@@ -1,0 +1,18 @@
+{
+  "appId": "br.com.oficjus.drive",
+  "appName": "OficJus Drive",
+  "webDir": "build",
+  "server": {
+    "cleartext": true
+  },
+  "android": {
+    "useLegacyBridge": true
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1500,
+      "backgroundColor": "#020617",
+      "showSpinner": false
+    }
+  }
+}

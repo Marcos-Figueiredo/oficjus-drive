@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/bf_container"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/bf_fundo"
+    android:padding="8dp">
+
+    <!-- Entregue (esquerda) -->
+    <Button
+        android:id="@+id/bf_entregue"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bf_botao"
+        android:text="✅"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginEnd="4dp" />
+
+    <!-- Lista (centro-esquerda) -->
+    <Button
+        android:id="@+id/bf_lista"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bf_botao"
+        android:text="☰"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginEnd="4dp" />
+
+    <!-- Conjunto central: carrinho + parada em cima, distância embaixo -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/bf_parada"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🚗 1/4"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/bf_distancia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="---"
+            android:textColor="#93c5fd"
+            android:textSize="9sp"
+            android:gravity="center" />
+    </LinearLayout>
+
+    <!-- Pular (direita) -->
+    <Button
+        android:id="@+id/bf_pular"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:background="@drawable/bf_botao"
+        android:text="⏭️"
+        android:textColor="#FFFFFF"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_marginStart="4dp" />
+
+</LinearLayout>

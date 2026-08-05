@@ -1,0 +1,59 @@
+{
+  "name": "oficjus-drive",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@capacitor-mlkit/text-recognition": "^8.2.0",
+    "@capacitor/android": "^8.5.0",
+    "@capacitor/app": "^8.1.1",
+    "@capacitor/camera": "^8.2.2",
+    "@capacitor/core": "^8.5.0",
+    "@capacitor/dialog": "^8.0.1",
+    "@capacitor/filesystem": "^8.1.2",
+    "@capacitor/geolocation": "^8.2.0",
+    "@capacitor/keyboard": "^8.0.5",
+    "@capacitor/local-notifications": "^8.2.1",
+    "@capacitor/network": "^8.0.1",
+    "@capacitor/preferences": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.3",
+    "@capgo/background-geolocation": "^7.2.8",
+    "@supabase/supabase-js": "^2.99.2",
+    "@tesseract.js-data/por": "^1.0.0",
+    "idb": "^8.0.3",
+    "leaflet": "^1.9.4",
+    "leaflet-rotate": "^0.2.8",
+    "lucide-react": "^0.507.0",
+    "maplibre-gl": "^5.24.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.5.1",
+    "react-scripts": "5.0.1",
+    "tesseract.js": "^5.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "cap:sync": "npx cap sync android",
+    "cap:open": "npx cap open android",
+    "android": "npm run build && npm run cap:sync && npm run cap:open"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.0",
+    "sharp": "^0.35.3",
+    "typescript": "^7.0.2"
+  }
+}
