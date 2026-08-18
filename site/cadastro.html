@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OficJus Drive — Cadastro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .auth-wrapper {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1.5rem;
+    }
+    .auth-box {
+      width: 100%;
+      max-width: 28rem;
+      background: rgba(15, 23, 42, 0.8);
+      border: 1px solid rgba(59, 130, 246, 0.12);
+      border-radius: 1.5rem;
+      padding: 2.5rem 2rem;
+      backdrop-filter: blur(12px);
+    }
+    .auth-box h1 {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #fff;
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .auth-box .subtitle {
+      font-size: 0.875rem;
+      color: #94a3b8;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .auth-box label {
+      display: block;
+      font-size: 0.8125rem;
+      font-weight: 600;
+      color: #cbd5e1;
+      margin-bottom: 0.375rem;
+    }
+    .auth-box input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      border: 1px solid rgba(59, 130, 246, 0.15);
+      background: rgba(10, 22, 40, 0.6);
+      color: #f1f5f9;
+      font-size: 0.9375rem;
+      font-family: inherit;
+      outline: none;
+      transition: border-color 0.2s;
+      box-sizing: border-box;
+    }
+    .auth-box input:focus {
+      border-color: #3b82f6;
+    }
+    .auth-box .form-group {
+      margin-bottom: 1.25rem;
+    }
+    .auth-box .btn-submit {
+      width: 100%;
+      padding: 0.75rem;
+      border-radius: 0.75rem;
+      border: none;
+      background: #2563eb;
+      color: #fff;
+      font-size: 0.9375rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: inherit;
+    }
+    .auth-box .btn-submit:hover {
+      background: #3b82f6;
+    }
+    .auth-box .btn-submit:disabled {
+      background: #1e3a5f;
+      color: #64748b;
+      cursor: not-allowed;
+    }
+    .auth-box .msg {
+      display: none;
+      font-size: 0.875rem;
+      padding: 0.75rem 1rem;
+      border-radius: 0.75rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .auth-box .msg-error {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      color: #fca5a5;
+    }
+    .auth-box .msg-success {
+      background: rgba(5, 150, 105, 0.1);
+      border: 1px solid rgba(5, 150, 105, 0.2);
+      color: #6ee7b7;
+    }
+    .auth-box .toggle-link {
+      text-align: center;
+      font-size: 0.8125rem;
+      color: #64748b;
+      margin-top: 1.25rem;
+    }
+    .auth-box .toggle-link a {
+      color: #3b82f6;
+      cursor: pointer;
+    }
+    .auth-box .toggle-link a:hover {
+      color: #93c5fd;
+    }
+    .loading-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      align-items: center;
+      justify-content: center;
+      z-index: 100;
+    }
+    .loading-overlay.active {
+      display: flex;
+    }
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid rgba(59, 130, 246, 0.2);
+      border-top-color: #3b82f6;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+    .back-link {
+      display: block;
+      text-align: center;
+      font-size: 0.8125rem;
+      color: #64748b;
+      margin-top: 1rem;
+    }
+    .back-link a {
+      color: #3b82f6;
+    }
+    /* Password strength */
+    .password-strength {
+      margin-top: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .strength-bar {
+      height: 4px;
+      flex: 1;
+      border-radius: 2px;
+      background: rgba(71, 85, 105, 0.3);
+      transition: all 0.3s;
+    }
+    .strength-bar.weak { background: #ef4444; width: 33%; }
+    .strength-bar.medium { background: #eab308; width: 66%; }
+    .strength-bar.strong { background: #22c55e; width: 100%; }
+    .strength-text {
+      font-size: 0.75rem;
+      min-width: 3rem;
+      text-align: right;
+    }
+    .strength-text.weak { color: #ef4444; }
+    .strength-text.medium { color: #eab308; }
+    .strength-text.strong { color: #22c55e; }
+    .confirm-feedback {
+      font-size: 0.75rem;
+      margin-top: 0.25rem;
+      min-height: 1rem;
+    }
+    .confirm-feedback.ok { color: #22c55e; }
+    .confirm-feedback.error { color: #ef4444; }
+  </style>
+</head>
+<body>
+  <div class="loading-overlay" id="loadingOverlay">
+    <div class="loading-spinner"></div>
+  </div>
+
+  <div class="auth-wrapper">
+    <div class="auth-box">
+      <h1 id="formTitle">Criar conta — Teste grátis 7 dias</h1>
+
+      <div class="msg msg-error" id="errorMsg"></div>
+      <div class="msg msg-success" id="successMsg"></div>
+
+      <form id="authForm">
+        <div class="form-group" id="nomeGroup">
+          <label for="nome">Nome completo</label>
+          <input type="text" id="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" placeholder="seu@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" placeholder="Mínimo 8 caracteres" minlength="8" required>
+          <div class="password-strength" id="passwordStrength">
+            <div class="strength-bar" id="strengthBar"></div>
+            <span class="strength-text" id="strengthText"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="senhaConfirm">Confirmar senha</label>
+          <input type="password" id="senhaConfirm" placeholder="Repita a senha" minlength="8" required>
+          <div class="confirm-feedback" id="confirmFeedback"></div>
+        </div>
+        <button type="submit" class="btn-submit">Criar conta e testar</button>
+      </form>
+
+      <div class="back-link">
+        <a href="index.html">← Voltar para o site</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="cadastro.js"></script>
+</body>
+</html>

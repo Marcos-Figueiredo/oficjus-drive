@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OficJus Drive — Navegador Inteligente de Rotas</title>
+  <meta name="description" content="App Android nativo de navegação inteligente de rotas. Bolha flutuante sobre o Waze, rota dinâmica por GPS, cache offline, entrada por voz e base oficial IBGE.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">
+        <div class="logo-icon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+        </div>
+        <div>
+          <span class="logo-text">OficJus Drive</span>
+          <span class="logo-sub">Navegador inteligente de rotas</span>
+        </div>
+      </div>
+      <nav class="nav-desktop">
+        <a href="#funcionalidades">Funcionalidades</a>
+        <a href="#fluxo">Como funciona</a>
+        <a href="#tecnologia">Tecnologia</a>
+        <a href="cadastro.html" class="btn btn-primary">Testar grátis</a>
+      </nav>
+      <button class="menu-mobile-btn" id="menuToggle" aria-label="Abrir menu">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+      </button>
+    </div>
+    <nav class="nav-mobile" id="navMobile">
+      <a href="#funcionalidades" onclick="closeMenu()">Funcionalidades</a>
+      <a href="#fluxo" onclick="closeMenu()">Como funciona</a>
+      <a href="#tecnologia" onclick="closeMenu()">Tecnologia</a>
+      <a href="cadastro.html" onclick="closeMenu()" class="btn btn-primary" style="text-align:center;margin-top:0.5rem;">Testar grátis</a>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-badge">
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+        App Android nativo — 24 MB — 100% offline
+      </div>
+      <h1 class="hero-title">A rota inteligente entre seus endereços e a execução em campo.</h1>
+      <p class="hero-subtitle">
+        O <strong>OficJus Drive</strong> é um navegador de rotas inteligente. Digite os endereços (ou use o ditado por voz), o app monta a rota otimizada, navega exclusivamente pelo Waze, e uma <strong>bolha flutuante</strong> sobre o GPS permite registrar cada visita, pular paradas e avançar na rota <strong>sem nunca sair do Waze</strong>. Tudo funcionando offline, com a base oficial de endereços do IBGE.
+      </p>
+      <div class="hero-actions">
+        <a href="cadastro.html" class="btn btn-hero">Testar grátis por 7 dias</a>
+        <a href="#funcionalidades" class="btn btn-hero-outline">Conheça as funcionalidades</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="section" id="funcionalidades">
+    <div class="container">
+      <div class="section-tag">Funcionalidades</div>
+      <h2 class="section-title">Tudo o que você precisa para navegar em campo</h2>
+
+      <div class="features-grid">
+        <!-- Card 1 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-blue">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3 class="feature-title">Bolha Flutuante</h3>
+          <p class="feature-desc">Uma bolha arrastável que fica sobre o Waze. Confirme ou pule visitas, veja a distância até o destino e acesse a lista de pendentes — sem sair do GPS.</p>
+          <ul class="feature-bullets">
+            <li>Modo chegada automática (&lt; 30m do destino)</li>
+            <li>Distância em tempo real</li>
+            <li>Não precisa alternar entre apps</li>
+          </ul>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-sky">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3 class="feature-title">Rota Dinâmica</h3>
+          <p class="feature-desc">A cada confirmação ou pulo, a rota é reotimizada pelo GPS. A parada mais próxima vira a próxima. Economiza tempo e combustível.</p>
+          <ul class="feature-bullets">
+            <li>Algoritmo Nearest-Neighbor</li>
+            <li>Reordenação automática a cada parada</li>
+            <li>Sem limite de visitas por rota</li>
+          </ul>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-indigo">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+          </div>
+          <h3 class="feature-title">100% Offline</h3>
+          <p class="feature-desc">Registre visitas mesmo sem internet. Rota, endereços e bolha funcionam sem conexão. Ideal para áreas com sinal fraco.</p>
+          <ul class="feature-bullets">
+            <li>Dados armazenados localmente (Room)</li>
+            <li>Sincronização automática ao reconectar</li>
+            <li>Waze é a única dependência de internet</li>
+          </ul>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-cyan">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3 class="feature-title">Base Oficial IBGE (CNEFE)</h3>
+          <p class="feature-desc">Milhões de endereços com coordenadas oficiais do IBGE. Busca por CEP ou logradouro com autocomplete inteligente e cache local para resposta instantânea. Dado público e auditável.</p>
+          <ul class="feature-bullets">
+            <li>3,9 milhões de endereços em MG</li>
+            <li>853 municípios cobertos</li>
+            <li>Zero custo de geocoding</li>
+          </ul>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-slate">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </div>
+          <h3 class="feature-title">Entrada por Voz</h3>
+          <p class="feature-desc">Ditado nos campos de CEP e número. Mãos livres enquanto dirige. Rápido e seguro. Reconhecimento de voz nativo do Android.</p>
+          <ul class="feature-bullets">
+            <li>Preenchimento automático por voz</li>
+            <li>Mãos livres no volante</li>
+            <li>Suporte a CEP e logradouro</li>
+          </ul>
+        </div>
+
+        <!-- Card 6 -->
+        <div class="feature-card">
+          <div class="feature-icon feature-icon-navy">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3 class="feature-title">Rota Eterna</h3>
+          <p class="feature-desc">Visitas não concluídas são preservadas como remanescentes e reaparecem na próxima rota. Nada se perde. Você decide se mantém ou remove.</p>
+          <ul class="feature-bullets">
+            <li>Remanescentes salvos automaticamente</li>
+            <li>Ordem de digitação preservada</li>
+            <li>Alerta de duplicidade integrado</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="section" id="fluxo">
+    <div class="container">
+      <div class="section-tag">Como funciona</div>
+      <h2 class="section-title">3 passos: digita, inicia, bolha</h2>
+
+      <div class="pillars">
+        <div class="pillar">
+          <div class="pillar-number">1</div>
+          <div>
+            <strong>Digita</strong>
+            <p>Insira os endereços por CEP ou logradouro. Use o autocomplete inteligente com busca na base oficial do IBGE, ou o ditado por voz enquanto dirige.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-number">2</div>
+          <div>
+            <strong>Inicia</strong>
+            <p>O app otimiza a rota pela distância real (Nearest-Neighbor) e abre o Waze na primeira parada. A bolha flutuante aparece sobre o GPS.</p>
+          </div>
+        </div>
+        <div class="pillar">
+          <div class="pillar-number">3</div>
+          <div>
+            <strong>Bolha</strong>
+            <p>Confirme ou pule cada parada diretamente na bolha — sem sair do Waze. A rota se reordena sozinha. Ao final, o resumo mostra o resultado e as pendências para a próxima rota.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TECH STACK ===== -->
+  <section class="section section-tech" id="tecnologia">
+    <div class="container">
+      <div class="section-tag">Stack Tecnológica</div>
+      <h2 class="section-title">Arquitetura moderna e segura</h2>
+
+      <div class="tech-grid">
+        <div class="tech-card">
+          <h3>App Mobile</h3>
+          <div class="stack-tags">
+            <span class="tag">Kotlin</span>
+            <span class="tag">Jetpack Compose</span>
+            <span class="tag">Android</span>
+            <span class="tag">Room</span>
+            <span class="tag">Hilt</span>
+            <span class="tag">OkHttp</span>
+          </div>
+          <p class="tech-desc">App Android nativo com suporte offline, cache local, geolocalização em foreground e integração com Waze via deep link. Performance e fluidez nativas.</p>
+        </div>
+
+        <div class="tech-card">
+          <h3>Backend</h3>
+          <div class="stack-tags">
+            <span class="tag">Supabase</span>
+            <span class="tag">PostgreSQL 17</span>
+            <span class="tag">Nominatim</span>
+            <span class="tag">ViaCEP</span>
+          </div>
+          <p class="tech-desc">Autenticação segura, banco de dados gerenciado e armazenamento. Geocoding gratuito com Nominatim + base CNEFE/IBGE local.</p>
+        </div>
+
+        <div class="tech-card">
+          <h3>Geocoding</h3>
+          <div class="stack-tags">
+            <span class="tag">CNEFE IBGE</span>
+            <span class="tag">3,9M endereços</span>
+            <span class="tag">Interpolação</span>
+            <span class="tag">Nominatim</span>
+          </div>
+          <p class="tech-desc">Três camadas de resolução: CNEFE exato (0.15ms), interpolação ±10 números, fallback Nominatim. Zero custo de API.</p>
+        </div>
+
+        <div class="tech-card">
+          <h3>Segurança</h3>
+          <div class="stack-tags">
+            <span class="tag">RLS</span>
+            <span class="tag">Supabase Auth</span>
+            <span class="tag">JWT</span>
+            <span class="tag">LGPD</span>
+          </div>
+          <p class="tech-desc">Row Level Security — cada usuário vê apenas seus próprios dados. Autenticação JWT com refresh token. Zero propaganda e zero rastreadores.</p>
+        </div>
+      </div>
+
+      <!-- Architecture diagram -->
+      <div class="arch-diagram">
+        <div class="arch-layer">
+          <span class="arch-label">OficJus Drive (Android)</span>
+          <span class="arch-tech">Kotlin / Jetpack Compose</span>
+        </div>
+        <div class="arch-arrow">⬇</div>
+        <div class="arch-layer">
+          <span class="arch-label">Geocoding</span>
+          <span class="arch-tech">CNEFE → Interpolação → Nominatim</span>
+        </div>
+        <div class="arch-arrow">⬇</div>
+        <div class="arch-layer">
+          <span class="arch-label">Supabase / PostgreSQL</span>
+          <span class="arch-tech">Auth | RLS | Storage</span>
+        </div>
+        <div class="arch-arrow">⬇</div>
+        <div class="arch-layer arch-layer-drive">
+          <span class="arch-label">Waze (Navegação)</span>
+          <span class="arch-tech">Deep link com coordenadas</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA / DOWNLOAD ===== -->
+  <section class="section section-cta" id="download">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-title">Teste grátis por 7 dias</h2>
+        <p class="cta-desc">Baixe o APK, instale no seu Android e comece a usar. Sem compromisso, sem cadastro de cartão. Cancele quando quiser.</p>
+        <div class="cta-actions">
+          <a href="cadastro.html" class="btn btn-hero">Testar grátis por 7 dias</a>
+          <a href="#tecnologia" class="btn btn-hero-outline">Ver tecnologias</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>OficJus Drive — Navegador inteligente de rotas. App Android nativo, 100% offline.</p>
+      <div class="footer-links">
+        <a href="mailto:contato@oficjus.com.br">Contato</a>
+        <a href="cadastro.html">Testar grátis</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

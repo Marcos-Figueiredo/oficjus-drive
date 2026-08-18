@@ -1,0 +1,34 @@
+# Dependencias
+node_modules/
+
+# Builds
+build/
+dist/
+
+# Ambiente
+.env
+.env.local
+
+# Android
+android/.gradle/
+android/local.properties
+android/app/build/
+android/build/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Sistema
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Temporarios
+__pycache__/
+*.pyc
