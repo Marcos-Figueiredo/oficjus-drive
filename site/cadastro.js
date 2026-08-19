@@ -2,7 +2,7 @@
 // OficJus Drive — Cadastro (via backend /api/register-account)
 // ============================================================
 
-const API_URL = 'https://app.oficjus.com.br';
+const API_URL = 'https://oficjus-backend.onrender.com';
 
 const form = document.getElementById('authForm');
 const nomeInput = document.getElementById('nome');
