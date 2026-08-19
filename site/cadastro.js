@@ -1,11 +1,8 @@
 // ============================================================
-// OficJus Drive — Cadastro
+// OficJus Drive — Cadastro (via backend /api/register-account)
 // ============================================================
 
-const SUPABASE_URL = 'https://weaqkaaqalvpbxkxrfee.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_K1A9Oo6uXRAmIXDATMThEw_jDy1fLAJ';
-
-const supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const API_URL = 'https://app.oficjus.com.br';
 
 const form = document.getElementById('authForm');
 const nomeInput = document.getElementById('nome');
@@ -46,32 +43,36 @@ function atualizar() {
 
 form.addEventListener('submit', async (e) => {
   e.preventDefault();
-  errorMsg.style.display = 'none'; successMsg.style.display = 'none'; loadingOverlay.classList.add('active');
+  errorMsg.style.display = 'none';
+  successMsg.style.display = 'none';
+  loadingOverlay.classList.add('active');
+
   try {
     if (senhaInput.value !== senhaConfirm.value) throw new Error('As senhas não conferem.');
-    const { error } = await supabaseClient.auth.signUp({
-      email: emailInput.value.trim(), password: senhaInput.value,
-      options: {
-        data: { full_name: nomeInput.value.trim(), plano: 'drive', status_assinatura: 'trial' },
-        emailRedirectTo: 'https://oficjus-drive.onrender.com/obrigado.html',
-      },
+
+    const res = await fetch(API_URL + '/api/register-account', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        email: emailInput.value.trim(),
+        password: senhaInput.value,
+        full_name: nomeInput.value.trim(),
+      }),
     });
-    if (error) throw error;
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      throw new Error(data.error || 'Erro ao criar conta.');
+    }
+
     form.style.display = 'none';
     successMsg.innerHTML = 'Conta criada! 🎉<br><br>Enviamos um e-mail de confirmação para <strong>' + emailInput.value.trim() + '</strong>.<br><br>Após confirmar, você será redirecionado.';
     successMsg.style.display = 'block';
-  } catch (err) { errorMsg.innerHTML = err.message; errorMsg.style.display = 'block'; }
-  finally { loadingOverlay.classList.remove('active'); }
+  } catch (err) {
+    errorMsg.innerHTML = err.message;
+    errorMsg.style.display = 'block';
+  } finally {
+    loadingOverlay.classList.remove('active');
+  }
 });
-
-const params = new URLSearchParams(window.location.search);
-if (params.get('confirmado') === 'true' || params.get('type') === 'signup') {
-  window.location.href = 'obrigado.html';
-}
-
-// Se chegou com ?confirmado=true, redireciona para o perfil
-const params = new URLSearchParams(window.location.search);
-const params = new URLSearchParams(window.location.search);
-if (params.get('confirmado') === 'true' || params.get('type') === 'signup') {
-  window.location.href = 'obrigado.html';
-}
