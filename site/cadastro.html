@@ -196,30 +196,41 @@
       <div class="msg msg-error" id="errorMsg"></div>
       <div class="msg msg-success" id="successMsg"></div>
 
-      <form id="authForm">
-        <div class="form-group" id="nomeGroup">
-          <label for="nome">Nome completo</label>
-          <input type="text" id="nome" placeholder="Seu nome" required>
-        </div>
-        <div class="form-group">
-          <label for="email">E-mail</label>
-          <input type="email" id="email" placeholder="seu@email.com" required>
-        </div>
-        <div class="form-group">
-          <label for="senha">Senha</label>
-          <input type="password" id="senha" placeholder="Mínimo 8 caracteres" minlength="8" required>
-          <div class="password-strength" id="passwordStrength">
-            <div class="strength-bar" id="strengthBar"></div>
-            <span class="strength-text" id="strengthText"></span>
+      <!-- Etapa 1: email + senha -->
+      <div id="etapaEmail">
+        <form id="authForm">
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="seu@email.com" required>
           </div>
-        </div>
-        <div class="form-group">
-          <label for="senhaConfirm">Confirmar senha</label>
-          <input type="password" id="senhaConfirm" placeholder="Repita a senha" minlength="8" required>
-          <div class="confirm-feedback" id="confirmFeedback"></div>
-        </div>
-        <button type="submit" class="btn-submit">Criar conta e testar</button>
-      </form>
+          <div class="form-group">
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" placeholder="Mínimo 8 caracteres" minlength="8" required>
+            <div class="password-strength" id="passwordStrength">
+              <div class="strength-bar" id="strengthBar"></div>
+              <span class="strength-text" id="strengthText"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="senhaConfirm">Confirmar senha</label>
+            <input type="password" id="senhaConfirm" placeholder="Repita a senha" minlength="8" required>
+            <div class="confirm-feedback" id="confirmFeedback"></div>
+          </div>
+          <button type="submit" class="btn-submit">Criar conta e testar</button>
+        </form>
+      </div>
+
+      <!-- Etapa 2: completar dados após confirmação -->
+      <div id="etapaCompletar" style="display:none">
+        <div class="msg msg-success" id="msgConfirmado" style="display:none"></div>
+        <form id="formCompletar">
+          <div class="form-group">
+            <label for="nomeCompleto">Nome completo</label>
+            <input type="text" id="nomeCompleto" placeholder="Seu nome" required>
+          </div>
+          <button type="submit" class="btn-submit">Concluir cadastro</button>
+        </form>
+      </div>
 
       <div class="back-link">
         <a href="index.html">← Voltar para o site</a>
