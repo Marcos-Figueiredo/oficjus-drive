@@ -177,7 +177,7 @@ form.addEventListener('submit', async (e) => {
             trial_end: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000).toISOString(),
             status_assinatura: 'trial',
           },
-          emailRedirectTo: window.location.origin + '/cadastro.html?confirmado=true',
+          emailRedirectTo: 'https://oficjus-drive.onrender.com/cadastro.html?confirmado=true',
         },
       });
       if (error) throw error;
