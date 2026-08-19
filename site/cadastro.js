@@ -72,32 +72,16 @@ form.addEventListener('submit', async (e) => {
     });
     if (error) throw error;
     form.style.display = 'none';
-    successMsg.innerHTML = 'Conta criada com sucesso! 🎉<br><br>Enviamos um e-mail de confirmação para <strong>' + emailInput.value.trim() + '</strong>.<br><br>Passo a passo:<br>1. Verifique sua caixa de entrada (e o spam)<br>2. Clique no link de confirmação<br>3. Após confirmar, faça login no aplicativo<br><br>Seu teste grátis de <strong>7 dias</strong> começa agora!';
+    successMsg.innerHTML = 'Conta criada! 🎉<br><br>Enviamos um e-mail de confirmação para <strong>' + emailInput.value.trim() + '</strong>.<br><br>Após confirmar, complete seu cadastro.';
     successMsg.style.display = 'block';
-    form.reset();
   } catch (err) { errorMsg.innerHTML = err.message; errorMsg.style.display = 'block'; }
   finally { loadingOverlay.classList.remove('active'); }
 });
 
+// Se chegou com ?confirmado=true, redireciona para o perfil
 const params = new URLSearchParams(window.location.search);
-if (params.get('confirmado') === 'true') {
-  // E-mail confirmado: mostra formulário para completar cadastro
-  document.getElementById('etapaEmail').style.display = 'none';
-  document.getElementById('etapaCompletar').style.display = 'block';
-  document.getElementById('msgConfirmado').style.display = 'block';
-  successMsg.innerHTML = 'E-mail confirmado! Agora complete seu cadastro.';
-  successMsg.style.display = 'block';
-}
-
-// Completar cadastro após confirmação
-document.getElementById('formCompletar').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const nome = document.getElementById('nomeCompleto').value.trim();
-  if (!nome) return;
-  loadingOverlay.classList.add('active');
-  try {
-    const { error } = await supabaseClient.auth.updateUser({
-      data: { full_name: nome, plano: 'drive', trial_start: new Date().toISOString(), trial_end: new Date(Date.now() + 7*24*60*60*1000).toISOString(), status_assinatura: 'trial' },
+if (params.get('confirmado') === 'true' || params.get('type') === 'signup') {
+  window.location.href = 'perfil.html';
     });
     if (error) throw error;
     document.getElementById('etapaCompletar').style.display = 'none';
