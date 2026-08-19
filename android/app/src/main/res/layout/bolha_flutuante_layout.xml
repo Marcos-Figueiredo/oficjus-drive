@@ -3,72 +3,194 @@
     android:id="@+id/bf_container"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     android:gravity="center"
     android:background="@drawable/bf_fundo"
-    android:padding="8dp">
+    android:padding="12dp"
+    android:paddingBottom="16dp">
 
-    <!-- Entregue (esquerda) -->
-    <Button
-        android:id="@+id/bf_entregue"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:background="@drawable/bf_botao"
-        android:text="✅"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        android:gravity="center"
-        android:layout_marginEnd="4dp" />
-
-    <!-- Lista (centro-esquerda) -->
-    <Button
-        android:id="@+id/bf_lista"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:background="@drawable/bf_botao"
-        android:text="☰"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        android:gravity="center"
-        android:layout_marginEnd="4dp" />
-
-    <!-- Conjunto central: carrinho + parada em cima, distância embaixo -->
+    <!-- Primeira linha: botão esquerdo + conteúdo + botão direito -->
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         android:gravity="center">
 
-        <TextView
-            android:id="@+id/bf_parada"
+        <!-- Botão ☰ (modo navegação) -->
+        <Button
+            android:id="@+id/bf_esquerdo"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="🚗 1/4"
+            android:layout_height="64dp"
+            android:minWidth="64dp"
+            android:background="@drawable/bf_botao"
+            android:text="☰"
             android:textColor="#FFFFFF"
-            android:textSize="12sp"
-            android:textStyle="bold"
-            android:gravity="center" />
+            android:textSize="22sp"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginEnd="10dp" />
 
-        <TextView
-            android:id="@+id/bf_distancia"
+        <!-- Conteúdo central -->
+        <LinearLayout
+            android:id="@+id/bf_central"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="---"
-            android:textColor="#93c5fd"
-            android:textSize="9sp"
-            android:gravity="center" />
-    </LinearLayout>
+            android:orientation="vertical"
+            android:gravity="center">
 
-    <!-- Pular (direita) -->
-    <Button
-        android:id="@+id/bf_pular"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
-        android:background="@drawable/bf_botao"
-        android:text="⏭️"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp"
-        android:gravity="center"
-        android:layout_marginStart="4dp" />
+            <TextView
+                android:id="@+id/bf_parada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="🚗 1/4"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/bf_distancia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="---"
+                android:textColor="#93c5fd"
+                android:textSize="14sp"
+                android:gravity="center" />
+
+            <!-- Card da entrega atual (modo chegada) -->
+            <LinearLayout
+                android:id="@+id/bf_card_atual"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bf_card_fundo"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/bf_atual_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="📍 ENTREGA ATUAL"
+                    android:textColor="#fbbf24"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bf_atual_endereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="#FFFFFF"
+                    android:textSize="12sp"
+                    android:maxLines="2"
+                    android:ellipsize="end" />
+            </LinearLayout>
+
+            <!-- Botões Sim/Não (modo chegada) -->
+            <LinearLayout
+                android:id="@+id/bf_botoes_chegada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/bf_pergunta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sucesso na Entrega?"
+                    android:textColor="#fbbf24"
+                    android:textSize="13sp"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:layout_marginBottom="8dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/bf_sim"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:minWidth="80dp"
+                        android:background="@drawable/bf_botao"
+                        android:text="✅ Sim"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp"
+                        android:layout_marginEnd="8dp" />
+
+                    <Button
+                        android:id="@+id/bf_nao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="48dp"
+                        android:minWidth="80dp"
+                        android:background="@drawable/bf_botao"
+                        android:text="❌ Não"
+                        android:textColor="#FFFFFF"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:paddingLeft="12dp"
+                        android:paddingRight="12dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- Card da próxima entrega (modo chegada) -->
+            <LinearLayout
+                android:id="@+id/bf_card_proxima"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bf_card_fundo"
+                android:padding="8dp"
+                android:visibility="gone"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/bf_proxima_titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="⏭️ PRÓXIMA ENTREGA"
+                    android:textColor="#93c5fd"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/bf_proxima_endereco"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="---"
+                    android:textColor="#FFFFFF"
+                    android:textSize="11sp"
+                    android:maxLines="3"
+                    android:ellipsize="end" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Botão ⏭️ (modo navegação) -->
+        <Button
+            android:id="@+id/bf_direito"
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:minWidth="64dp"
+            android:background="@drawable/bf_botao"
+            android:text="⏭️"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:gravity="center"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_marginStart="10dp" />
+    </LinearLayout>
 
 </LinearLayout>

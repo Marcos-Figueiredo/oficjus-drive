@@ -14,9 +14,6 @@ val PrimaryBlue = Color(0xFF3B82F6)
 val PrimaryBlueLight = Color(0xFF93C5FD)
 val PrimaryBlueDark = Color(0xFF1D4ED8)
 
-val SuccessGreen = Color(0xFF22C55E)
 val ErrorRed = Color(0xFFEF4444)
-val WarningYellow = Color(0xFFEAB308)
 
 val CardBorder = Color(0xFF334155)
-val DividerColor = Color(0xFF1E293B)

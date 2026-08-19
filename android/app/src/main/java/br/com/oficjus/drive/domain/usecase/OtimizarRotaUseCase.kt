@@ -15,7 +15,11 @@ object OtimizarRotaUseCase {
         paradas: List<Endereco>,
         posicaoAtual: Posicao? = null
     ): List<Endereco> {
-        if (paradas.size <= 2) return paradas
+        if (paradas.size <= 2) {
+            // Com 2 ou menos, mantém ordem de digitação (referencia)
+            // — evita desempate arbitrário em paradas da mesma rua
+            return paradas
+        }
 
         val comCoords = paradas.filter { it.temCoordenadas }
         val semCoords = paradas.filter { !it.temCoordenadas }
@@ -71,29 +75,5 @@ object OtimizarRotaUseCase {
         val x = sin(dLat / 2).pow(2) +
                 cos(aLat) * cos(bLat) * sin(dLng / 2).pow(2)
         return R * 2 * atan2(sqrt(x), sqrt(1 - x))
-    }
-
-    /**
-     * Interpola coordenadas para um número que não existe no CNEFE
-     */
-    fun interpolar(
-        numero: Int,
-        anterior: Endereco?,
-        proximo: Endereco?
-    ): Pair<Double, Double>? {
-        if (anterior == null || proximo == null) return null
-        if (!anterior.temCoordenadas || !proximo.temCoordenadas) return null
-
-        val numAnt = anterior.numero.toIntOrNull() ?: return null
-        val numProx = proximo.numero.toIntOrNull() ?: return null
-
-        if (numProx <= numAnt) return null
-        if (numero <= numAnt || numero >= numProx) return null
-
-        val fracao = (numero - numAnt).toDouble() / (numProx - numAnt).toDouble()
-        val lat = anterior.latitude!! + (proximo.latitude!! - anterior.latitude!!) * fracao
-        val lng = anterior.longitude!! + (proximo.longitude!! - anterior.longitude!!) * fracao
-
-        return lat to lng
     }
 }

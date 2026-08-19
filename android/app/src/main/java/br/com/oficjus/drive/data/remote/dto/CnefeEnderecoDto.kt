@@ -4,9 +4,7 @@ import com.google.gson.annotations.SerializedName
 
 data class CnefeEnderecoDto(
     @SerializedName("cep") val cep: String,
-    @SerializedName("logradouro_tipo") val logradouroTipo: String?,
-    @SerializedName("logradouro_titulo") val logradouroTitulo: String?,
-    @SerializedName("logradouro_nome") val logradouroNome: String?,
+    @SerializedName("logradouro_completo") val logradouroCompleto: String?,
     @SerializedName("bairro") val bairro: String?,
     @SerializedName("cidade") val cidade: String,
     @SerializedName("estado") val estado: String,
@@ -15,13 +13,24 @@ data class CnefeEnderecoDto(
     @SerializedName("numero") val numero: String?
 )
 
-data class ViaCepResponse(
-    @SerializedName("cep") val cep: String?,
-    @SerializedName("logradouro") val logradouro: String?,
-    @SerializedName("complemento") val complemento: String?,
-    @SerializedName("bairro") val bairro: String?,
-    @SerializedName("localidade") val localidade: String?,
-    @SerializedName("uf") val uf: String?,
-    @SerializedName("ibge") val ibge: String?,
-    @SerializedName("erro") val erro: Boolean = false
+/** DTO para o cache local (cnefe_logradouros - mãe) */
+data class LogradouroCacheDto(
+    @SerializedName("logradouro_completo") val logradouroCompleto: String,
+    @SerializedName("bairro") val bairro: String,
+    @SerializedName("cep") val cep: String,
+    @SerializedName("cidade") val cidade: String,
+    @SerializedName("estado") val estado: String
+)
+
+/** DTO para a tabela logradouros_fallback */
+data class LogradouroFallbackDto(
+    @SerializedName("id") val id: String? = null,
+    @SerializedName("logradouro_completo") val logradouroCompleto: String,
+    @SerializedName("bairro") val bairro: String,
+    @SerializedName("numero") val numero: String,
+    @SerializedName("cep") val cep: String,
+    @SerializedName("cidade") val cidade: String,
+    @SerializedName("estado") val estado: String,
+    @SerializedName("latitude") val latitude: Double?,
+    @SerializedName("longitude") val longitude: Double?
 )

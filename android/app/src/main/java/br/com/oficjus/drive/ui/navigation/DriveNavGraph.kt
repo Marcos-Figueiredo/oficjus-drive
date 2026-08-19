@@ -60,9 +60,7 @@ fun DriveNavGraph(navController: NavHostController) {
             ActiveRouteScreen(
                 rotaId = rotaId,
                 onVoltar = {
-                    navController.navigate(Screen.RouteBuild.route) {
-                        popUpTo(Screen.RouteBuild.route) { inclusive = true }
-                    }
+                    navController.popBackStack(Screen.RouteBuild.route, inclusive = false)
                 }
             )
         }

@@ -11,16 +11,10 @@ data class Endereco(
     val latitude: Double? = null,
     val longitude: Double? = null,
     val ordem: Int = 0,
-    val referencia: Int = 0 // ordem de digitação original (imutável)
+    val referencia: Int = 0, // ordem de digitação original (imutável)
+    val tipoGeocode: TipoGeocode = TipoGeocode.NENHUM
 ) {
     val temCoordenadas: Boolean get() = latitude != null && longitude != null
-
-    val enderecoCompleto: String
-        get() = buildString {
-            append(logradouro)
-            if (numero.isNotBlank() && numero != "S/N") append(", $numero")
-            append(" - $bairro, $cidade/$estado")
-        }
 
     val cepFormatado: String
         get() {
@@ -30,14 +24,19 @@ data class Endereco(
         }
 }
 
+enum class TipoGeocode {
+    NENHUM,
+    EXATO,
+    ESTIMADO
+}
+
 data class Rota(
     val id: String,
     val nome: String,
     val paradas: List<Endereco>,
-    val criadaEm: Long = System.currentTimeMillis(),
     val status: RotaStatus = RotaStatus.ATIVA
 )
 
 enum class RotaStatus {
-    ATIVA, CONCLUIDA, PAUSADA
+    ATIVA
 }

@@ -23,14 +23,8 @@ interface EnderecoDao {
     @Query("DELETE FROM enderecos WHERE id = :id")
     suspend fun deletar(id: Long)
 
-    @Query("DELETE FROM enderecos WHERE rotaGrupoId IS NULL")
-    suspend fun limparAvulsos()
-
     @Query("DELETE FROM enderecos WHERE rotaGrupoId = :rotaGrupoId")
     suspend fun limparPorRota(rotaGrupoId: String)
-
-    @Query("DELETE FROM enderecos WHERE id = :id AND rotaGrupoId IS NOT NULL")
-    suspend fun deletarEnderecoDaRota(id: Long)
 
     @Query("DELETE FROM enderecos WHERE rotaGrupoId = :rotaGrupoId AND referencia = :referencia")
     suspend fun deletarPorReferencia(rotaGrupoId: String, referencia: Int)
@@ -45,9 +39,22 @@ interface RotaDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun inserir(rota: RotaEntity)
 
-    @Query("UPDATE rotas SET status = :status WHERE id = :id")
-    suspend fun atualizarStatus(id: String, status: String)
-
     @Query("DELETE FROM rotas WHERE id = :id")
     suspend fun deletar(id: String)
+}
+
+@Dao
+interface RemanescenteDao {
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun inserir(entity: RemanescenteEntity): Long
+
+    @Query("SELECT * FROM remanescentes ORDER BY salvoEm ASC")
+    suspend fun getTodos(): List<RemanescenteEntity>
+
+    @Query("SELECT COUNT(*) FROM remanescentes")
+    suspend fun contar(): Int
+
+    @Query("DELETE FROM remanescentes")
+    suspend fun limparTodos()
 }

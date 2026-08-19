@@ -85,9 +85,10 @@ class LoginViewModel @Inject constructor(
         }
     }
 
-    fun logout() {
+    fun logout(context: android.content.Context? = null) {
         // Garante que a bolha flutuante seja removida ao sair
         br.com.oficjus.drive.data.service.BolhaOverlay.esconder()
+        context?.let { br.com.oficjus.drive.domain.usecase.WazeNavigator.matarWaze(it) }
         viewModelScope.launch {
             authRepository.logout()
             _state.value = LoginState()

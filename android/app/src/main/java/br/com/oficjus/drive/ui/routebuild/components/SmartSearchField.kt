@@ -18,19 +18,17 @@ import br.com.oficjus.drive.domain.Endereco
 fun SmartSearchField(
     value: String,
     onValueChange: (String) -> Unit,
+    onVoiceResult: (String) -> Unit,
     sugestoes: List<Endereco>,
     onSelecionarSugestao: (Endereco) -> Unit,
     isLoading: Boolean,
     modifier: Modifier = Modifier
 ) {
-    var showSuggestions by remember { mutableStateOf(false) }
-
     Column(modifier = modifier) {
         OutlinedTextField(
             value = value,
             onValueChange = { novo ->
                 onValueChange(novo)
-                showSuggestions = novo.isNotBlank() && novo.any { it.isLetter() }
             },
             placeholder = {
                 Text(
@@ -52,8 +50,7 @@ fun SmartSearchField(
             leadingIcon = {
                 VoiceInputButton(
                     onResult = { texto ->
-                        onValueChange(texto)
-                        showSuggestions = texto.isNotBlank() && texto.any { it.isLetter() }
+                        onVoiceResult(texto)
                     }
                 )
             },
@@ -69,7 +66,7 @@ fun SmartSearchField(
         )
 
         // Sugestões do CNEFE
-        if (showSuggestions && sugestoes.isNotEmpty()) {
+        if (sugestoes.isNotEmpty()) {
             Spacer(modifier = Modifier.height(4.dp))
             Card(
                 modifier = Modifier

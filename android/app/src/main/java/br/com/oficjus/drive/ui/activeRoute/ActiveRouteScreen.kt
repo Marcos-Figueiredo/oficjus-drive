@@ -1,28 +1,31 @@
 package br.com.oficjus.drive.ui.activeRoute
 
+import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.CheckCircle
+import androidx.compose.material.icons.filled.Close
 import androidx.compose.material.icons.filled.Navigation
+import androidx.compose.material.icons.filled.Schedule
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.compose.ui.platform.LocalContext
 import br.com.oficjus.drive.domain.Endereco
-import br.com.oficjus.drive.domain.usecase.WazeNavigator
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -33,16 +36,26 @@ fun ActiveRouteScreen(
 ) {
     val state by viewModel.state.collectAsStateWithLifecycle()
     val context = LocalContext.current
-    var mostrarLista by remember { mutableStateOf(false) }
 
     LaunchedEffect(rotaId) {
-        viewModel.carregarRota(rotaId)
+        viewModel.carregarRota(rotaId, context, onVoltar)
     }
 
+    // Botão voltar: se a rota foi concluída (resumo), finaliza de verdade;
+    // senão, apenas navega de volta
+    val voltar = {
+        if (state.paradasRestantes.isEmpty()) {
+            viewModel.finalizarRota(context, onVoltar)
+        } else {
+            onVoltar()
+        }
+    }
+    BackHandler(onBack = voltar)
+
     // AlertDialog para selecionar endereço da lista
-    if (mostrarLista && state.paradasRestantes.isNotEmpty()) {
+    if (state.mostrarLista && state.paradasRestantes.isNotEmpty()) {
         AlertDialog(
-            onDismissRequest = { mostrarLista = false },
+            onDismissRequest = { viewModel.fecharLista() },
             title = { Text("Selecione o endereço") },
             text = {
                 LazyColumn {
@@ -63,7 +76,7 @@ fun ActiveRouteScreen(
                                     .fillMaxWidth()
                                     .clickable {
                                         viewModel.selecionarParadaDaLista(index, context)
-                                        mostrarLista = false
+                                        viewModel.fecharLista()
                                     }
                                     .padding(12.dp),
                                 verticalAlignment = Alignment.CenterVertically
@@ -92,10 +105,119 @@ fun ActiveRouteScreen(
                 }
             },
             confirmButton = {
-                TextButton(onClick = { mostrarLista = false }) {
+                TextButton(onClick = { viewModel.fecharLista() }) {
                     Text("Fechar")
                 }
             }
+        )
+    }
+
+    // Popup de confirmação de reotimização — aparece quando o usuário escolhe
+    // outra parada durante a navegação
+    if (state.confirmarReotimizacao) {
+        AlertDialog(
+            onDismissRequest = { viewModel.fecharReotimizacao() },
+            title = { Text("Reotimizar rota?") },
+            text = {
+                Text(
+                    "Deseja reotimizar a rota a partir do endereço selecionado?\n\n" +
+                    "As paradas restantes serão reordenadas pela proximidade, " +
+                    "desconsiderando entregues e pulados."
+                )
+            },
+            confirmButton = {
+                TextButton(
+                    onClick = {
+                        viewModel.confirmarReotimizacao(context)
+                    }
+                ) {
+                    Text("Sim, reotimizar")
+                }
+            },
+            dismissButton = {
+                TextButton(
+                    onClick = {
+                        viewModel.cancelarReotimizacao(context)
+                    }
+                ) {
+                    Text("Não, só navegar")
+                }
+            }
+        )
+    }
+
+    // Popup de chegada — substitui a antiga bolha de chegada
+    // Aparece quando o GPS detecta que o usuário está a < 50m do destino
+    if (state.mostrarChegada) {
+        AlertDialog(
+            onDismissRequest = { /* não permite fechar — obriga decisão */ },
+            shape = RoundedCornerShape(20.dp),
+            containerColor = MaterialTheme.colorScheme.surface,
+            title = null,
+            text = {
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(vertical = 8.dp),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(16.dp)
+                ) {
+                    Text(
+                        text = "📍 Você chegou ao seu destino!",
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                        color = MaterialTheme.colorScheme.onSurface
+                    )
+
+                    Text(
+                        text = "Efetuou a entrega?",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Bold,
+                        textAlign = TextAlign.Center,
+                        color = MaterialTheme.colorScheme.tertiary
+                    )
+
+                    Row(
+                        modifier = Modifier.fillMaxWidth(),
+                        horizontalArrangement = Arrangement.spacedBy(12.dp)
+                    ) {
+                        Button(
+                            onClick = { viewModel.entregueParada(context); viewModel.fecharChegada() },
+                            modifier = Modifier
+                                .weight(1f)
+                                .height(48.dp),
+                            shape = RoundedCornerShape(12.dp)
+                        ) {
+                            Icon(
+                                Icons.Default.CheckCircle,
+                                contentDescription = null,
+                                modifier = Modifier.size(20.dp)
+                            )
+                            Spacer(Modifier.width(6.dp))
+                            Text("Sim", fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                        }
+
+                        OutlinedButton(
+                            onClick = { viewModel.pularParada(context); viewModel.fecharChegada() },
+                            modifier = Modifier
+                                .weight(1f)
+                                .height(48.dp),
+                            shape = RoundedCornerShape(12.dp)
+                        ) {
+                            Icon(
+                                Icons.Default.Close,
+                                contentDescription = null,
+                                modifier = Modifier.size(20.dp)
+                            )
+                            Spacer(Modifier.width(6.dp))
+                            Text("Não", fontSize = 15.sp, fontWeight = FontWeight.SemiBold)
+                        }
+                    }
+                }
+            },
+            confirmButton = {},
+            dismissButton = {}
         )
     }
 
@@ -110,7 +232,7 @@ fun ActiveRouteScreen(
                     )
                 },
                 navigationIcon = {
-                    IconButton(onClick = onVoltar) {
+                    IconButton(onClick = voltar) {
                         Icon(
                             Icons.AutoMirrored.Filled.ArrowBack,
                             contentDescription = "Voltar",
@@ -125,6 +247,42 @@ fun ActiveRouteScreen(
         },
         containerColor = MaterialTheme.colorScheme.background
     ) { padding ->
+        // Bloqueio com mensagem — cobre a tela por 3s, sem permitir interação
+        state.mensagem?.let { msg ->
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .clickable(enabled = false, indication = null,
+                        interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() }
+                    ) {}
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.35f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Card(
+                    modifier = Modifier.padding(32.dp),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = CardDefaults.cardColors(
+                        containerColor = MaterialTheme.colorScheme.surface
+                    )
+                ) {
+                    Text(
+                        text = msg,
+                        modifier = Modifier.padding(24.dp),
+                        color = when (state.mensagemTipo) {
+                            MensagemTipo.ERROR -> MaterialTheme.colorScheme.error
+                            MensagemTipo.SUCCESS -> MaterialTheme.colorScheme.primary
+                            MensagemTipo.INFO -> MaterialTheme.colorScheme.onSurface
+                        },
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Medium,
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                    )
+                }
+            }
+            return@Scaffold
+        }
+
         when {
             state.isLoading -> {
                 Box(
@@ -177,68 +335,55 @@ fun ActiveRouteScreen(
                         }
 
                         item {
-                            // Botão Iniciar Navegação
-                            Button(
-                                onClick = { viewModel.abrirWazeComBolha(context) },
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(52.dp),
-                                shape = RoundedCornerShape(12.dp)
+                            // Ir Agora + Ir Depois lado a lado
+                            Row(
+                                modifier = Modifier.fillMaxWidth(),
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
                             ) {
-                                Icon(
-                                    Icons.Default.Navigation,
-                                    contentDescription = null,
-                                    modifier = Modifier.size(20.dp)
-                                )
-                                Spacer(Modifier.width(8.dp))
-                                Text(
-                                    "Iniciar Navegação",
-                                    fontSize = 16.sp,
-                                    fontWeight = FontWeight.SemiBold
-                                )
-                            }
-                        }
+                                // Ir Agora: abre o Waze e inicia a navegação
+                                Button(
+                                    onClick = { viewModel.abrirWazeComBolha(context) },
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .height(52.dp),
+                                    shape = RoundedCornerShape(12.dp)
+                                ) {
+                                    Icon(
+                                        Icons.Default.Navigation,
+                                        contentDescription = null,
+                                        modifier = Modifier.size(20.dp)
+                                    )
+                                    Spacer(Modifier.width(6.dp))
+                                    Text(
+                                        "Ir Agora",
+                                        fontSize = 14.sp,
+                                        fontWeight = FontWeight.SemiBold,
+                                        maxLines = 1
+                                    )
+                                }
 
-                        item {
-                            // Botão Concluir Parada (reordena as restantes)
-                            OutlinedButton(
-                                onClick = { viewModel.concluirParadaAtual() },
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .height(48.dp),
-                                shape = RoundedCornerShape(12.dp)
-                            ) {
-                                Icon(
-                                    Icons.Default.CheckCircle,
-                                    contentDescription = null,
-                                    modifier = Modifier.size(20.dp)
-                                )
-                                Spacer(Modifier.width(8.dp))
-                                Text(
-                                    "Concluir Parada",
-                                    fontSize = 15.sp,
-                                    fontWeight = FontWeight.SemiBold
-                                )
+                                // Ir Depois: mantém a rota ativa e volta para a tela de construção
+                                OutlinedButton(
+                                    onClick = onVoltar,
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .height(52.dp),
+                                    shape = RoundedCornerShape(12.dp)
+                                ) {
+                                    Icon(
+                                        Icons.Default.Schedule,
+                                        contentDescription = null,
+                                        modifier = Modifier.size(20.dp)
+                                    )
+                                    Spacer(Modifier.width(6.dp))
+                                    Text(
+                                        "Ir Depois",
+                                        fontSize = 14.sp,
+                                        fontWeight = FontWeight.SemiBold,
+                                        maxLines = 1
+                                    )
+                                }
                             }
-                        }
-                    }
-
-                    // Paradas concluídas (se houver)
-                    if (state.paradasConcluidas.isNotEmpty()) {
-                        item {
-                            Text(
-                                text = "Concluídas (${state.paradasConcluidas.size})",
-                                color = MaterialTheme.colorScheme.primary,
-                                fontSize = 12.sp,
-                                fontWeight = FontWeight.Medium,
-                                modifier = Modifier.padding(bottom = 4.dp)
-                            )
-                        }
-                        itemsIndexed(
-                            items = state.paradasConcluidas,
-                            key = { _, item -> "concluida_${item.referencia}" }
-                        ) { _, concluida ->
-                            ParadaConcluidaItem(endereco = concluida)
                         }
                     }
 
@@ -268,11 +413,37 @@ fun ActiveRouteScreen(
                                         fontSize = 20.sp,
                                         fontWeight = FontWeight.Bold
                                     )
-                                    Spacer(modifier = Modifier.height(16.dp))
+                                    Spacer(modifier = Modifier.height(24.dp))
+
+                                    // Cards de resumo: Total, Entregues, Não Entregues
+                                    Row(
+                                        modifier = Modifier.fillMaxWidth(),
+                                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                                    ) {
+                                        ResumoCard(
+                                            valor = state.totalInicial,
+                                            rotulo = "Total",
+                                            cor = MaterialTheme.colorScheme.primary,
+                                            modifier = Modifier.weight(1f)
+                                        )
+                                        ResumoCard(
+                                            valor = state.entregues,
+                                            rotulo = "Entregues",
+                                            cor = MaterialTheme.colorScheme.primary,
+                                            modifier = Modifier.weight(1f)
+                                        )
+                                        ResumoCard(
+                                            valor = state.naoEntregues,
+                                            rotulo = "Não Entregues",
+                                            cor = MaterialTheme.colorScheme.error,
+                                            modifier = Modifier.weight(1f)
+                                        )
+                                    }
+
+                                    Spacer(modifier = Modifier.height(24.dp))
                                     Button(
                                         onClick = {
-                                            viewModel.finalizarRota(context)
-                                            onVoltar()
+                                            viewModel.finalizarRota(context, onVoltar)
                                         },
                                         shape = RoundedCornerShape(12.dp)
                                     ) {
@@ -303,41 +474,37 @@ fun ActiveRouteScreen(
 }
 
 @Composable
-private fun ParadaConcluidaItem(
-    endereco: Endereco
+private fun ResumoCard(
+    valor: Int,
+    rotulo: String,
+    cor: Color,
+    modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = Modifier.fillMaxWidth(),
+        modifier = modifier,
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+            containerColor = cor.copy(alpha = 0.1f)
         ),
         shape = RoundedCornerShape(12.dp)
     ) {
-        Row(
+        Column(
             modifier = Modifier
                 .fillMaxWidth()
-                .padding(12.dp),
-            verticalAlignment = Alignment.CenterVertically
+                .padding(vertical = 12.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            Icon(
-                Icons.Default.CheckCircle,
-                contentDescription = null,
-                tint = MaterialTheme.colorScheme.primary,
-                modifier = Modifier.size(20.dp)
+            Text(
+                text = "$valor",
+                fontSize = 24.sp,
+                fontWeight = FontWeight.Bold,
+                color = cor
             )
-            Spacer(Modifier.width(12.dp))
-            Column(modifier = Modifier.weight(1f)) {
-                Text(
-                    text = endereco.logradouro,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
-                    fontSize = 13.sp
-                )
-                Text(
-                    text = "Nº ${endereco.numero} - ${endereco.bairro}",
-                    color = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.7f),
-                    fontSize = 11.sp
-                )
-            }
+            Text(
+                text = rotulo,
+                fontSize = 11.sp,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                textAlign = TextAlign.Center
+            )
         }
     }
 }

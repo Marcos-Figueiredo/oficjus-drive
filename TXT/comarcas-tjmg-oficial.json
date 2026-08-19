@@ -1,0 +1,2362 @@
+[
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0002",
+    "nome": "ABAETÉ",
+    "ordem": 1,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0003",
+    "nome": "ABRE-CAMPO",
+    "ordem": 2,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0005",
+    "nome": "AÇUCENA",
+    "ordem": 3,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0009",
+    "nome": "ÁGUAS FORMOSAS",
+    "ordem": 4,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0011",
+    "nome": "AIMORÉS",
+    "ordem": 5,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0012",
+    "nome": "AIURUOCA",
+    "ordem": 6,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0015",
+    "nome": "ALÉM PARAÍBA",
+    "ordem": 7,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0016",
+    "nome": "ALFENAS",
+    "ordem": 8,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0017",
+    "nome": "ALMENARA",
+    "ordem": 9,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0019",
+    "nome": "ALPINÓPOLIS",
+    "ordem": 10,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0021",
+    "nome": "ALTO RIO DOCE",
+    "ordem": 11,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0023",
+    "nome": "ALVINÓPOLIS",
+    "ordem": 12,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0026",
+    "nome": "ANDRADAS",
+    "ordem": 13,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0028",
+    "nome": "ANDRELÂNDIA",
+    "ordem": 14,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0034",
+    "nome": "ARAÇUAÍ",
+    "ordem": 15,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0035",
+    "nome": "ARAGUARI",
+    "ordem": 16,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0040",
+    "nome": "ARAXÁ",
+    "ordem": 17,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0042",
+    "nome": "ARCOS",
+    "ordem": 18,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0043",
+    "nome": "AREADO",
+    "ordem": 19,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0778",
+    "nome": "ARINOS",
+    "ordem": 20,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0049",
+    "nome": "BAEPENDI",
+    "ordem": 21,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0051",
+    "nome": "BAMBUÍ",
+    "ordem": 22,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0054",
+    "nome": "BARÃO DE COCAIS",
+    "ordem": 23,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0056",
+    "nome": "BARBACENA",
+    "ordem": 24,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0059",
+    "nome": "BARROSO",
+    "ordem": 25,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0024",
+    "nome": "BELO HORIZONTE",
+    "ordem": 26,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0064",
+    "nome": "BELO VALE",
+    "ordem": 27,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0027",
+    "nome": "BETIM",
+    "ordem": 28,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0069",
+    "nome": "BICAS",
+    "ordem": 29,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0071",
+    "nome": "BOA ESPERANÇA",
+    "ordem": 30,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0073",
+    "nome": "BOCAIÚVA",
+    "ordem": 31,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0074",
+    "nome": "BOM DESPACHO",
+    "ordem": 32,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0080",
+    "nome": "BOM SUCESSO",
+    "ordem": 33,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0081",
+    "nome": "BONFIM",
+    "ordem": 34,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0082",
+    "nome": "BONFINÓPOLIS DE MINAS",
+    "ordem": 35,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0083",
+    "nome": "BORDA DA MATA",
+    "ordem": 36,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0084",
+    "nome": "BOTELHOS",
+    "ordem": 37,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0086",
+    "nome": "BRASÍLIA DE MINAS",
+    "ordem": 38,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0089",
+    "nome": "BRAZÓPOLIS",
+    "ordem": 39,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0090",
+    "nome": "BRUMADINHO",
+    "ordem": 40,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0091",
+    "nome": "BUENO BRANDÃO",
+    "ordem": 41,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0092",
+    "nome": "BUENÓPOLIS",
+    "ordem": 42,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0093",
+    "nome": "BURITIS",
+    "ordem": 43,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0095",
+    "nome": "CABO VERDE",
+    "ordem": 44,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0097",
+    "nome": "CACHOEIRA DE MINAS",
+    "ordem": 45,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0045",
+    "nome": "CAETÉ",
+    "ordem": 46,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0103",
+    "nome": "CALDAS",
+    "ordem": 47,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0878",
+    "nome": "CAMANDUCAIA",
+    "ordem": 48,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0106",
+    "nome": "CAMBUÍ",
+    "ordem": 49,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0107",
+    "nome": "CAMBUQUIRA",
+    "ordem": 50,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0109",
+    "nome": "CAMPANHA",
+    "ordem": 51,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0110",
+    "nome": "CAMPESTRE",
+    "ordem": 52,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0111",
+    "nome": "CAMPINA VERDE",
+    "ordem": 53,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0112",
+    "nome": "CAMPO BELO",
+    "ordem": 54,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0115",
+    "nome": "CAMPOS ALTOS",
+    "ordem": 55,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0116",
+    "nome": "CAMPOS GERAIS",
+    "ordem": 56,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0118",
+    "nome": "CANÁPOLIS",
+    "ordem": 57,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0120",
+    "nome": "CANDEIAS",
+    "ordem": 58,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0123",
+    "nome": "CAPELINHA",
+    "ordem": 59,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0126",
+    "nome": "CAPINÓPOLIS",
+    "ordem": 60,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0132",
+    "nome": "CARANDAÍ",
+    "ordem": 61,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0133",
+    "nome": "CARANGOLA",
+    "ordem": 62,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0134",
+    "nome": "CARATINGA",
+    "ordem": 63,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0137",
+    "nome": "CARLOS CHAGAS",
+    "ordem": 64,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0140",
+    "nome": "CARMO DA MATA",
+    "ordem": 65,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0141",
+    "nome": "CARMO DE MINAS",
+    "ordem": 66,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0142",
+    "nome": "CARMO DO CAJURU",
+    "ordem": 67,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0143",
+    "nome": "CARMO DO PARANAÍBA",
+    "ordem": 68,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0144",
+    "nome": "CARMO DO RIO CLARO",
+    "ordem": 69,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0879",
+    "nome": "CARMÓPOLIS DE MINAS",
+    "ordem": 70,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0151",
+    "nome": "CÁSSIA",
+    "ordem": 71,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0153",
+    "nome": "CATAGUASES",
+    "ordem": 72,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0155",
+    "nome": "CAXAMBU",
+    "ordem": 73,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0166",
+    "nome": "CLÁUDIO",
+    "ordem": 74,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0172",
+    "nome": "CONCEIÇÃO DAS ALAGOAS",
+    "ordem": 75,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0175",
+    "nome": "CONCEIÇÃO DO MATO DENTRO",
+    "ordem": 76,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0177",
+    "nome": "CONCEIÇÃO DO RIO VERDE",
+    "ordem": 77,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0180",
+    "nome": "CONGONHAS",
+    "ordem": 78,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0182",
+    "nome": "CONQUISTA",
+    "ordem": 79,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0183",
+    "nome": "CONSELHEIRO LAFAIETE",
+    "ordem": 80,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0184",
+    "nome": "CONSELHEIRO PENA",
+    "ordem": 81,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0079",
+    "nome": "CONTAGEM",
+    "ordem": 82,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0775",
+    "nome": "CORAÇÃO DE JESUS",
+    "ordem": 83,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0191",
+    "nome": "CORINTO",
+    "ordem": 84,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0193",
+    "nome": "COROMANDEL",
+    "ordem": 85,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0194",
+    "nome": "CORONEL FABRICIANO",
+    "ordem": 86,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0205",
+    "nome": "CRISTINA",
+    "ordem": 87,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0208",
+    "nome": "CRUZÍLIA",
+    "ordem": 88,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0209",
+    "nome": "CURVELO",
+    "ordem": 89,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0216",
+    "nome": "DIAMANTINA",
+    "ordem": 90,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0220",
+    "nome": "DIVINO",
+    "ordem": 91,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0223",
+    "nome": "DIVINÓPOLIS",
+    "ordem": 92,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0232",
+    "nome": "DORES DO INDAIÁ",
+    "ordem": 93,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0236",
+    "nome": "ELÓI MENDES",
+    "ordem": 94,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0239",
+    "nome": "ENTRE-RIOS DE MINAS",
+    "ordem": 95,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0240",
+    "nome": "ERVÁLIA",
+    "ordem": 96,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0241",
+    "nome": "ESMERALDAS",
+    "ordem": 97,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0242",
+    "nome": "ESPERA FELIZ",
+    "ordem": 98,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0243",
+    "nome": "ESPINOSA",
+    "ordem": 99,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0248",
+    "nome": "ESTRELA DO SUL",
+    "ordem": 100,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0249",
+    "nome": "EUGENÓPOLIS",
+    "ordem": 101,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0251",
+    "nome": "EXTREMA",
+    "ordem": 102,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0259",
+    "nome": "FERROS",
+    "ordem": 103,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0261",
+    "nome": "FORMIGA",
+    "ordem": 104,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0267",
+    "nome": "FRANCISCO SÁ",
+    "ordem": 105,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0271",
+    "nome": "FRUTAL",
+    "ordem": 106,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0273",
+    "nome": "GALILÉIA",
+    "ordem": 107,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0105",
+    "nome": "GOVERNADOR VALADARES",
+    "ordem": 108,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0278",
+    "nome": "GRÃO-MOGOL",
+    "ordem": 109,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0280",
+    "nome": "GUANHÃES",
+    "ordem": 110,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0281",
+    "nome": "GUAPÉ",
+    "ordem": 111,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0283",
+    "nome": "GUARANÉSIA",
+    "ordem": 112,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0284",
+    "nome": "GUARANI",
+    "ordem": 113,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0287",
+    "nome": "GUAXUPÉ",
+    "ordem": 114,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0295",
+    "nome": "IBIÁ",
+    "ordem": 115,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0297",
+    "nome": "IBIRACI",
+    "ordem": 116,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0114",
+    "nome": "IBIRITÉ",
+    "ordem": 117,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0301",
+    "nome": "IGARAPÉ",
+    "ordem": 118,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0303",
+    "nome": "IGUATAMA",
+    "ordem": 119,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0309",
+    "nome": "INHAPIM",
+    "ordem": 120,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0312",
+    "nome": "IPANEMA",
+    "ordem": 121,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0313",
+    "nome": "IPATINGA",
+    "ordem": 122,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0317",
+    "nome": "ITABIRA",
+    "ordem": 123,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0319",
+    "nome": "ITABIRITO",
+    "ordem": 124,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0322",
+    "nome": "ITAGUARA",
+    "ordem": 125,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0324",
+    "nome": "ITAJUBÁ",
+    "ordem": 126,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0325",
+    "nome": "ITAMARANDIBA",
+    "ordem": 127,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0327",
+    "nome": "ITAMBACURI",
+    "ordem": 128,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0329",
+    "nome": "ITAMOJI",
+    "ordem": 129,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0330",
+    "nome": "ITAMONTE",
+    "ordem": 130,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0331",
+    "nome": "ITANHANDU",
+    "ordem": 131,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0332",
+    "nome": "ITANHOMI",
+    "ordem": 132,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0334",
+    "nome": "ITAPAJIPE",
+    "ordem": 133,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0335",
+    "nome": "ITAPECERICA",
+    "ordem": 134,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0338",
+    "nome": "ITAÚNA",
+    "ordem": 135,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0342",
+    "nome": "ITUIUTABA",
+    "ordem": 136,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0343",
+    "nome": "ITUMIRIM",
+    "ordem": 137,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0344",
+    "nome": "ITURAMA",
+    "ordem": 138,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0346",
+    "nome": "JABUTICATUBAS",
+    "ordem": 139,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0347",
+    "nome": "JACINTO",
+    "ordem": 140,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0348",
+    "nome": "JACUÍ",
+    "ordem": 141,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0349",
+    "nome": "JACUTINGA",
+    "ordem": 142,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0351",
+    "nome": "JANAÚBA",
+    "ordem": 143,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0352",
+    "nome": "JANUÁRIA",
+    "ordem": 144,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0355",
+    "nome": "JEQUERI",
+    "ordem": 145,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0358",
+    "nome": "JEQUITINHONHA",
+    "ordem": 146,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0362",
+    "nome": "JOÃO MONLEVADE",
+    "ordem": 147,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0363",
+    "nome": "JOÃO PINHEIRO",
+    "ordem": 148,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0145",
+    "nome": "JUIZ DE FORA",
+    "ordem": 149,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0372",
+    "nome": "LAGOA DA PRATA",
+    "ordem": 150,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0148",
+    "nome": "LAGOA SANTA",
+    "ordem": 151,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0377",
+    "nome": "LAJINHA",
+    "ordem": 152,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0378",
+    "nome": "LAMBARI",
+    "ordem": 153,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0382",
+    "nome": "LAVRAS",
+    "ordem": 154,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0384",
+    "nome": "LEOPOLDINA",
+    "ordem": 155,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0386",
+    "nome": "LIMA DUARTE",
+    "ordem": 156,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0388",
+    "nome": "LUZ",
+    "ordem": 157,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0390",
+    "nome": "MACHADO",
+    "ordem": 158,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0392",
+    "nome": "MALACACHETA",
+    "ordem": 159,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0393",
+    "nome": "MANGA",
+    "ordem": 160,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0394",
+    "nome": "MANHUAÇU",
+    "ordem": 161,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0395",
+    "nome": "MANHUMIRIM",
+    "ordem": 162,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0396",
+    "nome": "MANTENA",
+    "ordem": 163,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0398",
+    "nome": "MAR DE ESPANHA",
+    "ordem": 164,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0400",
+    "nome": "MARIANA",
+    "ordem": 165,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0405",
+    "nome": "MARTINHO CAMPOS",
+    "ordem": 166,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0407",
+    "nome": "MATEUS LEME",
+    "ordem": 167,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0408",
+    "nome": "MATIAS BARBOSA",
+    "ordem": 168,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0411",
+    "nome": "MATOZINHOS",
+    "ordem": 169,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0414",
+    "nome": "MEDINA",
+    "ordem": 170,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0416",
+    "nome": "MERCÊS",
+    "ordem": 171,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0417",
+    "nome": "MESQUITA",
+    "ordem": 172,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0418",
+    "nome": "MINAS NOVAS",
+    "ordem": 173,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0421",
+    "nome": "MIRADOURO",
+    "ordem": 174,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0422",
+    "nome": "MIRAÍ",
+    "ordem": 175,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0427",
+    "nome": "MONTALVÂNIA",
+    "ordem": 176,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0428",
+    "nome": "MONTE ALEGRE DE MINAS",
+    "ordem": 177,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0429",
+    "nome": "MONTE AZUL",
+    "ordem": 178,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0430",
+    "nome": "MONTE BELO",
+    "ordem": 179,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0431",
+    "nome": "MONTE CARMELO",
+    "ordem": 180,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0432",
+    "nome": "MONTE SANTO DE MINAS",
+    "ordem": 181,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0434",
+    "nome": "MONTE SIÃO",
+    "ordem": 182,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0433",
+    "nome": "MONTES CLAROS",
+    "ordem": 183,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0435",
+    "nome": "MORADA NOVA DE MINAS",
+    "ordem": 184,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0439",
+    "nome": "MURIAÉ",
+    "ordem": 185,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0440",
+    "nome": "MUTUM",
+    "ordem": 186,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0441",
+    "nome": "MUZAMBINHO",
+    "ordem": 187,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0443",
+    "nome": "NANUQUE",
+    "ordem": 188,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0444",
+    "nome": "NATÉRCIA",
+    "ordem": 189,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0446",
+    "nome": "NEPOMUCENO",
+    "ordem": 190,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0447",
+    "nome": "NOVA ERA",
+    "ordem": 191,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0188",
+    "nome": "NOVA LIMA",
+    "ordem": 192,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0450",
+    "nome": "NOVA PONTE",
+    "ordem": 193,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0451",
+    "nome": "NOVA RESENDE",
+    "ordem": 194,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0452",
+    "nome": "NOVA SERRANA",
+    "ordem": 195,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0453",
+    "nome": "NOVO CRUZEIRO",
+    "ordem": 196,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0456",
+    "nome": "OLIVEIRA",
+    "ordem": 197,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0459",
+    "nome": "OURO BRANCO",
+    "ordem": 198,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0460",
+    "nome": "OURO FINO",
+    "ordem": 199,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0461",
+    "nome": "OURO PRETO",
+    "ordem": 200,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0467",
+    "nome": "PALMA",
+    "ordem": 201,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0471",
+    "nome": "PARÁ DE MINAS",
+    "ordem": 202,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0470",
+    "nome": "PARACATU",
+    "ordem": 203,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0472",
+    "nome": "PARAGUAÇU",
+    "ordem": 204,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0473",
+    "nome": "PARAISÓPOLIS",
+    "ordem": 205,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0474",
+    "nome": "PARAOPEBA",
+    "ordem": 206,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0476",
+    "nome": "PASSA-QUATRO",
+    "ordem": 207,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0477",
+    "nome": "PASSA-TEMPO",
+    "ordem": 208,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0479",
+    "nome": "PASSOS",
+    "ordem": 209,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0480",
+    "nome": "PATOS DE MINAS",
+    "ordem": 210,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0481",
+    "nome": "PATROCÍNIO",
+    "ordem": 211,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0486",
+    "nome": "PEÇANHA",
+    "ordem": 212,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0487",
+    "nome": "PEDRA AZUL",
+    "ordem": 213,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0491",
+    "nome": "PEDRALVA",
+    "ordem": 214,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0210",
+    "nome": "PEDRO LEOPOLDO",
+    "ordem": 215,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0498",
+    "nome": "PERDIZES",
+    "ordem": 216,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0499",
+    "nome": "PERDÕES",
+    "ordem": 217,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0508",
+    "nome": "PIRANGA",
+    "ordem": 218,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0511",
+    "nome": "PIRAPETINGA",
+    "ordem": 219,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0512",
+    "nome": "PIRAPORA",
+    "ordem": 220,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0514",
+    "nome": "PITANGUI",
+    "ordem": 221,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0515",
+    "nome": "PIUMHI",
+    "ordem": 222,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0517",
+    "nome": "POÇO FUNDO",
+    "ordem": 223,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0518",
+    "nome": "POÇOS DE CALDAS",
+    "ordem": 224,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0520",
+    "nome": "POMPÉU",
+    "ordem": 225,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0521",
+    "nome": "PONTE NOVA",
+    "ordem": 226,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0522",
+    "nome": "PORTEIRINHA",
+    "ordem": 227,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0525",
+    "nome": "POUSO ALEGRE",
+    "ordem": 228,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0527",
+    "nome": "PRADOS",
+    "ordem": 229,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0528",
+    "nome": "PRATA",
+    "ordem": 230,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0529",
+    "nome": "PRATÁPOLIS",
+    "ordem": 231,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0534",
+    "nome": "PRESIDENTE OLEGÁRIO",
+    "ordem": 232,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0540",
+    "nome": "RAUL SOARES",
+    "ordem": 233,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0542",
+    "nome": "RESENDE COSTA",
+    "ordem": 234,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0543",
+    "nome": "RESPLENDOR",
+    "ordem": 235,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0231",
+    "nome": "RIBEIRÃO DAS NEVES",
+    "ordem": 236,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0549",
+    "nome": "RIO CASCA",
+    "ordem": 237,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0554",
+    "nome": "RIO NOVO",
+    "ordem": 238,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0555",
+    "nome": "RIO PARANAÍBA",
+    "ordem": 239,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0556",
+    "nome": "RIO PARDO DE MINAS",
+    "ordem": 240,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0557",
+    "nome": "RIO PIRACICABA",
+    "ordem": 241,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0558",
+    "nome": "RIO POMBA",
+    "ordem": 242,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0559",
+    "nome": "RIO PRETO",
+    "ordem": 243,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0560",
+    "nome": "RIO VERMELHO",
+    "ordem": 244,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0567",
+    "nome": "SABARÁ",
+    "ordem": 245,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0568",
+    "nome": "SABINÓPOLIS",
+    "ordem": 246,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0569",
+    "nome": "SACRAMENTO",
+    "ordem": 247,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0570",
+    "nome": "SALINAS",
+    "ordem": 248,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0572",
+    "nome": "SANTA BÁRBARA",
+    "ordem": 249,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0245",
+    "nome": "SANTA LUZIA",
+    "ordem": 250,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0582",
+    "nome": "SANTA MARIA DO SUAÇUÍ",
+    "ordem": 251,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0592",
+    "nome": "SANTA RITA DE CALDAS",
+    "ordem": 252,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0596",
+    "nome": "SANTA RITA DO SAPUCAÍ",
+    "ordem": 253,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0598",
+    "nome": "SANTA VITÓRIA",
+    "ordem": 254,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0604",
+    "nome": "SANTO ANTÔNIO DO MONTE",
+    "ordem": 255,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0607",
+    "nome": "SANTOS DUMONT",
+    "ordem": 256,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0610",
+    "nome": "SÃO DOMINGOS DO PRATA",
+    "ordem": 257,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0611",
+    "nome": "SÃO FRANCISCO",
+    "ordem": 258,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0620",
+    "nome": "SÃO GONÇALO DO SAPUCAÍ",
+    "ordem": 259,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0621",
+    "nome": "SÃO GOTARDO",
+    "ordem": 260,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0624",
+    "nome": "SÃO JOÃO DA PONTE",
+    "ordem": 261,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0625",
+    "nome": "SÃO JOÃO DEL-REI",
+    "ordem": 262,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0628",
+    "nome": "SÃO JOÃO EVANGELISTA",
+    "ordem": 263,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0629",
+    "nome": "SÃO JOÃO NEPOMUCENO",
+    "ordem": 264,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0637",
+    "nome": "SÃO LOURENÇO",
+    "ordem": 265,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0642",
+    "nome": "SÃO ROMÃO",
+    "ordem": 266,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0643",
+    "nome": "SÃO ROQUE DE MINAS",
+    "ordem": 267,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0647",
+    "nome": "SÃO SEBASTIÃO DO PARAÍSO",
+    "ordem": 268,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0657",
+    "nome": "SENADOR FIRMINO",
+    "ordem": 269,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0671",
+    "nome": "SERRO",
+    "ordem": 270,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0672",
+    "nome": "SETE LAGOAS",
+    "ordem": 271,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0674",
+    "nome": "SILVIANÓPOLIS",
+    "ordem": 272,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0680",
+    "nome": "TAIOBEIRAS",
+    "ordem": 273,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0684",
+    "nome": "TARUMIRIM",
+    "ordem": 274,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0685",
+    "nome": "TEIXEIRAS",
+    "ordem": 275,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0686",
+    "nome": "TEÓFILO OTÔNI",
+    "ordem": 276,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0687",
+    "nome": "TIMÓTEO",
+    "ordem": 277,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0689",
+    "nome": "TIROS",
+    "ordem": 278,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0692",
+    "nome": "TOMBOS",
+    "ordem": 279,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0693",
+    "nome": "TRÊS CORAÇÕES",
+    "ordem": 280,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0058",
+    "nome": "TRÊS MARIAS",
+    "ordem": 281,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0694",
+    "nome": "TRÊS PONTAS",
+    "ordem": 282,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0696",
+    "nome": "TUPACIGUARA",
+    "ordem": 283,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0697",
+    "nome": "TURMALINA",
+    "ordem": 284,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0699",
+    "nome": "UBÁ",
+    "ordem": 285,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0701",
+    "nome": "UBERABA",
+    "ordem": 286,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0702",
+    "nome": "UBERLÂNDIA",
+    "ordem": 287,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0704",
+    "nome": "UNAÍ",
+    "ordem": 288,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0707",
+    "nome": "VARGINHA",
+    "ordem": 289,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0708",
+    "nome": "VÁRZEA DA PALMA",
+    "ordem": 290,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0710",
+    "nome": "VAZANTE",
+    "ordem": 291,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0290",
+    "nome": "VESPASIANO",
+    "ordem": 292,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0713",
+    "nome": "VIÇOSA",
+    "ordem": 293,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0718",
+    "nome": "VIRGINÓPOLIS",
+    "ordem": 294,
+    "ativo": true
+  },
+  {
+    "segmento_codigo": "8",
+    "tribunal_codigo": "13",
+    "codigo": "0720",
+    "nome": "VISCONDE DO RIO BRANCO",
+    "ordem": 295,
+    "ativo": true
+  }
+]

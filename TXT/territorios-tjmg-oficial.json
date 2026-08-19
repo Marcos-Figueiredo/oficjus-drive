@@ -1,0 +1,9134 @@
+[
+  {
+    "comarca_codigo": "0002",
+    "tipo": "sede",
+    "nome": "ABAETÉ",
+    "codigo_ibge": "0002"
+  },
+  {
+    "comarca_codigo": "0002",
+    "tipo": "municipio",
+    "nome": "CEDRO DO ABAETÉ",
+    "codigo_ibge": "0156"
+  },
+  {
+    "comarca_codigo": "0002",
+    "tipo": "municipio",
+    "nome": "PAINEIRAS",
+    "codigo_ibge": "0464"
+  },
+  {
+    "comarca_codigo": "0002",
+    "tipo": "distrito",
+    "nome": "POÇÕES DE PAINEIRAS",
+    "codigo_ibge": "7344"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "sede",
+    "nome": "ABRE-CAMPO",
+    "codigo_ibge": "0003"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "municipio",
+    "nome": "CAPUTIRA",
+    "codigo_ibge": "0129"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "municipio",
+    "nome": "MATIPÓ",
+    "codigo_ibge": "0409"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "municipio",
+    "nome": "PEDRA BONITA",
+    "codigo_ibge": "0840"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "municipio",
+    "nome": "SANTA MARGARIDA",
+    "codigo_ibge": "0579"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "municipio",
+    "nome": "SERICITA",
+    "codigo_ibge": "0663"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "distrito",
+    "nome": "GRANADA",
+    "codigo_ibge": "7199"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "distrito",
+    "nome": "PADRE FIALHO",
+    "codigo_ibge": "7299"
+  },
+  {
+    "comarca_codigo": "0003",
+    "tipo": "distrito",
+    "nome": "RIBEIRÃO DE SÃO DOMINGOS",
+    "codigo_ibge": "7366"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "sede",
+    "nome": "AÇUCENA",
+    "codigo_ibge": "0005"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "municipio",
+    "nome": "BELO ORIENTE",
+    "codigo_ibge": "0063"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "municipio",
+    "nome": "NAQUE",
+    "codigo_ibge": "0827"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "ARAMIRIM",
+    "codigo_ibge": "7035"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "FELICINA",
+    "codigo_ibge": "7172"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "GAMA",
+    "codigo_ibge": "7188"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "NAQUE-NANUQUE",
+    "codigo_ibge": "7284"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DO BAGRE",
+    "codigo_ibge": "7065"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "PERPÉTUO SOCORRO",
+    "codigo_ibge": "7329"
+  },
+  {
+    "comarca_codigo": "0005",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DE BRAÚNAS",
+    "codigo_ibge": "6534"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "sede",
+    "nome": "ÁGUAS FORMOSAS",
+    "codigo_ibge": "0009"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "BERTÓPOLIS",
+    "codigo_ibge": "0066"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "CRISÓLITA",
+    "codigo_ibge": "0797"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "FRONTEIRA DOS VALES",
+    "codigo_ibge": "0468"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "MAXACALIS",
+    "codigo_ibge": "0389"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "SANTA HELENA DE MINAS",
+    "codigo_ibge": "0852"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "municipio",
+    "nome": "UMBURATIBA",
+    "codigo_ibge": "0703"
+  },
+  {
+    "comarca_codigo": "0009",
+    "tipo": "distrito",
+    "nome": "UMBURANINHA",
+    "codigo_ibge": "6604"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "sede",
+    "nome": "AIMORÉS",
+    "codigo_ibge": "0011"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "ALTO DO CAPIM",
+    "codigo_ibge": "7016"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DO CAPIM",
+    "codigo_ibge": "7120"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "EXPEDICIONÁRIO ALÍCIO",
+    "codigo_ibge": "7169"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "MUNDO NOVO DE MINAS",
+    "codigo_ibge": "7283"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "PENHA DO CAPIM",
+    "codigo_ibge": "7322"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO RIO DOCE",
+    "codigo_ibge": "6691"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DA VALA",
+    "codigo_ibge": "7450"
+  },
+  {
+    "comarca_codigo": "0011",
+    "tipo": "distrito",
+    "nome": "TABAÚNA",
+    "codigo_ibge": "7493"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "sede",
+    "nome": "AIURUOCA",
+    "codigo_ibge": "0012"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "BOCAINA DE MINAS",
+    "codigo_ibge": "0072"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "CARVALHOS",
+    "codigo_ibge": "0776"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "LIBERDADE",
+    "codigo_ibge": "0385"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "PASSA-VINTE",
+    "codigo_ibge": "0478"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "SERITINGA",
+    "codigo_ibge": "0664"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "municipio",
+    "nome": "SERRANOS",
+    "codigo_ibge": "0670"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "distrito",
+    "nome": "MIRANTÃO",
+    "codigo_ibge": "7268"
+  },
+  {
+    "comarca_codigo": "0012",
+    "tipo": "distrito",
+    "nome": "FRANCESES",
+    "codigo_ibge": "6216"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "sede",
+    "nome": "ALÉM PARAÍBA",
+    "codigo_ibge": "0015"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO AVENTUREIRO",
+    "codigo_ibge": "0600"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "municipio",
+    "nome": "VOLTA GRANDE",
+    "codigo_ibge": "0721"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "distrito",
+    "nome": "ANGUSTURA",
+    "codigo_ibge": "7028"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "distrito",
+    "nome": "SÃO DOMINGOS",
+    "codigo_ibge": "7414"
+  },
+  {
+    "comarca_codigo": "0015",
+    "tipo": "distrito",
+    "nome": "TRIMONTE",
+    "codigo_ibge": "6600"
+  },
+  {
+    "comarca_codigo": "0016",
+    "tipo": "sede",
+    "nome": "ALFENAS",
+    "codigo_ibge": "0016"
+  },
+  {
+    "comarca_codigo": "0016",
+    "tipo": "municipio",
+    "nome": "SERRANIA",
+    "codigo_ibge": "0669"
+  },
+  {
+    "comarca_codigo": "0016",
+    "tipo": "distrito",
+    "nome": "BARRANCO ALTO",
+    "codigo_ibge": "7053"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "sede",
+    "nome": "ALMENARA",
+    "codigo_ibge": "0017"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "BANDEIRA",
+    "codigo_ibge": "0052"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "DIVISÓPOLIS",
+    "codigo_ibge": "0731"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "MATA VERDE",
+    "codigo_ibge": "0745"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "PALMÓPOLIS",
+    "codigo_ibge": "0750"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "RIO DO PRADO",
+    "codigo_ibge": "0551"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "municipio",
+    "nome": "RUBIM",
+    "codigo_ibge": "0566"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "distrito",
+    "nome": "PEDRA GRANDE",
+    "codigo_ibge": "7316"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "distrito",
+    "nome": "DOIS DE ABRIL",
+    "codigo_ibge": "7148"
+  },
+  {
+    "comarca_codigo": "0017",
+    "tipo": "distrito",
+    "nome": "ITAPIRU",
+    "codigo_ibge": "7223"
+  },
+  {
+    "comarca_codigo": "0019",
+    "tipo": "sede",
+    "nome": "ALPINÓPOLIS",
+    "codigo_ibge": "0019"
+  },
+  {
+    "comarca_codigo": "0019",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DA BARRA",
+    "codigo_ibge": "0861"
+  },
+  {
+    "comarca_codigo": "0021",
+    "tipo": "sede",
+    "nome": "ALTO RIO DOCE",
+    "codigo_ibge": "0021"
+  },
+  {
+    "comarca_codigo": "0021",
+    "tipo": "municipio",
+    "nome": "CIPOTÂNEA",
+    "codigo_ibge": "0163"
+  },
+  {
+    "comarca_codigo": "0021",
+    "tipo": "distrito",
+    "nome": "ABREUS",
+    "codigo_ibge": "7002"
+  },
+  {
+    "comarca_codigo": "0021",
+    "tipo": "distrito",
+    "nome": "MISSIONÁRIO",
+    "codigo_ibge": "7270"
+  },
+  {
+    "comarca_codigo": "0021",
+    "tipo": "distrito",
+    "nome": "VITORINOS",
+    "codigo_ibge": "7527"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "sede",
+    "nome": "ALVINÓPOLIS",
+    "codigo_ibge": "0023"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "municipio",
+    "nome": "DOM SILVÉRIO",
+    "codigo_ibge": "0227"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "municipio",
+    "nome": "SEM-PEIXE",
+    "codigo_ibge": "0865"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "distrito",
+    "nome": "BARRETOS DE ALVINÓPOLIS",
+    "codigo_ibge": "7055"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "distrito",
+    "nome": "FONSECA",
+    "codigo_ibge": "7182"
+  },
+  {
+    "comarca_codigo": "0023",
+    "tipo": "distrito",
+    "nome": "MAJOR EZEQUIEL",
+    "codigo_ibge": "7255"
+  },
+  {
+    "comarca_codigo": "0026",
+    "tipo": "sede",
+    "nome": "ANDRADAS",
+    "codigo_ibge": "0026"
+  },
+  {
+    "comarca_codigo": "0026",
+    "tipo": "municipio",
+    "nome": "IBITIÚRA DE MINAS",
+    "codigo_ibge": "0299"
+  },
+  {
+    "comarca_codigo": "0026",
+    "tipo": "distrito",
+    "nome": "CAMPESTRINHO",
+    "codigo_ibge": "6108"
+  },
+  {
+    "comarca_codigo": "0026",
+    "tipo": "distrito",
+    "nome": "GRAMÍNEA",
+    "codigo_ibge": "7198"
+  },
+  {
+    "comarca_codigo": "0028",
+    "tipo": "sede",
+    "nome": "ANDRELÂNDIA",
+    "codigo_ibge": "0028"
+  },
+  {
+    "comarca_codigo": "0028",
+    "tipo": "municipio",
+    "nome": "ARANTINA",
+    "codigo_ibge": "0036"
+  },
+  {
+    "comarca_codigo": "0028",
+    "tipo": "municipio",
+    "nome": "BOM JARDIM DE MINAS",
+    "codigo_ibge": "0075"
+  },
+  {
+    "comarca_codigo": "0028",
+    "tipo": "municipio",
+    "nome": "MADRE DE DEUS DE MINAS",
+    "codigo_ibge": "0391"
+  },
+  {
+    "comarca_codigo": "0028",
+    "tipo": "municipio",
+    "nome": "SÃO VICENTE DE MINAS",
+    "codigo_ibge": "0653"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "sede",
+    "nome": "ARAÇUAÍ",
+    "codigo_ibge": "0034"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "municipio",
+    "nome": "CORONEL MURTA",
+    "codigo_ibge": "0195"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "municipio",
+    "nome": "ITINGA",
+    "codigo_ibge": "0340"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "municipio",
+    "nome": "PADRE PARAÍSO",
+    "codigo_ibge": "0463"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "municipio",
+    "nome": "PONTO DOS VOLANTES",
+    "codigo_ibge": "0846"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "municipio",
+    "nome": "VIRGEM DA LAPA",
+    "codigo_ibge": "0716"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "ENGENHEIRO SCHNOOR",
+    "codigo_ibge": "7160"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "ITIRA",
+    "codigo_ibge": "7227"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "BARRA DOS SALINAS",
+    "codigo_ibge": "6639"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "FREIRE CARDOSO",
+    "codigo_ibge": "7185"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "JACARÉ",
+    "codigo_ibge": "7228"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "SANTANA DO ARAÇUAÍ",
+    "codigo_ibge": "7396"
+  },
+  {
+    "comarca_codigo": "0034",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DO VACARIA",
+    "codigo_ibge": "6695"
+  },
+  {
+    "comarca_codigo": "0035",
+    "tipo": "sede",
+    "nome": "ARAGUARI",
+    "codigo_ibge": "0035"
+  },
+  {
+    "comarca_codigo": "0035",
+    "tipo": "municipio",
+    "nome": "INDIANÓPOLIS",
+    "codigo_ibge": "0307"
+  },
+  {
+    "comarca_codigo": "0035",
+    "tipo": "distrito",
+    "nome": "AMANHECE",
+    "codigo_ibge": "7021"
+  },
+  {
+    "comarca_codigo": "0035",
+    "tipo": "distrito",
+    "nome": "FLORESTINA",
+    "codigo_ibge": "6214"
+  },
+  {
+    "comarca_codigo": "0035",
+    "tipo": "distrito",
+    "nome": "PIRACAÍBA",
+    "codigo_ibge": "6676"
+  },
+  {
+    "comarca_codigo": "0040",
+    "tipo": "sede",
+    "nome": "ARAXÁ",
+    "codigo_ibge": "0040"
+  },
+  {
+    "comarca_codigo": "0040",
+    "tipo": "municipio",
+    "nome": "TAPIRA",
+    "codigo_ibge": "0681"
+  },
+  {
+    "comarca_codigo": "0042",
+    "tipo": "sede",
+    "nome": "ARCOS",
+    "codigo_ibge": "0042"
+  },
+  {
+    "comarca_codigo": "0042",
+    "tipo": "municipio",
+    "nome": "PAINS",
+    "codigo_ibge": "0465"
+  },
+  {
+    "comarca_codigo": "0042",
+    "tipo": "distrito",
+    "nome": "VILA COSTINA",
+    "codigo_ibge": "7520"
+  },
+  {
+    "comarca_codigo": "0043",
+    "tipo": "municipio",
+    "nome": "ALTEROSA",
+    "codigo_ibge": "0020"
+  },
+  {
+    "comarca_codigo": "0043",
+    "tipo": "sede",
+    "nome": "AREADO",
+    "codigo_ibge": "0043"
+  },
+  {
+    "comarca_codigo": "0043",
+    "tipo": "distrito",
+    "nome": "DIVINO ESPÍRITO SANTO",
+    "codigo_ibge": "7147"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "sede",
+    "nome": "ARINOS",
+    "codigo_ibge": "0778"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "municipio",
+    "nome": "CHAPADA GAÚCHA",
+    "codigo_ibge": "0793"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "municipio",
+    "nome": "URUANA DE MINAS",
+    "codigo_ibge": "0870"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "municipio",
+    "nome": "URUCUIA",
+    "codigo_ibge": "0768"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "distrito",
+    "nome": "PIC-SAGARANA",
+    "codigo_ibge": "6385"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "distrito",
+    "nome": "VILA BOM JESUS",
+    "codigo_ibge": "6708"
+  },
+  {
+    "comarca_codigo": "0778",
+    "tipo": "distrito",
+    "nome": "SERRA DAS ARARAS",
+    "codigo_ibge": "7482"
+  },
+  {
+    "comarca_codigo": "0049",
+    "tipo": "sede",
+    "nome": "BAEPENDI",
+    "codigo_ibge": "0049"
+  },
+  {
+    "comarca_codigo": "0051",
+    "tipo": "sede",
+    "nome": "BAMBUÍ",
+    "codigo_ibge": "0051"
+  },
+  {
+    "comarca_codigo": "0051",
+    "tipo": "municipio",
+    "nome": "MEDEIROS",
+    "codigo_ibge": "0413"
+  },
+  {
+    "comarca_codigo": "0051",
+    "tipo": "municipio",
+    "nome": "TAPIRAÍ",
+    "codigo_ibge": "0682"
+  },
+  {
+    "comarca_codigo": "0051",
+    "tipo": "distrito",
+    "nome": "ALTOLÂNDIA",
+    "codigo_ibge": "6637"
+  },
+  {
+    "comarca_codigo": "0054",
+    "tipo": "sede",
+    "nome": "BARÃO DE COCAIS",
+    "codigo_ibge": "0054"
+  },
+  {
+    "comarca_codigo": "0054",
+    "tipo": "municipio",
+    "nome": "BOM JESUS DO AMPARO",
+    "codigo_ibge": "0077"
+  },
+  {
+    "comarca_codigo": "0054",
+    "tipo": "distrito",
+    "nome": "COCAIS",
+    "codigo_ibge": "7113"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "ALFREDO VASCONCELOS",
+    "codigo_ibge": "0724"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "ANTÔNIO CARLOS",
+    "codigo_ibge": "0029"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "sede",
+    "nome": "BARBACENA",
+    "codigo_ibge": "0056"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "BIAS FORTES",
+    "codigo_ibge": "0068"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "DESTERRO DO MELO",
+    "codigo_ibge": "0215"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "IBERTIOGA",
+    "codigo_ibge": "0294"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "PIEDADE DO RIO GRANDE",
+    "codigo_ibge": "0503"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "RESSAQUINHA",
+    "codigo_ibge": "0544"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "SANTA BÁRBARA DO TUGÚRIO",
+    "codigo_ibge": "0573"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "SANTA RITA DE IBITIPOCA",
+    "codigo_ibge": "0593"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "SANTANA DO GARAMBÉU",
+    "codigo_ibge": "0587"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "municipio",
+    "nome": "SENHORA DOS REMÉDIOS",
+    "codigo_ibge": "0662"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DE POUSO ALEGRE",
+    "codigo_ibge": "6046"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "CAMPOLIDE",
+    "codigo_ibge": "7090"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "DOUTOR SÁ FORTES",
+    "codigo_ibge": "6047"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DE CAMPOLIDE",
+    "codigo_ibge": "6048"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "COLÔNIA RODRIGO SILVA",
+    "codigo_ibge": "6038"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "CORREIA DE ALMEIDA",
+    "codigo_ibge": "7132"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "COSTAS DA MANTIQUEIRA",
+    "codigo_ibge": "6039"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "FARIA",
+    "codigo_ibge": "6058"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "GALEGO",
+    "codigo_ibge": "6040"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "PINHEIRO GROSSO",
+    "codigo_ibge": "6042"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "PONTE DO COSME",
+    "codigo_ibge": "6044"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "PONTO CHIQUE DO MARTELO",
+    "codigo_ibge": "6043"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DOS TORRES",
+    "codigo_ibge": "6045"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "SENHORA DAS DORES",
+    "codigo_ibge": "7478"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO PORTO",
+    "codigo_ibge": "6690"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "CANJAMBA",
+    "codigo_ibge": "6050"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "VARGEM DO AMARGOSO",
+    "codigo_ibge": "6610"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "BOM RETIRO",
+    "codigo_ibge": "7069"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "PARAÍSO GARCIA",
+    "codigo_ibge": "7308"
+  },
+  {
+    "comarca_codigo": "0056",
+    "tipo": "distrito",
+    "nome": "PALMITAL DOS CARVALHOS",
+    "codigo_ibge": "7306"
+  },
+  {
+    "comarca_codigo": "0059",
+    "tipo": "sede",
+    "nome": "BARROSO",
+    "codigo_ibge": "0059"
+  },
+  {
+    "comarca_codigo": "0024",
+    "tipo": "sede",
+    "nome": "BELO HORIZONTE",
+    "codigo_ibge": "0024"
+  },
+  {
+    "comarca_codigo": "0024",
+    "tipo": "distrito",
+    "nome": "BARREIRO",
+    "codigo_ibge": "7546"
+  },
+  {
+    "comarca_codigo": "0024",
+    "tipo": "distrito",
+    "nome": "VENDA NOVA",
+    "codigo_ibge": "7512"
+  },
+  {
+    "comarca_codigo": "0064",
+    "tipo": "sede",
+    "nome": "BELO VALE",
+    "codigo_ibge": "0064"
+  },
+  {
+    "comarca_codigo": "0064",
+    "tipo": "municipio",
+    "nome": "MOEDA",
+    "codigo_ibge": "0423"
+  },
+  {
+    "comarca_codigo": "0064",
+    "tipo": "distrito",
+    "nome": "SANTANA DO PARAOPEBA",
+    "codigo_ibge": "7397"
+  },
+  {
+    "comarca_codigo": "0064",
+    "tipo": "distrito",
+    "nome": "COCO",
+    "codigo_ibge": "6651"
+  },
+  {
+    "comarca_codigo": "0027",
+    "tipo": "sede",
+    "nome": "BETIM",
+    "codigo_ibge": "0027"
+  },
+  {
+    "comarca_codigo": "0069",
+    "tipo": "sede",
+    "nome": "BICAS",
+    "codigo_ibge": "0069"
+  },
+  {
+    "comarca_codigo": "0069",
+    "tipo": "municipio",
+    "nome": "GUARARÁ",
+    "codigo_ibge": "0285"
+  },
+  {
+    "comarca_codigo": "0069",
+    "tipo": "municipio",
+    "nome": "MARIPÁ DE MINAS",
+    "codigo_ibge": "0402"
+  },
+  {
+    "comarca_codigo": "0069",
+    "tipo": "municipio",
+    "nome": "PEQUERI",
+    "codigo_ibge": "0495"
+  },
+  {
+    "comarca_codigo": "0071",
+    "tipo": "sede",
+    "nome": "BOA ESPERANÇA",
+    "codigo_ibge": "0071"
+  },
+  {
+    "comarca_codigo": "0071",
+    "tipo": "municipio",
+    "nome": "COQUEIRAL",
+    "codigo_ibge": "0187"
+  },
+  {
+    "comarca_codigo": "0071",
+    "tipo": "municipio",
+    "nome": "ILICÍNEA",
+    "codigo_ibge": "0305"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "sede",
+    "nome": "BOCAIÚVA",
+    "codigo_ibge": "0073"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "municipio",
+    "nome": "ENGENHEIRO NAVARRO",
+    "codigo_ibge": "0238"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "municipio",
+    "nome": "FRANCISCO DUMONT",
+    "codigo_ibge": "0266"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "municipio",
+    "nome": "GUARACIAMA",
+    "codigo_ibge": "0810"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "municipio",
+    "nome": "OLHOS-D'ÁGUA",
+    "codigo_ibge": "0834"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "distrito",
+    "nome": "ALTO BELO",
+    "codigo_ibge": "7015"
+  },
+  {
+    "comarca_codigo": "0073",
+    "tipo": "distrito",
+    "nome": "TERRA BRANCA",
+    "codigo_ibge": "7498"
+  },
+  {
+    "comarca_codigo": "0074",
+    "tipo": "sede",
+    "nome": "BOM DESPACHO",
+    "codigo_ibge": "0074"
+  },
+  {
+    "comarca_codigo": "0074",
+    "tipo": "municipio",
+    "nome": "MOEMA",
+    "codigo_ibge": "0424"
+  },
+  {
+    "comarca_codigo": "0074",
+    "tipo": "distrito",
+    "nome": "ENGENHO DO RIBEIRO",
+    "codigo_ibge": "7161"
+  },
+  {
+    "comarca_codigo": "0080",
+    "tipo": "sede",
+    "nome": "BOM SUCESSO",
+    "codigo_ibge": "0080"
+  },
+  {
+    "comarca_codigo": "0080",
+    "tipo": "municipio",
+    "nome": "IBITURUNA",
+    "codigo_ibge": "0300"
+  },
+  {
+    "comarca_codigo": "0080",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO AMPARO",
+    "codigo_ibge": "0599"
+  },
+  {
+    "comarca_codigo": "0080",
+    "tipo": "distrito",
+    "nome": "MACAIA",
+    "codigo_ibge": "7252"
+  },
+  {
+    "comarca_codigo": "0080",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DA ESTRELA",
+    "codigo_ibge": "7449"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "sede",
+    "nome": "BONFIM",
+    "codigo_ibge": "0081"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "municipio",
+    "nome": "CRUCILÂNDIA",
+    "codigo_ibge": "0206"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "municipio",
+    "nome": "PIEDADE DOS GERAIS",
+    "codigo_ibge": "0504"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "municipio",
+    "nome": "RIO MANSO",
+    "codigo_ibge": "0553"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DA VARGEM",
+    "codigo_ibge": "7401"
+  },
+  {
+    "comarca_codigo": "0081",
+    "tipo": "distrito",
+    "nome": "SOUSA",
+    "codigo_ibge": "7492"
+  },
+  {
+    "comarca_codigo": "0082",
+    "tipo": "sede",
+    "nome": "BONFINÓPOLIS DE MINAS",
+    "codigo_ibge": "0082"
+  },
+  {
+    "comarca_codigo": "0082",
+    "tipo": "municipio",
+    "nome": "DOM BOSCO",
+    "codigo_ibge": "0802"
+  },
+  {
+    "comarca_codigo": "0082",
+    "tipo": "municipio",
+    "nome": "NATALÂNDIA",
+    "codigo_ibge": "0828"
+  },
+  {
+    "comarca_codigo": "0082",
+    "tipo": "municipio",
+    "nome": "RIACHINHO",
+    "codigo_ibge": "0754"
+  },
+  {
+    "comarca_codigo": "0083",
+    "tipo": "sede",
+    "nome": "BORDA DA MATA",
+    "codigo_ibge": "0083"
+  },
+  {
+    "comarca_codigo": "0083",
+    "tipo": "municipio",
+    "nome": "TOCOS DO MOJI",
+    "codigo_ibge": "0877"
+  },
+  {
+    "comarca_codigo": "0083",
+    "tipo": "distrito",
+    "nome": "CERVO",
+    "codigo_ibge": "7105"
+  },
+  {
+    "comarca_codigo": "0083",
+    "tipo": "distrito",
+    "nome": "SERTÃOZINHO",
+    "codigo_ibge": "7485"
+  },
+  {
+    "comarca_codigo": "0084",
+    "tipo": "sede",
+    "nome": "BOTELHOS",
+    "codigo_ibge": "0084"
+  },
+  {
+    "comarca_codigo": "0084",
+    "tipo": "distrito",
+    "nome": "PALMEIRAL",
+    "codigo_ibge": "7304"
+  },
+  {
+    "comarca_codigo": "0084",
+    "tipo": "distrito",
+    "nome": "SÃO GONÇALO DE BOTELHOS",
+    "codigo_ibge": "7419"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "sede",
+    "nome": "BRASÍLIA DE MINAS",
+    "codigo_ibge": "0086"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "municipio",
+    "nome": "CAMPO AZUL",
+    "codigo_ibge": "0789"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "municipio",
+    "nome": "JAPONVAR",
+    "codigo_ibge": "0814"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "municipio",
+    "nome": "LUISLÂNDIA",
+    "codigo_ibge": "0822"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "municipio",
+    "nome": "PONTO CHIQUE",
+    "codigo_ibge": "0845"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "municipio",
+    "nome": "UBAÍ",
+    "codigo_ibge": "0700"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "distrito",
+    "nome": "ANGICOS DE MINAS",
+    "codigo_ibge": "7026"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "distrito",
+    "nome": "FERNÃO DIAS",
+    "codigo_ibge": "7174"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "distrito",
+    "nome": "NOVA MINDA",
+    "codigo_ibge": "7288"
+  },
+  {
+    "comarca_codigo": "0086",
+    "tipo": "distrito",
+    "nome": "BENTÓPOLIS DE MINAS",
+    "codigo_ibge": "7057"
+  },
+  {
+    "comarca_codigo": "0089",
+    "tipo": "sede",
+    "nome": "BRAZÓPOLIS",
+    "codigo_ibge": "0089"
+  },
+  {
+    "comarca_codigo": "0089",
+    "tipo": "municipio",
+    "nome": "PIRANGUINHO",
+    "codigo_ibge": "0510"
+  },
+  {
+    "comarca_codigo": "0089",
+    "tipo": "distrito",
+    "nome": "DIAS",
+    "codigo_ibge": "6169"
+  },
+  {
+    "comarca_codigo": "0089",
+    "tipo": "distrito",
+    "nome": "LUMINOSA",
+    "codigo_ibge": "6292"
+  },
+  {
+    "comarca_codigo": "0089",
+    "tipo": "distrito",
+    "nome": "OLEGÁRIO MACIEL",
+    "codigo_ibge": "7292"
+  },
+  {
+    "comarca_codigo": "0090",
+    "tipo": "sede",
+    "nome": "BRUMADINHO",
+    "codigo_ibge": "0090"
+  },
+  {
+    "comarca_codigo": "0090",
+    "tipo": "distrito",
+    "nome": "ARANHA",
+    "codigo_ibge": "7036"
+  },
+  {
+    "comarca_codigo": "0090",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DE ITAGUÁ",
+    "codigo_ibge": "7117"
+  },
+  {
+    "comarca_codigo": "0090",
+    "tipo": "distrito",
+    "nome": "PIEDADE DO PARAOPEBA",
+    "codigo_ibge": "7331"
+  },
+  {
+    "comarca_codigo": "0090",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO PARAOPEBA",
+    "codigo_ibge": "7438"
+  },
+  {
+    "comarca_codigo": "0091",
+    "tipo": "sede",
+    "nome": "BUENO BRANDÃO",
+    "codigo_ibge": "0091"
+  },
+  {
+    "comarca_codigo": "0091",
+    "tipo": "municipio",
+    "nome": "MUNHOZ",
+    "codigo_ibge": "0438"
+  },
+  {
+    "comarca_codigo": "0092",
+    "tipo": "municipio",
+    "nome": "AUGUSTO DE LIMA",
+    "codigo_ibge": "0048"
+  },
+  {
+    "comarca_codigo": "0092",
+    "tipo": "sede",
+    "nome": "BUENÓPOLIS",
+    "codigo_ibge": "0092"
+  },
+  {
+    "comarca_codigo": "0092",
+    "tipo": "municipio",
+    "nome": "JOAQUIM FELÍCIO",
+    "codigo_ibge": "0364"
+  },
+  {
+    "comarca_codigo": "0093",
+    "tipo": "sede",
+    "nome": "BURITIS",
+    "codigo_ibge": "0093"
+  },
+  {
+    "comarca_codigo": "0093",
+    "tipo": "municipio",
+    "nome": "FORMOSO",
+    "codigo_ibge": "0262"
+  },
+  {
+    "comarca_codigo": "0093",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DO PASSA-TRÊS",
+    "codigo_ibge": "6700"
+  },
+  {
+    "comarca_codigo": "0093",
+    "tipo": "distrito",
+    "nome": "SERRA BONITA",
+    "codigo_ibge": "7480"
+  },
+  {
+    "comarca_codigo": "0095",
+    "tipo": "sede",
+    "nome": "CABO VERDE",
+    "codigo_ibge": "0095"
+  },
+  {
+    "comarca_codigo": "0095",
+    "tipo": "municipio",
+    "nome": "DIVISA NOVA",
+    "codigo_ibge": "0224"
+  },
+  {
+    "comarca_codigo": "0095",
+    "tipo": "distrito",
+    "nome": "SÃO BARTOLOMEU DE MINAS",
+    "codigo_ibge": "8542"
+  },
+  {
+    "comarca_codigo": "0095",
+    "tipo": "distrito",
+    "nome": "SERRA DOS LEMES",
+    "codigo_ibge": "6571"
+  },
+  {
+    "comarca_codigo": "0097",
+    "tipo": "sede",
+    "nome": "CACHOEIRA DE MINAS",
+    "codigo_ibge": "0097"
+  },
+  {
+    "comarca_codigo": "0097",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DOS OUROS",
+    "codigo_ibge": "0178"
+  },
+  {
+    "comarca_codigo": "0097",
+    "tipo": "distrito",
+    "nome": "ITAIM",
+    "codigo_ibge": "7217"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "sede",
+    "nome": "CAETÉ",
+    "codigo_ibge": "0045"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "municipio",
+    "nome": "NOVA UNIÃO",
+    "codigo_ibge": "0366"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "municipio",
+    "nome": "TAQUARAÇU DE MINAS",
+    "codigo_ibge": "0683"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "distrito",
+    "nome": "ANTÔNIO DOS SANTOS",
+    "codigo_ibge": "7029"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "distrito",
+    "nome": "MORRO VERMELHO",
+    "codigo_ibge": "7281"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "distrito",
+    "nome": "PENEDIA",
+    "codigo_ibge": "7320"
+  },
+  {
+    "comarca_codigo": "0045",
+    "tipo": "distrito",
+    "nome": "ROÇAS NOVAS",
+    "codigo_ibge": "7372"
+  },
+  {
+    "comarca_codigo": "0103",
+    "tipo": "sede",
+    "nome": "CALDAS",
+    "codigo_ibge": "0103"
+  },
+  {
+    "comarca_codigo": "0103",
+    "tipo": "distrito",
+    "nome": "LARANJEIRAS DE CALDAS",
+    "codigo_ibge": "7242"
+  },
+  {
+    "comarca_codigo": "0103",
+    "tipo": "distrito",
+    "nome": "SANTANA DE CALDAS",
+    "codigo_ibge": "7392"
+  },
+  {
+    "comarca_codigo": "0103",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DE CALDAS",
+    "codigo_ibge": "7444"
+  },
+  {
+    "comarca_codigo": "0878",
+    "tipo": "sede",
+    "nome": "CAMANDUCAIA",
+    "codigo_ibge": "0878"
+  },
+  {
+    "comarca_codigo": "0878",
+    "tipo": "municipio",
+    "nome": "ITAPEVA",
+    "codigo_ibge": "0336"
+  },
+  {
+    "comarca_codigo": "0878",
+    "tipo": "distrito",
+    "nome": "MONTE VERDE",
+    "codigo_ibge": "7278"
+  },
+  {
+    "comarca_codigo": "0878",
+    "tipo": "distrito",
+    "nome": "SÃO MATEUS DE MINAS",
+    "codigo_ibge": "6522"
+  },
+  {
+    "comarca_codigo": "0106",
+    "tipo": "municipio",
+    "nome": "BOM REPOUSO",
+    "codigo_ibge": "0769"
+  },
+  {
+    "comarca_codigo": "0106",
+    "tipo": "sede",
+    "nome": "CAMBUÍ",
+    "codigo_ibge": "0106"
+  },
+  {
+    "comarca_codigo": "0106",
+    "tipo": "municipio",
+    "nome": "CÓRREGO DO BOM JESUS",
+    "codigo_ibge": "0199"
+  },
+  {
+    "comarca_codigo": "0106",
+    "tipo": "municipio",
+    "nome": "SENADOR AMARAL",
+    "codigo_ibge": "0766"
+  },
+  {
+    "comarca_codigo": "0107",
+    "tipo": "sede",
+    "nome": "CAMBUQUIRA",
+    "codigo_ibge": "0107"
+  },
+  {
+    "comarca_codigo": "0109",
+    "tipo": "sede",
+    "nome": "CAMPANHA",
+    "codigo_ibge": "0109"
+  },
+  {
+    "comarca_codigo": "0110",
+    "tipo": "municipio",
+    "nome": "BANDEIRA DO SUL",
+    "codigo_ibge": "0053"
+  },
+  {
+    "comarca_codigo": "0110",
+    "tipo": "sede",
+    "nome": "CAMPESTRE",
+    "codigo_ibge": "0110"
+  },
+  {
+    "comarca_codigo": "0111",
+    "tipo": "sede",
+    "nome": "CAMPINA VERDE",
+    "codigo_ibge": "0111"
+  },
+  {
+    "comarca_codigo": "0111",
+    "tipo": "distrito",
+    "nome": "HONORÓPOLIS",
+    "codigo_ibge": "7207"
+  },
+  {
+    "comarca_codigo": "0112",
+    "tipo": "municipio",
+    "nome": "AGUANIL",
+    "codigo_ibge": "0008"
+  },
+  {
+    "comarca_codigo": "0112",
+    "tipo": "sede",
+    "nome": "CAMPO BELO",
+    "codigo_ibge": "0112"
+  },
+  {
+    "comarca_codigo": "0112",
+    "tipo": "municipio",
+    "nome": "CRISTAIS",
+    "codigo_ibge": "0202"
+  },
+  {
+    "comarca_codigo": "0112",
+    "tipo": "municipio",
+    "nome": "SANTANA DO JACARÉ",
+    "codigo_ibge": "0588"
+  },
+  {
+    "comarca_codigo": "0112",
+    "tipo": "distrito",
+    "nome": "PORTO DOS MENDES",
+    "codigo_ibge": "6077"
+  },
+  {
+    "comarca_codigo": "0115",
+    "tipo": "sede",
+    "nome": "CAMPOS ALTOS",
+    "codigo_ibge": "0115"
+  },
+  {
+    "comarca_codigo": "0115",
+    "tipo": "municipio",
+    "nome": "SANTA ROSA DA SERRA",
+    "codigo_ibge": "0597"
+  },
+  {
+    "comarca_codigo": "0116",
+    "tipo": "municipio",
+    "nome": "CAMPO DO MEIO",
+    "codigo_ibge": "0113"
+  },
+  {
+    "comarca_codigo": "0116",
+    "tipo": "sede",
+    "nome": "CAMPOS GERAIS",
+    "codigo_ibge": "0116"
+  },
+  {
+    "comarca_codigo": "0116",
+    "tipo": "distrito",
+    "nome": "CÓRREGO DO OURO",
+    "codigo_ibge": "7130"
+  },
+  {
+    "comarca_codigo": "0118",
+    "tipo": "sede",
+    "nome": "CANÁPOLIS",
+    "codigo_ibge": "0118"
+  },
+  {
+    "comarca_codigo": "0118",
+    "tipo": "municipio",
+    "nome": "CENTRALINA",
+    "codigo_ibge": "0158"
+  },
+  {
+    "comarca_codigo": "0120",
+    "tipo": "sede",
+    "nome": "CANDEIAS",
+    "codigo_ibge": "0120"
+  },
+  {
+    "comarca_codigo": "0123",
+    "tipo": "municipio",
+    "nome": "ÁGUA BOA",
+    "codigo_ibge": "0006"
+  },
+  {
+    "comarca_codigo": "0123",
+    "tipo": "municipio",
+    "nome": "ANGELÂNDIA",
+    "codigo_ibge": "0782"
+  },
+  {
+    "comarca_codigo": "0123",
+    "tipo": "sede",
+    "nome": "CAPELINHA",
+    "codigo_ibge": "0123"
+  },
+  {
+    "comarca_codigo": "0126",
+    "tipo": "municipio",
+    "nome": "CACHOEIRA DOURADA",
+    "codigo_ibge": "0098"
+  },
+  {
+    "comarca_codigo": "0126",
+    "tipo": "sede",
+    "nome": "CAPINÓPOLIS",
+    "codigo_ibge": "0126"
+  },
+  {
+    "comarca_codigo": "0126",
+    "tipo": "municipio",
+    "nome": "IPIAÇU",
+    "codigo_ibge": "0314"
+  },
+  {
+    "comarca_codigo": "0132",
+    "tipo": "municipio",
+    "nome": "CAPELA NOVA",
+    "codigo_ibge": "0122"
+  },
+  {
+    "comarca_codigo": "0132",
+    "tipo": "municipio",
+    "nome": "CARANAÍBA",
+    "codigo_ibge": "0131"
+  },
+  {
+    "comarca_codigo": "0132",
+    "tipo": "sede",
+    "nome": "CARANDAÍ",
+    "codigo_ibge": "0132"
+  },
+  {
+    "comarca_codigo": "0132",
+    "tipo": "distrito",
+    "nome": "HERMILO ALVES",
+    "codigo_ibge": "7206"
+  },
+  {
+    "comarca_codigo": "0132",
+    "tipo": "distrito",
+    "nome": "PEDRA DO SINO",
+    "codigo_ibge": "7315"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "sede",
+    "nome": "CARANGOLA",
+    "codigo_ibge": "0133"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "municipio",
+    "nome": "FARIA LEMOS",
+    "codigo_ibge": "0253"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "municipio",
+    "nome": "FERVEDOURO",
+    "codigo_ibge": "0734"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "municipio",
+    "nome": "SÃO FRANCISCO DO GLÓRIA",
+    "codigo_ibge": "0614"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "distrito",
+    "nome": "ALVORADA",
+    "codigo_ibge": "7020"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "distrito",
+    "nome": "LACERDINHA",
+    "codigo_ibge": "7238"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "distrito",
+    "nome": "PONTE ALTA DE MINAS",
+    "codigo_ibge": "7348"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DO MADEIRA",
+    "codigo_ibge": "7064"
+  },
+  {
+    "comarca_codigo": "0133",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DO GLÓRIA",
+    "codigo_ibge": "7446"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "BOM JESUS DO GALHO",
+    "codigo_ibge": "0078"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "sede",
+    "nome": "CARATINGA",
+    "codigo_ibge": "0134"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "CÓRREGO NOVO",
+    "codigo_ibge": "0200"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "ENTRE-FOLHAS",
+    "codigo_ibge": "0733"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "IMBÉ DE MINAS",
+    "codigo_ibge": "0812"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "PIEDADE DE CARATINGA",
+    "codigo_ibge": "0842"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "PINGO-D'ÁGUA",
+    "codigo_ibge": "0843"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "SANTA BÁRBARA DO LESTE",
+    "codigo_ibge": "0756"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "SANTA RITA DE MINAS",
+    "codigo_ibge": "0757"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "UBAPORANGA",
+    "codigo_ibge": "0767"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "municipio",
+    "nome": "VARGEM ALEGRE",
+    "codigo_ibge": "0871"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "PASSA-DEZ",
+    "codigo_ibge": "7310"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "QUARTEL DO SACRAMENTO",
+    "codigo_ibge": "7359"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "CORDEIRO DE MINAS",
+    "codigo_ibge": "7129"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "DOM LARA",
+    "codigo_ibge": "7149"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "DOM MODESTO",
+    "codigo_ibge": "7150"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "PATROCÍNIO DE CARATINGA",
+    "codigo_ibge": "7312"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SANTA EFIGÊNIA DE CARATINGA",
+    "codigo_ibge": "6444"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SANTA LUZIA DE CARATINGA",
+    "codigo_ibge": "6447"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO MANHUAÇU",
+    "codigo_ibge": "6011"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SÃO CÂNDIDO",
+    "codigo_ibge": "7413"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DO JACUTINGA",
+    "codigo_ibge": "7427"
+  },
+  {
+    "comarca_codigo": "0134",
+    "tipo": "distrito",
+    "nome": "SAPUCAIA",
+    "codigo_ibge": "7470"
+  },
+  {
+    "comarca_codigo": "0137",
+    "tipo": "sede",
+    "nome": "CARLOS CHAGAS",
+    "codigo_ibge": "0137"
+  },
+  {
+    "comarca_codigo": "0137",
+    "tipo": "distrito",
+    "nome": "EPAMINONDAS OTÔNI",
+    "codigo_ibge": "7163"
+  },
+  {
+    "comarca_codigo": "0137",
+    "tipo": "distrito",
+    "nome": "PRESIDENTE PENA",
+    "codigo_ibge": "7355"
+  },
+  {
+    "comarca_codigo": "0140",
+    "tipo": "sede",
+    "nome": "CARMO DA MATA",
+    "codigo_ibge": "0140"
+  },
+  {
+    "comarca_codigo": "0141",
+    "tipo": "sede",
+    "nome": "CARMO DE MINAS",
+    "codigo_ibge": "0141"
+  },
+  {
+    "comarca_codigo": "0141",
+    "tipo": "municipio",
+    "nome": "DOM VIÇOSO",
+    "codigo_ibge": "0228"
+  },
+  {
+    "comarca_codigo": "0142",
+    "tipo": "sede",
+    "nome": "CARMO DO CAJURU",
+    "codigo_ibge": "0142"
+  },
+  {
+    "comarca_codigo": "0142",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DOS SALGADOS",
+    "codigo_ibge": "7440"
+  },
+  {
+    "comarca_codigo": "0143",
+    "tipo": "sede",
+    "nome": "CARMO DO PARANAÍBA",
+    "codigo_ibge": "0143"
+  },
+  {
+    "comarca_codigo": "0144",
+    "tipo": "sede",
+    "nome": "CARMO DO RIO CLARO",
+    "codigo_ibge": "0144"
+  },
+  {
+    "comarca_codigo": "0144",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DA APARECIDA",
+    "codigo_ibge": "0171"
+  },
+  {
+    "comarca_codigo": "0144",
+    "tipo": "distrito",
+    "nome": "ITACI",
+    "codigo_ibge": "6000"
+  },
+  {
+    "comarca_codigo": "0879",
+    "tipo": "sede",
+    "nome": "CARMÓPOLIS DE MINAS",
+    "codigo_ibge": "0879"
+  },
+  {
+    "comarca_codigo": "0151",
+    "tipo": "municipio",
+    "nome": "CAPETINGA",
+    "codigo_ibge": "0124"
+  },
+  {
+    "comarca_codigo": "0151",
+    "tipo": "sede",
+    "nome": "CÁSSIA",
+    "codigo_ibge": "0151"
+  },
+  {
+    "comarca_codigo": "0151",
+    "tipo": "municipio",
+    "nome": "DELFINÓPOLIS",
+    "codigo_ibge": "0212"
+  },
+  {
+    "comarca_codigo": "0151",
+    "tipo": "distrito",
+    "nome": "GOIANASES",
+    "codigo_ibge": "7195"
+  },
+  {
+    "comarca_codigo": "0151",
+    "tipo": "distrito",
+    "nome": "BABILÔNIA",
+    "codigo_ibge": "7041"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "municipio",
+    "nome": "ASTOLFO DUTRA",
+    "codigo_ibge": "0046"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "sede",
+    "nome": "CATAGUASES",
+    "codigo_ibge": "0153"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "municipio",
+    "nome": "DONA EUSÉBIA",
+    "codigo_ibge": "0229"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "municipio",
+    "nome": "ITAMARATI DE MINAS",
+    "codigo_ibge": "0326"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "municipio",
+    "nome": "SANTANA DE CATAGUASES",
+    "codigo_ibge": "0584"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "SANTANA DO CAMPESTRE",
+    "codigo_ibge": "7393"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "SOBRAL PINTO",
+    "codigo_ibge": "7491"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "ARACATI DE MINAS",
+    "codigo_ibge": "6068"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "CATAGUARINO",
+    "codigo_ibge": "7098"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "GLÓRIA DE CATAGUASES",
+    "codigo_ibge": "7193"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "SERENO",
+    "codigo_ibge": "6008"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "VISTA ALEGRE",
+    "codigo_ibge": "6623"
+  },
+  {
+    "comarca_codigo": "0153",
+    "tipo": "distrito",
+    "nome": "SÃO MANUEL DO GUAIAÇU",
+    "codigo_ibge": "7442"
+  },
+  {
+    "comarca_codigo": "0155",
+    "tipo": "sede",
+    "nome": "CAXAMBU",
+    "codigo_ibge": "0155"
+  },
+  {
+    "comarca_codigo": "0166",
+    "tipo": "sede",
+    "nome": "CLÁUDIO",
+    "codigo_ibge": "0166"
+  },
+  {
+    "comarca_codigo": "0166",
+    "tipo": "distrito",
+    "nome": "MONSENHOR JOÃO ALEXANDRE",
+    "codigo_ibge": "7276"
+  },
+  {
+    "comarca_codigo": "0172",
+    "tipo": "sede",
+    "nome": "CONCEIÇÃO DAS ALAGOAS",
+    "codigo_ibge": "0172"
+  },
+  {
+    "comarca_codigo": "0172",
+    "tipo": "municipio",
+    "nome": "PIRAJUBA",
+    "codigo_ibge": "0507"
+  },
+  {
+    "comarca_codigo": "0172",
+    "tipo": "distrito",
+    "nome": "PONCIANOS",
+    "codigo_ibge": "7345"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "sede",
+    "nome": "CONCEIÇÃO DO MATO DENTRO",
+    "codigo_ibge": "0175"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "municipio",
+    "nome": "CONGONHAS DO NORTE",
+    "codigo_ibge": "0181"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "municipio",
+    "nome": "DOM JOAQUIM",
+    "codigo_ibge": "0226"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "municipio",
+    "nome": "MORRO DO PILAR",
+    "codigo_ibge": "0437"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO RIO ABAIXO",
+    "codigo_ibge": "0605"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DO RIO PRETO",
+    "codigo_ibge": "0648"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "BREJAÚBA",
+    "codigo_ibge": "7073"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "CÓRREGOS",
+    "codigo_ibge": "7131"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "COSTA SENA",
+    "codigo_ibge": "7134"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "ITACOLOMI",
+    "codigo_ibge": "7216"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO NORTE",
+    "codigo_ibge": "7405"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO BOM",
+    "codigo_ibge": "7456"
+  },
+  {
+    "comarca_codigo": "0175",
+    "tipo": "distrito",
+    "nome": "GORORÓS",
+    "codigo_ibge": "7196"
+  },
+  {
+    "comarca_codigo": "0177",
+    "tipo": "sede",
+    "nome": "CONCEIÇÃO DO RIO VERDE",
+    "codigo_ibge": "0177"
+  },
+  {
+    "comarca_codigo": "0177",
+    "tipo": "distrito",
+    "nome": "ÁGUAS DE CONTENDAS",
+    "codigo_ibge": "7007"
+  },
+  {
+    "comarca_codigo": "0180",
+    "tipo": "sede",
+    "nome": "CONGONHAS",
+    "codigo_ibge": "0180"
+  },
+  {
+    "comarca_codigo": "0180",
+    "tipo": "distrito",
+    "nome": "ALTO MARANHÃO",
+    "codigo_ibge": "7017"
+  },
+  {
+    "comarca_codigo": "0180",
+    "tipo": "distrito",
+    "nome": "LOBO LEITE",
+    "codigo_ibge": "7247"
+  },
+  {
+    "comarca_codigo": "0182",
+    "tipo": "sede",
+    "nome": "CONQUISTA",
+    "codigo_ibge": "0182"
+  },
+  {
+    "comarca_codigo": "0182",
+    "tipo": "distrito",
+    "nome": "GUAXIMA",
+    "codigo_ibge": "7203"
+  },
+  {
+    "comarca_codigo": "0182",
+    "tipo": "distrito",
+    "nome": "JUBAÍ",
+    "codigo_ibge": "7234"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "CASA GRANDE",
+    "codigo_ibge": "0149"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "CATAS ALTAS DA NORUEGA",
+    "codigo_ibge": "0154"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "sede",
+    "nome": "CONSELHEIRO LAFAIETE",
+    "codigo_ibge": "0183"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "CRISTIANO OTÔNI",
+    "codigo_ibge": "0204"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "ITAVERAVA",
+    "codigo_ibge": "0339"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "LAMIM",
+    "codigo_ibge": "0379"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "QUELUZITO",
+    "codigo_ibge": "0538"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "RIO ESPERA",
+    "codigo_ibge": "0552"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "municipio",
+    "nome": "SANTANA DOS MONTES",
+    "codigo_ibge": "0591"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "BUARQUE DE MACEDO",
+    "codigo_ibge": "7078"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "SÃO CAETANO",
+    "codigo_ibge": "6486"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "MONSENHOR ISIDRO",
+    "codigo_ibge": "7275"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "PIRANGUITA",
+    "codigo_ibge": "6394"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "RIO MELO",
+    "codigo_ibge": "7369"
+  },
+  {
+    "comarca_codigo": "0183",
+    "tipo": "distrito",
+    "nome": "JOSELÂNDIA",
+    "codigo_ibge": "7233"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "municipio",
+    "nome": "ALVARENGA",
+    "codigo_ibge": "0022"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "sede",
+    "nome": "CONSELHEIRO PENA",
+    "codigo_ibge": "0184"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "municipio",
+    "nome": "CUPARAQUE",
+    "codigo_ibge": "0798"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "municipio",
+    "nome": "GOIABEIRA",
+    "codigo_ibge": "0808"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "municipio",
+    "nome": "TUMIRITINGA",
+    "codigo_ibge": "0695"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "BARRA DO CUIETÉ",
+    "codigo_ibge": "7050"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "BUENO",
+    "codigo_ibge": "7079"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "CUIETÉ VELHO",
+    "codigo_ibge": "7140"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "FERRUGINHA",
+    "codigo_ibge": "7176"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "PENHA DO NORTE",
+    "codigo_ibge": "7325"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "ALDEIA",
+    "codigo_ibge": "7011"
+  },
+  {
+    "comarca_codigo": "0184",
+    "tipo": "distrito",
+    "nome": "SÃO GERALDO DE TUMIRITINGA",
+    "codigo_ibge": "7417"
+  },
+  {
+    "comarca_codigo": "0079",
+    "tipo": "sede",
+    "nome": "CONTAGEM",
+    "codigo_ibge": "0079"
+  },
+  {
+    "comarca_codigo": "0079",
+    "tipo": "distrito",
+    "nome": "PARQUE INDUSTRIAL",
+    "codigo_ibge": "6361"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "sede",
+    "nome": "CORAÇÃO DE JESUS",
+    "codigo_ibge": "0775"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "municipio",
+    "nome": "IBIAÍ",
+    "codigo_ibge": "0296"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "municipio",
+    "nome": "LAGOA DOS PATOS",
+    "codigo_ibge": "0373"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DA LAGOA",
+    "codigo_ibge": "0857"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DO PACUÍ",
+    "codigo_ibge": "0859"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "ALVAÇÃO",
+    "codigo_ibge": "7019"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "ARISTIDES BATISTA",
+    "codigo_ibge": "7533"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "LUÍS PIRES DE MINAS",
+    "codigo_ibge": "7250"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "PONTE DOS CIGANOS",
+    "codigo_ibge": "7349"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "SÃO GERALDO",
+    "codigo_ibge": "6492"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "SÃO JOAQUIM",
+    "codigo_ibge": "7428"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DA VEREDA",
+    "codigo_ibge": "6078"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "SÃO ROBERTO DE MINAS",
+    "codigo_ibge": "6529"
+  },
+  {
+    "comarca_codigo": "0775",
+    "tipo": "distrito",
+    "nome": "SANTA DA PEDRA",
+    "codigo_ibge": "6443"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "sede",
+    "nome": "CORINTO",
+    "codigo_ibge": "0191"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "municipio",
+    "nome": "SANTO HIPÓLITO",
+    "codigo_ibge": "0606"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "distrito",
+    "nome": "BELTRÃO",
+    "codigo_ibge": "7548"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "distrito",
+    "nome": "CONTRIA",
+    "codigo_ibge": "7128"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "distrito",
+    "nome": "SENHORA DA GLÓRIA",
+    "codigo_ibge": "7476"
+  },
+  {
+    "comarca_codigo": "0191",
+    "tipo": "distrito",
+    "nome": "VALO FUNDO",
+    "codigo_ibge": "6609"
+  },
+  {
+    "comarca_codigo": "0193",
+    "tipo": "municipio",
+    "nome": "ABADIA DOS DOURADOS",
+    "codigo_ibge": "0001"
+  },
+  {
+    "comarca_codigo": "0193",
+    "tipo": "sede",
+    "nome": "COROMANDEL",
+    "codigo_ibge": "0193"
+  },
+  {
+    "comarca_codigo": "0193",
+    "tipo": "distrito",
+    "nome": "ALEGRE",
+    "codigo_ibge": "7012"
+  },
+  {
+    "comarca_codigo": "0193",
+    "tipo": "distrito",
+    "nome": "SANTA ROSA DOS DOURADOS",
+    "codigo_ibge": "7390"
+  },
+  {
+    "comarca_codigo": "0194",
+    "tipo": "municipio",
+    "nome": "ANTÔNIO DIAS",
+    "codigo_ibge": "0030"
+  },
+  {
+    "comarca_codigo": "0194",
+    "tipo": "sede",
+    "nome": "CORONEL FABRICIANO",
+    "codigo_ibge": "0194"
+  },
+  {
+    "comarca_codigo": "0194",
+    "tipo": "distrito",
+    "nome": "HEMATITA",
+    "codigo_ibge": "7205"
+  },
+  {
+    "comarca_codigo": "0194",
+    "tipo": "distrito",
+    "nome": "SENADOR MELO VIANA",
+    "codigo_ibge": "7474"
+  },
+  {
+    "comarca_codigo": "0205",
+    "tipo": "sede",
+    "nome": "CRISTINA",
+    "codigo_ibge": "0205"
+  },
+  {
+    "comarca_codigo": "0205",
+    "tipo": "municipio",
+    "nome": "MARIA DA FÉ",
+    "codigo_ibge": "0399"
+  },
+  {
+    "comarca_codigo": "0205",
+    "tipo": "distrito",
+    "nome": "PINTOS NEGREIROS",
+    "codigo_ibge": "7337"
+  },
+  {
+    "comarca_codigo": "0208",
+    "tipo": "sede",
+    "nome": "CRUZÍLIA",
+    "codigo_ibge": "0208"
+  },
+  {
+    "comarca_codigo": "0208",
+    "tipo": "municipio",
+    "nome": "MINDURI",
+    "codigo_ibge": "0419"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "sede",
+    "nome": "CURVELO",
+    "codigo_ibge": "0209"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "municipio",
+    "nome": "FELIXLÂNDIA",
+    "codigo_ibge": "0257"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "municipio",
+    "nome": "INIMUTABA",
+    "codigo_ibge": "0311"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "municipio",
+    "nome": "MORRO DA GARÇA",
+    "codigo_ibge": "0436"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "municipio",
+    "nome": "PRESIDENTE JUSCELINO",
+    "codigo_ibge": "0532"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "distrito",
+    "nome": "ANGUERETÁ",
+    "codigo_ibge": "7027"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DO CEDRO",
+    "codigo_ibge": "7387"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "distrito",
+    "nome": "TOMÁS GONZAGA",
+    "codigo_ibge": "7501"
+  },
+  {
+    "comarca_codigo": "0209",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO BURITI",
+    "codigo_ibge": "7435"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "COUTO DE MAGALHÃES DE MINAS",
+    "codigo_ibge": "0201"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "DATAS",
+    "codigo_ibge": "0771"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "sede",
+    "nome": "DIAMANTINA",
+    "codigo_ibge": "0216"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "FELÍCIO DOS SANTOS",
+    "codigo_ibge": "0254"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "GOUVEIA",
+    "codigo_ibge": "0276"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "MONJOLOS",
+    "codigo_ibge": "0425"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "PRESIDENTE KUBITSCHEK",
+    "codigo_ibge": "0533"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "SÃO GONÇALO DO RIO PRETO",
+    "codigo_ibge": "0255"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "municipio",
+    "nome": "SENADOR MODESTINO GONÇALVES",
+    "codigo_ibge": "0659"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "CONSELHEIRO MATA",
+    "codigo_ibge": "7126"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "DESEMBARGADOR OTÔNI",
+    "codigo_ibge": "7143"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "EXTRAÇÃO",
+    "codigo_ibge": "6059"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "GUINDA",
+    "codigo_ibge": "7204"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "INHAÍ",
+    "codigo_ibge": "7213"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "MENDANHA",
+    "codigo_ibge": "7261"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "PLANALTO DE MINAS",
+    "codigo_ibge": "7341"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA CHAPADA",
+    "codigo_ibge": "7423"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "SENADOR MOURÃO",
+    "codigo_ibge": "7475"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "SOPA",
+    "codigo_ibge": "6583"
+  },
+  {
+    "comarca_codigo": "0216",
+    "tipo": "distrito",
+    "nome": "RODEADOR",
+    "codigo_ibge": "6060"
+  },
+  {
+    "comarca_codigo": "0220",
+    "tipo": "sede",
+    "nome": "DIVINO",
+    "codigo_ibge": "0220"
+  },
+  {
+    "comarca_codigo": "0220",
+    "tipo": "municipio",
+    "nome": "ORIZÂNIA",
+    "codigo_ibge": "0836"
+  },
+  {
+    "comarca_codigo": "0220",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DO DIVINO",
+    "codigo_ibge": "7066"
+  },
+  {
+    "comarca_codigo": "0223",
+    "tipo": "sede",
+    "nome": "DIVINÓPOLIS",
+    "codigo_ibge": "0223"
+  },
+  {
+    "comarca_codigo": "0223",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DOS CAMPOS",
+    "codigo_ibge": "7408"
+  },
+  {
+    "comarca_codigo": "0232",
+    "tipo": "sede",
+    "nome": "DORES DO INDAIÁ",
+    "codigo_ibge": "0232"
+  },
+  {
+    "comarca_codigo": "0232",
+    "tipo": "municipio",
+    "nome": "ESTRELA DO INDAIÁ",
+    "codigo_ibge": "0247"
+  },
+  {
+    "comarca_codigo": "0232",
+    "tipo": "municipio",
+    "nome": "QUARTEL GERAL",
+    "codigo_ibge": "0537"
+  },
+  {
+    "comarca_codigo": "0232",
+    "tipo": "municipio",
+    "nome": "SERRA DA SAUDADE",
+    "codigo_ibge": "0666"
+  },
+  {
+    "comarca_codigo": "0232",
+    "tipo": "distrito",
+    "nome": "BAÚ",
+    "codigo_ibge": "6061"
+  },
+  {
+    "comarca_codigo": "0236",
+    "tipo": "sede",
+    "nome": "ELÓI MENDES",
+    "codigo_ibge": "0236"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "municipio",
+    "nome": "DESTERRO DE ENTRE-RIOS",
+    "codigo_ibge": "0214"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "sede",
+    "nome": "ENTRE-RIOS DE MINAS",
+    "codigo_ibge": "0239"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "municipio",
+    "nome": "JECEABA",
+    "codigo_ibge": "0354"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "municipio",
+    "nome": "SÃO BRÁS DO SUAÇUÍ",
+    "codigo_ibge": "0609"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "distrito",
+    "nome": "PEREIRINHAS",
+    "codigo_ibge": "7328"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO GIL",
+    "codigo_ibge": "7458"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "distrito",
+    "nome": "SERRA DO CAMAPUÃ",
+    "codigo_ibge": "7483"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "distrito",
+    "nome": "BITURI",
+    "codigo_ibge": "7059"
+  },
+  {
+    "comarca_codigo": "0239",
+    "tipo": "distrito",
+    "nome": "CAETANO LOPES",
+    "codigo_ibge": "6647"
+  },
+  {
+    "comarca_codigo": "0240",
+    "tipo": "municipio",
+    "nome": "ARAPONGA",
+    "codigo_ibge": "0037"
+  },
+  {
+    "comarca_codigo": "0240",
+    "tipo": "sede",
+    "nome": "ERVÁLIA",
+    "codigo_ibge": "0240"
+  },
+  {
+    "comarca_codigo": "0240",
+    "tipo": "distrito",
+    "nome": "ESTÊVÃO DE ARAÚJO",
+    "codigo_ibge": "7166"
+  },
+  {
+    "comarca_codigo": "0241",
+    "tipo": "sede",
+    "nome": "ESMERALDAS",
+    "codigo_ibge": "0241"
+  },
+  {
+    "comarca_codigo": "0241",
+    "tipo": "distrito",
+    "nome": "ANDIROBA",
+    "codigo_ibge": "7023"
+  },
+  {
+    "comarca_codigo": "0241",
+    "tipo": "distrito",
+    "nome": "MELO VIANA",
+    "codigo_ibge": "7260"
+  },
+  {
+    "comarca_codigo": "0242",
+    "tipo": "municipio",
+    "nome": "CAIANA",
+    "codigo_ibge": "0101"
+  },
+  {
+    "comarca_codigo": "0242",
+    "tipo": "municipio",
+    "nome": "CAPARAÓ",
+    "codigo_ibge": "0121"
+  },
+  {
+    "comarca_codigo": "0242",
+    "tipo": "sede",
+    "nome": "ESPERA FELIZ",
+    "codigo_ibge": "0242"
+  },
+  {
+    "comarca_codigo": "0243",
+    "tipo": "sede",
+    "nome": "ESPINOSA",
+    "codigo_ibge": "0243"
+  },
+  {
+    "comarca_codigo": "0243",
+    "tipo": "municipio",
+    "nome": "MAMONAS",
+    "codigo_ibge": "0744"
+  },
+  {
+    "comarca_codigo": "0243",
+    "tipo": "distrito",
+    "nome": "ITAMIRIM",
+    "codigo_ibge": "7220"
+  },
+  {
+    "comarca_codigo": "0243",
+    "tipo": "distrito",
+    "nome": "BARRINHA",
+    "codigo_ibge": "7547"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "municipio",
+    "nome": "CASCALHO RICO",
+    "codigo_ibge": "0150"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "sede",
+    "nome": "ESTRELA DO SUL",
+    "codigo_ibge": "0248"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "municipio",
+    "nome": "GRUPIARA",
+    "codigo_ibge": "0279"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "distrito",
+    "nome": "CHAPADA DE MINAS",
+    "codigo_ibge": "7106"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "distrito",
+    "nome": "DOLEARINA",
+    "codigo_ibge": "6174"
+  },
+  {
+    "comarca_codigo": "0248",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DA ESTRELA",
+    "codigo_ibge": "7385"
+  },
+  {
+    "comarca_codigo": "0249",
+    "tipo": "municipio",
+    "nome": "ANTÔNIO PRADO DE MINAS",
+    "codigo_ibge": "0031"
+  },
+  {
+    "comarca_codigo": "0249",
+    "tipo": "sede",
+    "nome": "EUGENÓPOLIS",
+    "codigo_ibge": "0249"
+  },
+  {
+    "comarca_codigo": "0249",
+    "tipo": "municipio",
+    "nome": "PATROCÍNIO DO MURIAÉ",
+    "codigo_ibge": "0482"
+  },
+  {
+    "comarca_codigo": "0249",
+    "tipo": "distrito",
+    "nome": "GAVIÃO",
+    "codigo_ibge": "7190"
+  },
+  {
+    "comarca_codigo": "0249",
+    "tipo": "distrito",
+    "nome": "PINHOTIBA",
+    "codigo_ibge": "7336"
+  },
+  {
+    "comarca_codigo": "0251",
+    "tipo": "sede",
+    "nome": "EXTREMA",
+    "codigo_ibge": "0251"
+  },
+  {
+    "comarca_codigo": "0251",
+    "tipo": "municipio",
+    "nome": "TOLEDO",
+    "codigo_ibge": "0691"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "municipio",
+    "nome": "CARMÉSIA",
+    "codigo_ibge": "0138"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "sede",
+    "nome": "FERROS",
+    "codigo_ibge": "0259"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "BORBA GATO",
+    "codigo_ibge": "7072"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "CUBAS",
+    "codigo_ibge": "7139"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "ESMERALDAS DE FERROS",
+    "codigo_ibge": "7164"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DO RIO DO PEIXE",
+    "codigo_ibge": "7388"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DA FORTALEZA",
+    "codigo_ibge": "7400"
+  },
+  {
+    "comarca_codigo": "0259",
+    "tipo": "distrito",
+    "nome": "SETE CACHOEIRAS",
+    "codigo_ibge": "7486"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "municipio",
+    "nome": "CÓRREGO FUNDO",
+    "codigo_ibge": "0796"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "sede",
+    "nome": "FORMIGA",
+    "codigo_ibge": "0261"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "municipio",
+    "nome": "PIMENTA",
+    "codigo_ibge": "0505"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "distrito",
+    "nome": "ALBERTOS",
+    "codigo_ibge": "7010"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "distrito",
+    "nome": "BAIÕES",
+    "codigo_ibge": "7044"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "distrito",
+    "nome": "PONTEVILA",
+    "codigo_ibge": "6015"
+  },
+  {
+    "comarca_codigo": "0261",
+    "tipo": "distrito",
+    "nome": "SANTO HILÁRIO",
+    "codigo_ibge": "6003"
+  },
+  {
+    "comarca_codigo": "0267",
+    "tipo": "municipio",
+    "nome": "CAPITÃO ENÉAS",
+    "codigo_ibge": "0127"
+  },
+  {
+    "comarca_codigo": "0267",
+    "tipo": "sede",
+    "nome": "FRANCISCO SÁ",
+    "codigo_ibge": "0267"
+  },
+  {
+    "comarca_codigo": "0267",
+    "tipo": "distrito",
+    "nome": "CAÇAREMA",
+    "codigo_ibge": "7081"
+  },
+  {
+    "comarca_codigo": "0267",
+    "tipo": "distrito",
+    "nome": "CANABRAVA",
+    "codigo_ibge": "7091"
+  },
+  {
+    "comarca_codigo": "0267",
+    "tipo": "distrito",
+    "nome": "CATUNI",
+    "codigo_ibge": "7102"
+  },
+  {
+    "comarca_codigo": "0271",
+    "tipo": "municipio",
+    "nome": "COMENDADOR GOMES",
+    "codigo_ibge": "0169"
+  },
+  {
+    "comarca_codigo": "0271",
+    "tipo": "municipio",
+    "nome": "FRONTEIRA",
+    "codigo_ibge": "0270"
+  },
+  {
+    "comarca_codigo": "0271",
+    "tipo": "sede",
+    "nome": "FRUTAL",
+    "codigo_ibge": "0271"
+  },
+  {
+    "comarca_codigo": "0271",
+    "tipo": "municipio",
+    "nome": "PLANURA",
+    "codigo_ibge": "0516"
+  },
+  {
+    "comarca_codigo": "0271",
+    "tipo": "distrito",
+    "nome": "APARECIDA DE MINAS",
+    "codigo_ibge": "7033"
+  },
+  {
+    "comarca_codigo": "0273",
+    "tipo": "municipio",
+    "nome": "DIVINO DAS LARANJEIRAS",
+    "codigo_ibge": "0221"
+  },
+  {
+    "comarca_codigo": "0273",
+    "tipo": "sede",
+    "nome": "GALILÉIA",
+    "codigo_ibge": "0273"
+  },
+  {
+    "comarca_codigo": "0273",
+    "tipo": "municipio",
+    "nome": "SÃO GERALDO DO BAIXIO",
+    "codigo_ibge": "0856"
+  },
+  {
+    "comarca_codigo": "0273",
+    "tipo": "distrito",
+    "nome": "CENTRAL DE SANTA HELENA",
+    "codigo_ibge": "7104"
+  },
+  {
+    "comarca_codigo": "0273",
+    "tipo": "distrito",
+    "nome": "SAPUCAIA DO NORTE",
+    "codigo_ibge": "7472"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "municipio",
+    "nome": "ALPERCATA",
+    "codigo_ibge": "0018"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "municipio",
+    "nome": "FREI INOCÊNCIO",
+    "codigo_ibge": "0269"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "sede",
+    "nome": "GOVERNADOR VALADARES",
+    "codigo_ibge": "0105"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "municipio",
+    "nome": "MARILAC",
+    "codigo_ibge": "0401"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "municipio",
+    "nome": "MATIAS LOBATO",
+    "codigo_ibge": "0715"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "municipio",
+    "nome": "PERIQUITO",
+    "codigo_ibge": "0841"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "ALTO DE SANTA HELENA",
+    "codigo_ibge": "7018"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "BAGUARI",
+    "codigo_ibge": "7043"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "BREJAUBINHA",
+    "codigo_ibge": "6024"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "CHONIM DE CIMA",
+    "codigo_ibge": "7108"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "CHONIN DE BAIXO",
+    "codigo_ibge": "0535"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "DERRIBADINHA",
+    "codigo_ibge": "6652"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "GOIABAL",
+    "codigo_ibge": "6656"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "PENHA DO CASSIANO",
+    "codigo_ibge": "7323"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO PONTAL",
+    "codigo_ibge": "6689"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DAS TRONQUEIRAS",
+    "codigo_ibge": "7441"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO ITAPINOÃ",
+    "codigo_ibge": "6698"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "SÃO VÍTOR",
+    "codigo_ibge": "7469"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "VILA NOVA FLORESTA",
+    "codigo_ibge": "6709"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "PEDRA CORRIDA",
+    "codigo_ibge": "7314"
+  },
+  {
+    "comarca_codigo": "0105",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO BAIXIO",
+    "codigo_ibge": "7453"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "municipio",
+    "nome": "BOTUMIRIM",
+    "codigo_ibge": "0085"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "municipio",
+    "nome": "CRISTÁLIA",
+    "codigo_ibge": "0203"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "sede",
+    "nome": "GRÃO-MOGOL",
+    "codigo_ibge": "0278"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "municipio",
+    "nome": "JOSENÓPOLIS",
+    "codigo_ibge": "0818"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "distrito",
+    "nome": "ADÃO COLARES",
+    "codigo_ibge": "7004"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "distrito",
+    "nome": "SANTA CRUZ DE BOTUMIRIM",
+    "codigo_ibge": "7531"
+  },
+  {
+    "comarca_codigo": "0278",
+    "tipo": "distrito",
+    "nome": "BARROCÃO",
+    "codigo_ibge": "7056"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "municipio",
+    "nome": "DORES DE GUANHÃES",
+    "codigo_ibge": "0777"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "sede",
+    "nome": "GUANHÃES",
+    "codigo_ibge": "0280"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "municipio",
+    "nome": "SENHORA DO PORTO",
+    "codigo_ibge": "0661"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "distrito",
+    "nome": "CORRENTINHO",
+    "codigo_ibge": "6006"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "distrito",
+    "nome": "FARIAS",
+    "codigo_ibge": "7170"
+  },
+  {
+    "comarca_codigo": "0280",
+    "tipo": "distrito",
+    "nome": "SAPUCAIA DE GUANHÃES",
+    "codigo_ibge": "7471"
+  },
+  {
+    "comarca_codigo": "0281",
+    "tipo": "sede",
+    "nome": "GUAPÉ",
+    "codigo_ibge": "0281"
+  },
+  {
+    "comarca_codigo": "0281",
+    "tipo": "distrito",
+    "nome": "ARAÚNA",
+    "codigo_ibge": "7037"
+  },
+  {
+    "comarca_codigo": "0283",
+    "tipo": "sede",
+    "nome": "GUARANÉSIA",
+    "codigo_ibge": "0283"
+  },
+  {
+    "comarca_codigo": "0283",
+    "tipo": "distrito",
+    "nome": "SANTA CRUZ DO PRATA",
+    "codigo_ibge": "7379"
+  },
+  {
+    "comarca_codigo": "0284",
+    "tipo": "sede",
+    "nome": "GUARANI",
+    "codigo_ibge": "0284"
+  },
+  {
+    "comarca_codigo": "0284",
+    "tipo": "municipio",
+    "nome": "PIRAÚBA",
+    "codigo_ibge": "0513"
+  },
+  {
+    "comarca_codigo": "0287",
+    "tipo": "sede",
+    "nome": "GUAXUPÉ",
+    "codigo_ibge": "0287"
+  },
+  {
+    "comarca_codigo": "0287",
+    "tipo": "municipio",
+    "nome": "SÃO PEDRO DA UNIÃO",
+    "codigo_ibge": "0639"
+  },
+  {
+    "comarca_codigo": "0295",
+    "tipo": "sede",
+    "nome": "IBIÁ",
+    "codigo_ibge": "0295"
+  },
+  {
+    "comarca_codigo": "0295",
+    "tipo": "municipio",
+    "nome": "PRATINHA",
+    "codigo_ibge": "0530"
+  },
+  {
+    "comarca_codigo": "0295",
+    "tipo": "distrito",
+    "nome": "ARGENITA",
+    "codigo_ibge": "6062"
+  },
+  {
+    "comarca_codigo": "0295",
+    "tipo": "distrito",
+    "nome": "TOBATI",
+    "codigo_ibge": "7499"
+  },
+  {
+    "comarca_codigo": "0297",
+    "tipo": "municipio",
+    "nome": "CLARAVAL",
+    "codigo_ibge": "0164"
+  },
+  {
+    "comarca_codigo": "0297",
+    "tipo": "sede",
+    "nome": "IBIRACI",
+    "codigo_ibge": "0297"
+  },
+  {
+    "comarca_codigo": "0114",
+    "tipo": "sede",
+    "nome": "IBIRITÉ",
+    "codigo_ibge": "0114"
+  },
+  {
+    "comarca_codigo": "0114",
+    "tipo": "municipio",
+    "nome": "MÁRIO CAMPOS",
+    "codigo_ibge": "0823"
+  },
+  {
+    "comarca_codigo": "0114",
+    "tipo": "municipio",
+    "nome": "SARZEDO",
+    "codigo_ibge": "0864"
+  },
+  {
+    "comarca_codigo": "0114",
+    "tipo": "distrito",
+    "nome": "PARQUE DURVAL DE BARROS",
+    "codigo_ibge": "6360"
+  },
+  {
+    "comarca_codigo": "0301",
+    "tipo": "sede",
+    "nome": "IGARAPÉ",
+    "codigo_ibge": "0301"
+  },
+  {
+    "comarca_codigo": "0301",
+    "tipo": "municipio",
+    "nome": "SÃO JOAQUIM DE BICAS",
+    "codigo_ibge": "0860"
+  },
+  {
+    "comarca_codigo": "0303",
+    "tipo": "sede",
+    "nome": "IGUATAMA",
+    "codigo_ibge": "0303"
+  },
+  {
+    "comarca_codigo": "0303",
+    "tipo": "distrito",
+    "nome": "CORGUINHOS",
+    "codigo_ibge": "6151"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "BUGRE",
+    "codigo_ibge": "0787"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "DOM CAVATI",
+    "codigo_ibge": "0225"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "IAPU",
+    "codigo_ibge": "0293"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "sede",
+    "nome": "INHAPIM",
+    "codigo_ibge": "0309"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "SÃO DOMINGOS DAS DORES",
+    "codigo_ibge": "0854"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DO ORIENTE",
+    "codigo_ibge": "0626"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DO ANTA",
+    "codigo_ibge": "0862"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DA BARRA",
+    "codigo_ibge": "7448"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "distrito",
+    "nome": "ITAJUTIBA",
+    "codigo_ibge": "7218"
+  },
+  {
+    "comarca_codigo": "0309",
+    "tipo": "distrito",
+    "nome": "TABAJARA",
+    "codigo_ibge": "6020"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DE IPANEMA",
+    "codigo_ibge": "0174"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "sede",
+    "nome": "IPANEMA",
+    "codigo_ibge": "0312"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "municipio",
+    "nome": "POCRANE",
+    "codigo_ibge": "0519"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "municipio",
+    "nome": "TAPARUBA",
+    "codigo_ibge": "0868"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "distrito",
+    "nome": "AÇARAÍ",
+    "codigo_ibge": "7003"
+  },
+  {
+    "comarca_codigo": "0312",
+    "tipo": "distrito",
+    "nome": "BARRA DA FIGUEIRA",
+    "codigo_ibge": "7048"
+  },
+  {
+    "comarca_codigo": "0313",
+    "tipo": "municipio",
+    "nome": "IPABA",
+    "codigo_ibge": "0737"
+  },
+  {
+    "comarca_codigo": "0313",
+    "tipo": "sede",
+    "nome": "IPATINGA",
+    "codigo_ibge": "0313"
+  },
+  {
+    "comarca_codigo": "0313",
+    "tipo": "municipio",
+    "nome": "SANTANA DO PARAÍSO",
+    "codigo_ibge": "0758"
+  },
+  {
+    "comarca_codigo": "0313",
+    "tipo": "distrito",
+    "nome": "BARRA ALEGRE",
+    "codigo_ibge": "6026"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "sede",
+    "nome": "ITABIRA",
+    "codigo_ibge": "0317"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "municipio",
+    "nome": "ITAMBÉ DO MATO DENTRO",
+    "codigo_ibge": "0328"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "municipio",
+    "nome": "PASSABÉM",
+    "codigo_ibge": "0475"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "municipio",
+    "nome": "SANTA MARIA DE ITABIRA",
+    "codigo_ibge": "0580"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "distrito",
+    "nome": "IPOEMA",
+    "codigo_ibge": "7214"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "distrito",
+    "nome": "SENHORA DO CARMO",
+    "codigo_ibge": "6002"
+  },
+  {
+    "comarca_codigo": "0317",
+    "tipo": "distrito",
+    "nome": "ITAUNINHA",
+    "codigo_ibge": "7225"
+  },
+  {
+    "comarca_codigo": "0319",
+    "tipo": "sede",
+    "nome": "ITABIRITO",
+    "codigo_ibge": "0319"
+  },
+  {
+    "comarca_codigo": "0319",
+    "tipo": "distrito",
+    "nome": "ACURUÍ",
+    "codigo_ibge": "6063"
+  },
+  {
+    "comarca_codigo": "0319",
+    "tipo": "distrito",
+    "nome": "BAÇÃO",
+    "codigo_ibge": "7042"
+  },
+  {
+    "comarca_codigo": "0319",
+    "tipo": "distrito",
+    "nome": "SÃO GONÇALO DO MONTE",
+    "codigo_ibge": "7421"
+  },
+  {
+    "comarca_codigo": "0322",
+    "tipo": "sede",
+    "nome": "ITAGUARA",
+    "codigo_ibge": "0322"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "municipio",
+    "nome": "DELFIM MOREIRA",
+    "codigo_ibge": "0211"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "sede",
+    "nome": "ITAJUBÁ",
+    "codigo_ibge": "0324"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "municipio",
+    "nome": "MARMELÓPOLIS",
+    "codigo_ibge": "0404"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "municipio",
+    "nome": "PIRANGUÇU",
+    "codigo_ibge": "0509"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "municipio",
+    "nome": "VENCESLAU BRÁS",
+    "codigo_ibge": "0722"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "distrito",
+    "nome": "BARRA",
+    "codigo_ibge": "7047"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "distrito",
+    "nome": "LOURENÇO VELHO",
+    "codigo_ibge": "7248"
+  },
+  {
+    "comarca_codigo": "0324",
+    "tipo": "distrito",
+    "nome": "ITERERÊ",
+    "codigo_ibge": "7226"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "municipio",
+    "nome": "ARICANDUVA",
+    "codigo_ibge": "0783"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "municipio",
+    "nome": "CARBONITA",
+    "codigo_ibge": "0135"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "sede",
+    "nome": "ITAMARANDIBA",
+    "codigo_ibge": "0325"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "distrito",
+    "nome": "CONTRATO",
+    "codigo_ibge": "7127"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "distrito",
+    "nome": "PADRE JOÃO AFONSO",
+    "codigo_ibge": "7300"
+  },
+  {
+    "comarca_codigo": "0325",
+    "tipo": "distrito",
+    "nome": "PENHA DE FRANÇA",
+    "codigo_ibge": "7321"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "CAMPANÁRIO",
+    "codigo_ibge": "0108"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "FREI GASPAR",
+    "codigo_ibge": "0268"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "sede",
+    "nome": "ITAMBACURI",
+    "codigo_ibge": "0327"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "JAMPRUCA",
+    "codigo_ibge": "0739"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "NOVA MÓDICA",
+    "codigo_ibge": "0449"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "PESCADOR",
+    "codigo_ibge": "0500"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DO DIVINO",
+    "codigo_ibge": "0633"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "distrito",
+    "nome": "FREI SERAFIM",
+    "codigo_ibge": "7184"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "distrito",
+    "nome": "GUARATAIA",
+    "codigo_ibge": "7200"
+  },
+  {
+    "comarca_codigo": "0327",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO BARROSO",
+    "codigo_ibge": "7455"
+  },
+  {
+    "comarca_codigo": "0329",
+    "tipo": "sede",
+    "nome": "ITAMOJI",
+    "codigo_ibge": "0329"
+  },
+  {
+    "comarca_codigo": "0330",
+    "tipo": "municipio",
+    "nome": "ALAGOA",
+    "codigo_ibge": "0013"
+  },
+  {
+    "comarca_codigo": "0330",
+    "tipo": "sede",
+    "nome": "ITAMONTE",
+    "codigo_ibge": "0330"
+  },
+  {
+    "comarca_codigo": "0331",
+    "tipo": "sede",
+    "nome": "ITANHANDU",
+    "codigo_ibge": "0331"
+  },
+  {
+    "comarca_codigo": "0331",
+    "tipo": "municipio",
+    "nome": "VIRGÍNIA",
+    "codigo_ibge": "0717"
+  },
+  {
+    "comarca_codigo": "0332",
+    "tipo": "municipio",
+    "nome": "CAPITÃO ANDRADE",
+    "codigo_ibge": "0727"
+  },
+  {
+    "comarca_codigo": "0332",
+    "tipo": "sede",
+    "nome": "ITANHOMI",
+    "codigo_ibge": "0332"
+  },
+  {
+    "comarca_codigo": "0332",
+    "tipo": "distrito",
+    "nome": "EDGARD MELO",
+    "codigo_ibge": "7157"
+  },
+  {
+    "comarca_codigo": "0332",
+    "tipo": "distrito",
+    "nome": "SÃO FRANCISCO DO JATAÍ",
+    "codigo_ibge": "7415"
+  },
+  {
+    "comarca_codigo": "0334",
+    "tipo": "sede",
+    "nome": "ITAPAJIPE",
+    "codigo_ibge": "0334"
+  },
+  {
+    "comarca_codigo": "0334",
+    "tipo": "municipio",
+    "nome": "SÃO FRANCISCO DE SALES",
+    "codigo_ibge": "0613"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "municipio",
+    "nome": "CAMACHO",
+    "codigo_ibge": "0104"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "sede",
+    "nome": "ITAPECERICA",
+    "codigo_ibge": "0335"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DO OESTE",
+    "codigo_ibge": "0646"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "distrito",
+    "nome": "LAMOUNIER",
+    "codigo_ibge": "7240"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "distrito",
+    "nome": "MARILÂNDIA",
+    "codigo_ibge": "6025"
+  },
+  {
+    "comarca_codigo": "0335",
+    "tipo": "distrito",
+    "nome": "NEOLÂNDIA",
+    "codigo_ibge": "7286"
+  },
+  {
+    "comarca_codigo": "0338",
+    "tipo": "municipio",
+    "nome": "ITATIAIUÇU",
+    "codigo_ibge": "0337"
+  },
+  {
+    "comarca_codigo": "0338",
+    "tipo": "sede",
+    "nome": "ITAÚNA",
+    "codigo_ibge": "0338"
+  },
+  {
+    "comarca_codigo": "0338",
+    "tipo": "distrito",
+    "nome": "SANTA TERESINHA DE MINAS",
+    "codigo_ibge": "6457"
+  },
+  {
+    "comarca_codigo": "0342",
+    "tipo": "municipio",
+    "nome": "GURINHATÃ",
+    "codigo_ibge": "0291"
+  },
+  {
+    "comarca_codigo": "0342",
+    "tipo": "sede",
+    "nome": "ITUIUTABA",
+    "codigo_ibge": "0342"
+  },
+  {
+    "comarca_codigo": "0342",
+    "tipo": "distrito",
+    "nome": "FLOR DE MINAS",
+    "codigo_ibge": "7179"
+  },
+  {
+    "comarca_codigo": "0343",
+    "tipo": "municipio",
+    "nome": "CARRANCAS",
+    "codigo_ibge": "0146"
+  },
+  {
+    "comarca_codigo": "0343",
+    "tipo": "municipio",
+    "nome": "INGAÍ",
+    "codigo_ibge": "0308"
+  },
+  {
+    "comarca_codigo": "0343",
+    "tipo": "sede",
+    "nome": "ITUMIRIM",
+    "codigo_ibge": "0343"
+  },
+  {
+    "comarca_codigo": "0343",
+    "tipo": "municipio",
+    "nome": "ITUTINGA",
+    "codigo_ibge": "0345"
+  },
+  {
+    "comarca_codigo": "0343",
+    "tipo": "distrito",
+    "nome": "MACUCO DE MINAS",
+    "codigo_ibge": "7253"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "municipio",
+    "nome": "CARNEIRINHO",
+    "codigo_ibge": "0728"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "sede",
+    "nome": "ITURAMA",
+    "codigo_ibge": "0344"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "municipio",
+    "nome": "LIMEIRA DO OESTE",
+    "codigo_ibge": "0742"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "municipio",
+    "nome": "UNIÃO DE MINAS",
+    "codigo_ibge": "0869"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "distrito",
+    "nome": "ESTRELA DA BARRA",
+    "codigo_ibge": "7167"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO PONTAL",
+    "codigo_ibge": "7461"
+  },
+  {
+    "comarca_codigo": "0344",
+    "tipo": "distrito",
+    "nome": "ALEXANDRITA",
+    "codigo_ibge": "7014"
+  },
+  {
+    "comarca_codigo": "0346",
+    "tipo": "sede",
+    "nome": "JABUTICATUBAS",
+    "codigo_ibge": "0346"
+  },
+  {
+    "comarca_codigo": "0346",
+    "tipo": "municipio",
+    "nome": "SANTANA DO RIACHO",
+    "codigo_ibge": "0590"
+  },
+  {
+    "comarca_codigo": "0346",
+    "tipo": "distrito",
+    "nome": "ALMEIDA",
+    "codigo_ibge": "7517"
+  },
+  {
+    "comarca_codigo": "0346",
+    "tipo": "distrito",
+    "nome": "CARDEAL MOTA",
+    "codigo_ibge": "7095"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "sede",
+    "nome": "JACINTO",
+    "codigo_ibge": "0347"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "municipio",
+    "nome": "JORDÂNIA",
+    "codigo_ibge": "0365"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "municipio",
+    "nome": "SALTO DA DIVISA",
+    "codigo_ibge": "0571"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "municipio",
+    "nome": "SANTA MARIA DO SALTO",
+    "codigo_ibge": "0581"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO JACINTO",
+    "codigo_ibge": "0603"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "distrito",
+    "nome": "AVAÍ DE JACINTO",
+    "codigo_ibge": "7039"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "distrito",
+    "nome": "JAGUARÃO",
+    "codigo_ibge": "7229"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "distrito",
+    "nome": "ESTRELA DE JORDÂNIA",
+    "codigo_ibge": "7521"
+  },
+  {
+    "comarca_codigo": "0347",
+    "tipo": "distrito",
+    "nome": "CATAJÁS",
+    "codigo_ibge": "7099"
+  },
+  {
+    "comarca_codigo": "0348",
+    "tipo": "municipio",
+    "nome": "FORTALEZA DE MINAS",
+    "codigo_ibge": "0263"
+  },
+  {
+    "comarca_codigo": "0348",
+    "tipo": "sede",
+    "nome": "JACUÍ",
+    "codigo_ibge": "0348"
+  },
+  {
+    "comarca_codigo": "0349",
+    "tipo": "municipio",
+    "nome": "ALBERTINA",
+    "codigo_ibge": "0014"
+  },
+  {
+    "comarca_codigo": "0349",
+    "tipo": "sede",
+    "nome": "JACUTINGA",
+    "codigo_ibge": "0349"
+  },
+  {
+    "comarca_codigo": "0349",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DOS ROBERTOS",
+    "codigo_ibge": "6546"
+  },
+  {
+    "comarca_codigo": "0349",
+    "tipo": "distrito",
+    "nome": "SAPUCAÍ",
+    "codigo_ibge": "6553"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "sede",
+    "nome": "JANAÚBA",
+    "codigo_ibge": "0351"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "municipio",
+    "nome": "NOVA PORTEIRINHA",
+    "codigo_ibge": "0831"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "municipio",
+    "nome": "VERDELÂNDIA",
+    "codigo_ibge": "0874"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "distrito",
+    "nome": "BARREIRO DA RAIZ",
+    "codigo_ibge": "7054"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "distrito",
+    "nome": "QUEM-QUEM",
+    "codigo_ibge": "7362"
+  },
+  {
+    "comarca_codigo": "0351",
+    "tipo": "distrito",
+    "nome": "VILA NOVA DOS POÇÕES",
+    "codigo_ibge": "7523"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "municipio",
+    "nome": "BONITO DE MINAS",
+    "codigo_ibge": "0785"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "municipio",
+    "nome": "CÔNEGO MARINHO",
+    "codigo_ibge": "0794"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "municipio",
+    "nome": "ITACARAMBI",
+    "codigo_ibge": "0321"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "sede",
+    "nome": "JANUÁRIA",
+    "codigo_ibge": "0352"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "municipio",
+    "nome": "PEDRAS DE MARIA DA CRUZ",
+    "codigo_ibge": "0751"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "BREJO DO AMPARO",
+    "codigo_ibge": "7075"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "LEVINÓPOLIS",
+    "codigo_ibge": "7244"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "RIACHO DA CRUZ",
+    "codigo_ibge": "7365"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "SÃO JOAQUIM",
+    "codigo_ibge": "6508"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "TIJUCO",
+    "codigo_ibge": "7497"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "VÁRZEA BONITA",
+    "codigo_ibge": "6707"
+  },
+  {
+    "comarca_codigo": "0352",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DAS TABOCAS",
+    "codigo_ibge": "7443"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "sede",
+    "nome": "JEQUERI",
+    "codigo_ibge": "0355"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "municipio",
+    "nome": "PIEDADE DE PONTE NOVA",
+    "codigo_ibge": "0502"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "municipio",
+    "nome": "URUCÂNIA",
+    "codigo_ibge": "0705"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "distrito",
+    "nome": "PISCAMBA",
+    "codigo_ibge": "7339"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "distrito",
+    "nome": "SÃO VICENTE DO GRAMA",
+    "codigo_ibge": "7467"
+  },
+  {
+    "comarca_codigo": "0355",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DE CARDOSOS",
+    "codigo_ibge": "6079"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "municipio",
+    "nome": "FELISBURGO",
+    "codigo_ibge": "0256"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "sede",
+    "nome": "JEQUITINHONHA",
+    "codigo_ibge": "0358"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "municipio",
+    "nome": "JOAÍMA",
+    "codigo_ibge": "0360"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "municipio",
+    "nome": "MONTE FORMOSO",
+    "codigo_ibge": "0826"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "distrito",
+    "nome": "GUARANILÂNDIA",
+    "codigo_ibge": "6238"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DO JEQUITINHONHA",
+    "codigo_ibge": "7447"
+  },
+  {
+    "comarca_codigo": "0358",
+    "tipo": "distrito",
+    "nome": "GIRU",
+    "codigo_ibge": "7191"
+  },
+  {
+    "comarca_codigo": "0362",
+    "tipo": "sede",
+    "nome": "JOÃO MONLEVADE",
+    "codigo_ibge": "0362"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "municipio",
+    "nome": "BRASILÂNDIA DE MINAS",
+    "codigo_ibge": "0786"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "sede",
+    "nome": "JOÃO PINHEIRO",
+    "codigo_ibge": "0363"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "CAATINGA",
+    "codigo_ibge": "6645"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "CANABRAVA",
+    "codigo_ibge": "6113"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "LUISLÂNDIA DO OESTE",
+    "codigo_ibge": "7251"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "OLHOS-D'ÁGUA DO OESTE",
+    "codigo_ibge": "7293"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "SANTA LUZIA DA SERRA",
+    "codigo_ibge": "7383"
+  },
+  {
+    "comarca_codigo": "0363",
+    "tipo": "distrito",
+    "nome": "VEREDAS",
+    "codigo_ibge": "7514"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "municipio",
+    "nome": "CHÁCARA",
+    "codigo_ibge": "0159"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "municipio",
+    "nome": "CORONEL PACHECO",
+    "codigo_ibge": "0196"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "sede",
+    "nome": "JUIZ DE FORA",
+    "codigo_ibge": "0145"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "distrito",
+    "nome": "ROSÁRIO DE MINAS",
+    "codigo_ibge": "7374"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "distrito",
+    "nome": "SARANDIRA",
+    "codigo_ibge": "6019"
+  },
+  {
+    "comarca_codigo": "0145",
+    "tipo": "distrito",
+    "nome": "TORREÕES",
+    "codigo_ibge": "7504"
+  },
+  {
+    "comarca_codigo": "0372",
+    "tipo": "municipio",
+    "nome": "JAPARAÍBA",
+    "codigo_ibge": "0780"
+  },
+  {
+    "comarca_codigo": "0372",
+    "tipo": "sede",
+    "nome": "LAGOA DA PRATA",
+    "codigo_ibge": "0372"
+  },
+  {
+    "comarca_codigo": "0372",
+    "tipo": "distrito",
+    "nome": "MARTINS GUIMARÃES",
+    "codigo_ibge": "6305"
+  },
+  {
+    "comarca_codigo": "0148",
+    "tipo": "sede",
+    "nome": "LAGOA SANTA",
+    "codigo_ibge": "0148"
+  },
+  {
+    "comarca_codigo": "0148",
+    "tipo": "distrito",
+    "nome": "LAGOINHA DE FORA",
+    "codigo_ibge": "6662"
+  },
+  {
+    "comarca_codigo": "0148",
+    "tipo": "distrito",
+    "nome": "LAPINHA",
+    "codigo_ibge": "7241"
+  },
+  {
+    "comarca_codigo": "0377",
+    "tipo": "municipio",
+    "nome": "CHALÉ",
+    "codigo_ibge": "0160"
+  },
+  {
+    "comarca_codigo": "0377",
+    "tipo": "sede",
+    "nome": "LAJINHA",
+    "codigo_ibge": "0377"
+  },
+  {
+    "comarca_codigo": "0377",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DO MANTIMENTO",
+    "codigo_ibge": "0636"
+  },
+  {
+    "comarca_codigo": "0377",
+    "tipo": "distrito",
+    "nome": "PROFESSOR SPERBER",
+    "codigo_ibge": "7356"
+  },
+  {
+    "comarca_codigo": "0377",
+    "tipo": "distrito",
+    "nome": "PRATA DE LAJINHA",
+    "codigo_ibge": "7354"
+  },
+  {
+    "comarca_codigo": "0378",
+    "tipo": "municipio",
+    "nome": "JESUÂNIA",
+    "codigo_ibge": "0359"
+  },
+  {
+    "comarca_codigo": "0378",
+    "tipo": "sede",
+    "nome": "LAMBARI",
+    "codigo_ibge": "0378"
+  },
+  {
+    "comarca_codigo": "0378",
+    "tipo": "municipio",
+    "nome": "OLÍMPIO NORONHA",
+    "codigo_ibge": "0455"
+  },
+  {
+    "comarca_codigo": "0382",
+    "tipo": "municipio",
+    "nome": "IJACI",
+    "codigo_ibge": "0304"
+  },
+  {
+    "comarca_codigo": "0382",
+    "tipo": "sede",
+    "nome": "LAVRAS",
+    "codigo_ibge": "0382"
+  },
+  {
+    "comarca_codigo": "0382",
+    "tipo": "municipio",
+    "nome": "LUMINÁRIAS",
+    "codigo_ibge": "0387"
+  },
+  {
+    "comarca_codigo": "0382",
+    "tipo": "municipio",
+    "nome": "RIBEIRÃO VERMELHO",
+    "codigo_ibge": "0547"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "municipio",
+    "nome": "ARGIRITA",
+    "codigo_ibge": "0044"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "sede",
+    "nome": "LEOPOLDINA",
+    "codigo_ibge": "0384"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "municipio",
+    "nome": "RECREIO",
+    "codigo_ibge": "0541"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "ABAÍBA",
+    "codigo_ibge": "7001"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "PIACATUBA",
+    "codigo_ibge": "6014"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "PROVIDÊNCIA",
+    "codigo_ibge": "7357"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "RIBEIRO JUNQUEIRA",
+    "codigo_ibge": "7367"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "TEBAS",
+    "codigo_ibge": "7496"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "ANGATURAMA",
+    "codigo_ibge": "7025"
+  },
+  {
+    "comarca_codigo": "0384",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DA BOA VISTA",
+    "codigo_ibge": "7114"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "sede",
+    "nome": "LIMA DUARTE",
+    "codigo_ibge": "0386"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "municipio",
+    "nome": "OLARIA",
+    "codigo_ibge": "0454"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "municipio",
+    "nome": "PEDRO TEIXEIRA",
+    "codigo_ibge": "0494"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DA IBITIPOCA",
+    "codigo_ibge": "7116"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "distrito",
+    "nome": "SÃO DOMINGOS DA BOCAINA",
+    "codigo_ibge": "6017"
+  },
+  {
+    "comarca_codigo": "0386",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DOS LOPES",
+    "codigo_ibge": "7439"
+  },
+  {
+    "comarca_codigo": "0388",
+    "tipo": "municipio",
+    "nome": "CÓRREGO DANTA",
+    "codigo_ibge": "0198"
+  },
+  {
+    "comarca_codigo": "0388",
+    "tipo": "sede",
+    "nome": "LUZ",
+    "codigo_ibge": "0388"
+  },
+  {
+    "comarca_codigo": "0388",
+    "tipo": "distrito",
+    "nome": "CACHOEIRINHA",
+    "codigo_ibge": "6049"
+  },
+  {
+    "comarca_codigo": "0388",
+    "tipo": "distrito",
+    "nome": "ESTEIOS",
+    "codigo_ibge": "7165"
+  },
+  {
+    "comarca_codigo": "0390",
+    "tipo": "municipio",
+    "nome": "CARVALHÓPOLIS",
+    "codigo_ibge": "0147"
+  },
+  {
+    "comarca_codigo": "0390",
+    "tipo": "sede",
+    "nome": "MACHADO",
+    "codigo_ibge": "0390"
+  },
+  {
+    "comarca_codigo": "0390",
+    "tipo": "distrito",
+    "nome": "DOURADINHO",
+    "codigo_ibge": "7153"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "municipio",
+    "nome": "FRANCISCÓPOLIS",
+    "codigo_ibge": "0803"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "sede",
+    "nome": "MALACACHETA",
+    "codigo_ibge": "0392"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "municipio",
+    "nome": "SETUBINHA",
+    "codigo_ibge": "0867"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "distrito",
+    "nome": "JAGUARITIRA",
+    "codigo_ibge": "7230"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "distrito",
+    "nome": "JUNCO DE MINAS",
+    "codigo_ibge": "7235"
+  },
+  {
+    "comarca_codigo": "0392",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO MUCURI",
+    "codigo_ibge": "7404"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "municipio",
+    "nome": "JAÍBA",
+    "codigo_ibge": "0738"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "sede",
+    "nome": "MANGA",
+    "codigo_ibge": "0393"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "municipio",
+    "nome": "MATIAS CARDOSO",
+    "codigo_ibge": "0746"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "municipio",
+    "nome": "MIRAVÂNIA",
+    "codigo_ibge": "0825"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DAS MISSÕES",
+    "codigo_ibge": "0858"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "distrito",
+    "nome": "NHANDUTIBA",
+    "codigo_ibge": "7287"
+  },
+  {
+    "comarca_codigo": "0393",
+    "tipo": "distrito",
+    "nome": "RIO VERDE DE MINAS",
+    "codigo_ibge": "6683"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "municipio",
+    "nome": "LUISBURGO",
+    "codigo_ibge": "0821"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "sede",
+    "nome": "MANHUAÇU",
+    "codigo_ibge": "0394"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "municipio",
+    "nome": "REDUTO",
+    "codigo_ibge": "0847"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "municipio",
+    "nome": "SANTANA DO MANHUAÇU",
+    "codigo_ibge": "0589"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DO MANHUAÇU",
+    "codigo_ibge": "0760"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "municipio",
+    "nome": "SIMONÉSIA",
+    "codigo_ibge": "0676"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "DOM CORREIA",
+    "codigo_ibge": "6175"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "PALMEIRAS DO MANHUAÇU",
+    "codigo_ibge": "6352"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DO AVAÍ",
+    "codigo_ibge": "7445"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO SACRAMENTO",
+    "codigo_ibge": "7462"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "VILANOVA",
+    "codigo_ibge": "6710"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "SANTA FILOMENA",
+    "codigo_ibge": "7381"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "ALEGRIA",
+    "codigo_ibge": "7013"
+  },
+  {
+    "comarca_codigo": "0394",
+    "tipo": "distrito",
+    "nome": "SÃO SIMÃO DO RIO PRETO",
+    "codigo_ibge": "6548"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "municipio",
+    "nome": "ALTO CAPARAÓ",
+    "codigo_ibge": "0781"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "municipio",
+    "nome": "ALTO JEQUITIBÁ",
+    "codigo_ibge": "0353"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "municipio",
+    "nome": "DURANDÉ",
+    "codigo_ibge": "0732"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "sede",
+    "nome": "MANHUMIRIM",
+    "codigo_ibge": "0395"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "municipio",
+    "nome": "MARTINS SOARES",
+    "codigo_ibge": "0824"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "distrito",
+    "nome": "PADRE JÚLIO MARIA",
+    "codigo_ibge": "6672"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA FIGUEIRA",
+    "codigo_ibge": "6694"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DA FIGUEIRA",
+    "codigo_ibge": "6696"
+  },
+  {
+    "comarca_codigo": "0395",
+    "tipo": "distrito",
+    "nome": "PINHEIRO DE MINAS",
+    "codigo_ibge": "6675"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "CENTRAL DE MINAS",
+    "codigo_ibge": "0157"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "ITABIRINHA DE MANTENA",
+    "codigo_ibge": "0318"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "sede",
+    "nome": "MANTENA",
+    "codigo_ibge": "0396"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "MENDES PIMENTEL",
+    "codigo_ibge": "0415"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "NOVA BELÉM",
+    "codigo_ibge": "0830"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "SÃO FÉLIX DE MINAS",
+    "codigo_ibge": "0855"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DO MANTENINHA",
+    "codigo_ibge": "0761"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "distrito",
+    "nome": "FLORESTA",
+    "codigo_ibge": "7181"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "distrito",
+    "nome": "BOA UNIÃO DE ITABIRINHA",
+    "codigo_ibge": "7061"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "distrito",
+    "nome": "BARRA DO ARIRANHA",
+    "codigo_ibge": "7049"
+  },
+  {
+    "comarca_codigo": "0396",
+    "tipo": "distrito",
+    "nome": "LIMEIRA DE MANTENA",
+    "codigo_ibge": "7245"
+  },
+  {
+    "comarca_codigo": "0398",
+    "tipo": "municipio",
+    "nome": "CHIADOR",
+    "codigo_ibge": "0162"
+  },
+  {
+    "comarca_codigo": "0398",
+    "tipo": "sede",
+    "nome": "MAR DE ESPANHA",
+    "codigo_ibge": "0398"
+  },
+  {
+    "comarca_codigo": "0398",
+    "tipo": "municipio",
+    "nome": "SENADOR CORTES",
+    "codigo_ibge": "0656"
+  },
+  {
+    "comarca_codigo": "0398",
+    "tipo": "distrito",
+    "nome": "PENHA LONGA",
+    "codigo_ibge": "7326"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "municipio",
+    "nome": "DIOGO DE VASCONCELOS",
+    "codigo_ibge": "0217"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "sede",
+    "nome": "MARIANA",
+    "codigo_ibge": "0400"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "BANDEIRANTES",
+    "codigo_ibge": "7046"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA DO BRUMADO",
+    "codigo_ibge": "7083"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "CAMARGOS",
+    "codigo_ibge": "7087"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "CLÁUDIO MANUEL",
+    "codigo_ibge": "7112"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "FURQUIM",
+    "codigo_ibge": "7186"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "MONSENHOR HORTA",
+    "codigo_ibge": "7274"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "PADRE VIEGAS",
+    "codigo_ibge": "7302"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "PASSAGEM DE MARIANA",
+    "codigo_ibge": "7311"
+  },
+  {
+    "comarca_codigo": "0400",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DURÃO",
+    "codigo_ibge": "7389"
+  },
+  {
+    "comarca_codigo": "0405",
+    "tipo": "sede",
+    "nome": "MARTINHO CAMPOS",
+    "codigo_ibge": "0405"
+  },
+  {
+    "comarca_codigo": "0405",
+    "tipo": "distrito",
+    "nome": "ALBERTO ISAACSON",
+    "codigo_ibge": "7009"
+  },
+  {
+    "comarca_codigo": "0405",
+    "tipo": "distrito",
+    "nome": "IBITIRA",
+    "codigo_ibge": "7209"
+  },
+  {
+    "comarca_codigo": "0407",
+    "tipo": "municipio",
+    "nome": "JUATUBA",
+    "codigo_ibge": "0740"
+  },
+  {
+    "comarca_codigo": "0407",
+    "tipo": "sede",
+    "nome": "MATEUS LEME",
+    "codigo_ibge": "0407"
+  },
+  {
+    "comarca_codigo": "0407",
+    "tipo": "distrito",
+    "nome": "AZURITA",
+    "codigo_ibge": "7040"
+  },
+  {
+    "comarca_codigo": "0407",
+    "tipo": "distrito",
+    "nome": "SERRA AZUL",
+    "codigo_ibge": "7479"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "municipio",
+    "nome": "BELMIRO BRAGA",
+    "codigo_ibge": "0061"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "sede",
+    "nome": "MATIAS BARBOSA",
+    "codigo_ibge": "0408"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "municipio",
+    "nome": "SANTANA DO DESERTO",
+    "codigo_ibge": "0586"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "municipio",
+    "nome": "SIMÃO PEREIRA",
+    "codigo_ibge": "0675"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "distrito",
+    "nome": "PORTO DAS FLORES",
+    "codigo_ibge": "7353"
+  },
+  {
+    "comarca_codigo": "0408",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DAS TRÊS ILHAS",
+    "codigo_ibge": "7432"
+  },
+  {
+    "comarca_codigo": "0411",
+    "tipo": "municipio",
+    "nome": "CAPIM BRANCO",
+    "codigo_ibge": "0125"
+  },
+  {
+    "comarca_codigo": "0411",
+    "tipo": "sede",
+    "nome": "MATOZINHOS",
+    "codigo_ibge": "0411"
+  },
+  {
+    "comarca_codigo": "0411",
+    "tipo": "municipio",
+    "nome": "PRUDENTE DE MORAIS",
+    "codigo_ibge": "0536"
+  },
+  {
+    "comarca_codigo": "0411",
+    "tipo": "distrito",
+    "nome": "MOCAMBEIRO",
+    "codigo_ibge": "7271"
+  },
+  {
+    "comarca_codigo": "0414",
+    "tipo": "municipio",
+    "nome": "COMERCINHO",
+    "codigo_ibge": "0170"
+  },
+  {
+    "comarca_codigo": "0414",
+    "tipo": "municipio",
+    "nome": "ITAOBIM",
+    "codigo_ibge": "0333"
+  },
+  {
+    "comarca_codigo": "0414",
+    "tipo": "sede",
+    "nome": "MEDINA",
+    "codigo_ibge": "0414"
+  },
+  {
+    "comarca_codigo": "0414",
+    "tipo": "distrito",
+    "nome": "ÁGUA BRANCA DE MINAS",
+    "codigo_ibge": "7005"
+  },
+  {
+    "comarca_codigo": "0414",
+    "tipo": "distrito",
+    "nome": "TUPARECÊ",
+    "codigo_ibge": "6064"
+  },
+  {
+    "comarca_codigo": "0416",
+    "tipo": "sede",
+    "nome": "MERCÊS",
+    "codigo_ibge": "0416"
+  },
+  {
+    "comarca_codigo": "0417",
+    "tipo": "municipio",
+    "nome": "BRAÚNAS",
+    "codigo_ibge": "0088"
+  },
+  {
+    "comarca_codigo": "0417",
+    "tipo": "municipio",
+    "nome": "JOANÉSIA",
+    "codigo_ibge": "0361"
+  },
+  {
+    "comarca_codigo": "0417",
+    "tipo": "sede",
+    "nome": "MESQUITA",
+    "codigo_ibge": "0417"
+  },
+  {
+    "comarca_codigo": "0417",
+    "tipo": "distrito",
+    "nome": "BARRA GRANDE DE MESQUITA",
+    "codigo_ibge": "6640"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "municipio",
+    "nome": "BERILO",
+    "codigo_ibge": "0065"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "municipio",
+    "nome": "CHAPADA DO NORTE",
+    "codigo_ibge": "0161"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "municipio",
+    "nome": "FRANCISCO BADARÓ",
+    "codigo_ibge": "0265"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "municipio",
+    "nome": "JENIPAPO DE MINAS",
+    "codigo_ibge": "0815"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "sede",
+    "nome": "MINAS NOVAS",
+    "codigo_ibge": "0418"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "LELIVÉLDIA",
+    "codigo_ibge": "7243"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA DO NORTE",
+    "codigo_ibge": "6646"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "GRANJAS DO NORTE",
+    "codigo_ibge": "6657"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DO ARAÇUAÍ",
+    "codigo_ibge": "6687"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DA BOA VISTA",
+    "codigo_ibge": "6701"
+  },
+  {
+    "comarca_codigo": "0418",
+    "tipo": "distrito",
+    "nome": "TOCOIÓS DE MINAS",
+    "codigo_ibge": "6704"
+  },
+  {
+    "comarca_codigo": "0421",
+    "tipo": "sede",
+    "nome": "MIRADOURO",
+    "codigo_ibge": "0421"
+  },
+  {
+    "comarca_codigo": "0421",
+    "tipo": "municipio",
+    "nome": "VIEIRAS",
+    "codigo_ibge": "0714"
+  },
+  {
+    "comarca_codigo": "0421",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO GLÓRIA",
+    "codigo_ibge": "7402"
+  },
+  {
+    "comarca_codigo": "0422",
+    "tipo": "sede",
+    "nome": "MIRAÍ",
+    "codigo_ibge": "0422"
+  },
+  {
+    "comarca_codigo": "0422",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DA VARGEM",
+    "codigo_ibge": "0863"
+  },
+  {
+    "comarca_codigo": "0422",
+    "tipo": "distrito",
+    "nome": "DORES DA VITÓRIA",
+    "codigo_ibge": "7151"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "municipio",
+    "nome": "JUVENÍLIA",
+    "codigo_ibge": "0819"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "sede",
+    "nome": "MONTALVÂNIA",
+    "codigo_ibge": "0427"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "distrito",
+    "nome": "MONTE REI",
+    "codigo_ibge": "7277"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "distrito",
+    "nome": "PORTO AGRÁRIO",
+    "codigo_ibge": "7352"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "distrito",
+    "nome": "CAPITÂNIA",
+    "codigo_ibge": "7094"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "distrito",
+    "nome": "PITARANA",
+    "codigo_ibge": "7340"
+  },
+  {
+    "comarca_codigo": "0427",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DOS POÇÕES",
+    "codigo_ibge": "7452"
+  },
+  {
+    "comarca_codigo": "0428",
+    "tipo": "sede",
+    "nome": "MONTE ALEGRE DE MINAS",
+    "codigo_ibge": "0428"
+  },
+  {
+    "comarca_codigo": "0429",
+    "tipo": "municipio",
+    "nome": "GAMELEIRAS",
+    "codigo_ibge": "0806"
+  },
+  {
+    "comarca_codigo": "0429",
+    "tipo": "municipio",
+    "nome": "MATO VERDE",
+    "codigo_ibge": "0410"
+  },
+  {
+    "comarca_codigo": "0429",
+    "tipo": "sede",
+    "nome": "MONTE AZUL",
+    "codigo_ibge": "0429"
+  },
+  {
+    "comarca_codigo": "0429",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DO BONITO",
+    "codigo_ibge": "7426"
+  },
+  {
+    "comarca_codigo": "0430",
+    "tipo": "sede",
+    "nome": "MONTE BELO",
+    "codigo_ibge": "0430"
+  },
+  {
+    "comarca_codigo": "0430",
+    "tipo": "distrito",
+    "nome": "JURÉIA",
+    "codigo_ibge": "6065"
+  },
+  {
+    "comarca_codigo": "0430",
+    "tipo": "distrito",
+    "nome": "SANTA CRUZ DA APARECIDA",
+    "codigo_ibge": "7378"
+  },
+  {
+    "comarca_codigo": "0431",
+    "tipo": "municipio",
+    "nome": "DOURADOQUARA",
+    "codigo_ibge": "0235"
+  },
+  {
+    "comarca_codigo": "0431",
+    "tipo": "municipio",
+    "nome": "IRAÍ DE MINAS",
+    "codigo_ibge": "0316"
+  },
+  {
+    "comarca_codigo": "0431",
+    "tipo": "sede",
+    "nome": "MONTE CARMELO",
+    "codigo_ibge": "0431"
+  },
+  {
+    "comarca_codigo": "0431",
+    "tipo": "municipio",
+    "nome": "ROMARIA",
+    "codigo_ibge": "0564"
+  },
+  {
+    "comarca_codigo": "0432",
+    "tipo": "municipio",
+    "nome": "ARCEBURGO",
+    "codigo_ibge": "0041"
+  },
+  {
+    "comarca_codigo": "0432",
+    "tipo": "sede",
+    "nome": "MONTE SANTO DE MINAS",
+    "codigo_ibge": "0432"
+  },
+  {
+    "comarca_codigo": "0432",
+    "tipo": "distrito",
+    "nome": "MILAGRE",
+    "codigo_ibge": "7265"
+  },
+  {
+    "comarca_codigo": "0434",
+    "tipo": "sede",
+    "nome": "MONTE SIÃO",
+    "codigo_ibge": "0434"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "CLARO DOS POÇÕES",
+    "codigo_ibge": "0165"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "GLAUCILÂNDIA",
+    "codigo_ibge": "0807"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "ITACAMBIRA",
+    "codigo_ibge": "0320"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "JURAMENTO",
+    "codigo_ibge": "0368"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "MIRABELA",
+    "codigo_ibge": "0420"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "sede",
+    "nome": "MONTES CLAROS",
+    "codigo_ibge": "0433"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "municipio",
+    "nome": "PATIS",
+    "codigo_ibge": "0839"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "VISTA ALEGRE",
+    "codigo_ibge": "6624"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "MUQUÉM",
+    "codigo_ibge": "6066"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "APARECIDA DO MUNDO NOVO",
+    "codigo_ibge": "6027"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "ERMIDINHA",
+    "codigo_ibge": "6028"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "MIRALTA",
+    "codigo_ibge": "6029"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "NOVA ESPERANÇA",
+    "codigo_ibge": "6030"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "SANTA ROSA DE LIMA",
+    "codigo_ibge": "6031"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA VEREDA",
+    "codigo_ibge": "6007"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "SÃO PEDRO DA GARÇA",
+    "codigo_ibge": "6032"
+  },
+  {
+    "comarca_codigo": "0433",
+    "tipo": "distrito",
+    "nome": "VILA NOVA DE MINAS",
+    "codigo_ibge": "6033"
+  },
+  {
+    "comarca_codigo": "0435",
+    "tipo": "municipio",
+    "nome": "BIQUINHAS",
+    "codigo_ibge": "0070"
+  },
+  {
+    "comarca_codigo": "0435",
+    "tipo": "sede",
+    "nome": "MORADA NOVA DE MINAS",
+    "codigo_ibge": "0435"
+  },
+  {
+    "comarca_codigo": "0435",
+    "tipo": "distrito",
+    "nome": "FREI ORLANDO",
+    "codigo_ibge": "7183"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "municipio",
+    "nome": "LARANJAL",
+    "codigo_ibge": "0380"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "sede",
+    "nome": "MURIAÉ",
+    "codigo_ibge": "0439"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "municipio",
+    "nome": "ROSÁRIO DA LIMEIRA",
+    "codigo_ibge": "0848"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA SAPUCAIA",
+    "codigo_ibge": "7431"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "BELISÁRIO",
+    "codigo_ibge": "6005"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "BOA FAMÍLIA",
+    "codigo_ibge": "7060"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "BOM JESUS DA CACHOEIRA",
+    "codigo_ibge": "7063"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "ITAMURI",
+    "codigo_ibge": "7221"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "PIRAPANEMA",
+    "codigo_ibge": "7338"
+  },
+  {
+    "comarca_codigo": "0439",
+    "tipo": "distrito",
+    "nome": "VERMELHO",
+    "codigo_ibge": "7515"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "sede",
+    "nome": "MUTUM",
+    "codigo_ibge": "0440"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "distrito",
+    "nome": "CENTENÁRIO",
+    "codigo_ibge": "7103"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "distrito",
+    "nome": "EMBIRUÇU",
+    "codigo_ibge": "7211"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "distrito",
+    "nome": "OCIDENTE",
+    "codigo_ibge": "7291"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "distrito",
+    "nome": "ROSEIRAL",
+    "codigo_ibge": "7376"
+  },
+  {
+    "comarca_codigo": "0440",
+    "tipo": "distrito",
+    "nome": "SÃO FRANCISCO DO HUMAITÁ",
+    "codigo_ibge": "6490"
+  },
+  {
+    "comarca_codigo": "0441",
+    "tipo": "municipio",
+    "nome": "JURUAIA",
+    "codigo_ibge": "0369"
+  },
+  {
+    "comarca_codigo": "0441",
+    "tipo": "sede",
+    "nome": "MUZAMBINHO",
+    "codigo_ibge": "0441"
+  },
+  {
+    "comarca_codigo": "0443",
+    "tipo": "sede",
+    "nome": "NANUQUE",
+    "codigo_ibge": "0443"
+  },
+  {
+    "comarca_codigo": "0443",
+    "tipo": "municipio",
+    "nome": "SERRA DOS AIMORÉS",
+    "codigo_ibge": "0668"
+  },
+  {
+    "comarca_codigo": "0443",
+    "tipo": "distrito",
+    "nome": "VILA PEREIRA",
+    "codigo_ibge": "7524"
+  },
+  {
+    "comarca_codigo": "0444",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DAS PEDRAS",
+    "codigo_ibge": "0173"
+  },
+  {
+    "comarca_codigo": "0444",
+    "tipo": "municipio",
+    "nome": "HELIODORA",
+    "codigo_ibge": "0292"
+  },
+  {
+    "comarca_codigo": "0444",
+    "tipo": "sede",
+    "nome": "NATÉRCIA",
+    "codigo_ibge": "0444"
+  },
+  {
+    "comarca_codigo": "0446",
+    "tipo": "sede",
+    "nome": "NEPOMUCENO",
+    "codigo_ibge": "0446"
+  },
+  {
+    "comarca_codigo": "0446",
+    "tipo": "distrito",
+    "nome": "NAZARÉ DE MINAS",
+    "codigo_ibge": "6668"
+  },
+  {
+    "comarca_codigo": "0446",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO CRUZEIRO",
+    "codigo_ibge": "6472"
+  },
+  {
+    "comarca_codigo": "0447",
+    "tipo": "municipio",
+    "nome": "BELA VISTA DE MINAS",
+    "codigo_ibge": "0060"
+  },
+  {
+    "comarca_codigo": "0447",
+    "tipo": "sede",
+    "nome": "NOVA ERA",
+    "codigo_ibge": "0447"
+  },
+  {
+    "comarca_codigo": "0188",
+    "tipo": "sede",
+    "nome": "NOVA LIMA",
+    "codigo_ibge": "0188"
+  },
+  {
+    "comarca_codigo": "0188",
+    "tipo": "municipio",
+    "nome": "RAPOSOS",
+    "codigo_ibge": "0539"
+  },
+  {
+    "comarca_codigo": "0188",
+    "tipo": "municipio",
+    "nome": "RIO ACIMA",
+    "codigo_ibge": "0548"
+  },
+  {
+    "comarca_codigo": "0450",
+    "tipo": "sede",
+    "nome": "NOVA PONTE",
+    "codigo_ibge": "0450"
+  },
+  {
+    "comarca_codigo": "0450",
+    "tipo": "municipio",
+    "nome": "SANTA JULIANA",
+    "codigo_ibge": "0577"
+  },
+  {
+    "comarca_codigo": "0451",
+    "tipo": "municipio",
+    "nome": "BOM JESUS DA PENHA",
+    "codigo_ibge": "0076"
+  },
+  {
+    "comarca_codigo": "0451",
+    "tipo": "sede",
+    "nome": "NOVA RESENDE",
+    "codigo_ibge": "0451"
+  },
+  {
+    "comarca_codigo": "0451",
+    "tipo": "distrito",
+    "nome": "PETÚNIA",
+    "codigo_ibge": "7330"
+  },
+  {
+    "comarca_codigo": "0452",
+    "tipo": "municipio",
+    "nome": "ARAÚJOS",
+    "codigo_ibge": "0039"
+  },
+  {
+    "comarca_codigo": "0452",
+    "tipo": "sede",
+    "nome": "NOVA SERRANA",
+    "codigo_ibge": "0452"
+  },
+  {
+    "comarca_codigo": "0452",
+    "tipo": "municipio",
+    "nome": "PERDIGÃO",
+    "codigo_ibge": "0497"
+  },
+  {
+    "comarca_codigo": "0452",
+    "tipo": "distrito",
+    "nome": "BOA VISTA DE MINAS",
+    "codigo_ibge": "7062"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "municipio",
+    "nome": "CARAÍ",
+    "codigo_ibge": "0130"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "municipio",
+    "nome": "CATUJI",
+    "codigo_ibge": "0729"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "municipio",
+    "nome": "ITAIPÉ",
+    "codigo_ibge": "0323"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "sede",
+    "nome": "NOVO CRUZEIRO",
+    "codigo_ibge": "0453"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "distrito",
+    "nome": "MARAMBAINHA",
+    "codigo_ibge": "7258"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "distrito",
+    "nome": "PONTO DO MARAMBAIA",
+    "codigo_ibge": "7351"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "distrito",
+    "nome": "LUFA",
+    "codigo_ibge": "7249"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "distrito",
+    "nome": "NOVILHONA",
+    "codigo_ibge": "7289"
+  },
+  {
+    "comarca_codigo": "0453",
+    "tipo": "distrito",
+    "nome": "QUEIXADA",
+    "codigo_ibge": "7361"
+  },
+  {
+    "comarca_codigo": "0456",
+    "tipo": "sede",
+    "nome": "OLIVEIRA",
+    "codigo_ibge": "0456"
+  },
+  {
+    "comarca_codigo": "0456",
+    "tipo": "municipio",
+    "nome": "SÃO FRANCISCO DE PAULA",
+    "codigo_ibge": "0612"
+  },
+  {
+    "comarca_codigo": "0456",
+    "tipo": "distrito",
+    "nome": "MORRO DO FERRO",
+    "codigo_ibge": "7280"
+  },
+  {
+    "comarca_codigo": "0459",
+    "tipo": "sede",
+    "nome": "OURO BRANCO",
+    "codigo_ibge": "0459"
+  },
+  {
+    "comarca_codigo": "0460",
+    "tipo": "municipio",
+    "nome": "INCONFIDENTES",
+    "codigo_ibge": "0306"
+  },
+  {
+    "comarca_codigo": "0460",
+    "tipo": "sede",
+    "nome": "OURO FINO",
+    "codigo_ibge": "0460"
+  },
+  {
+    "comarca_codigo": "0460",
+    "tipo": "distrito",
+    "nome": "CRISÓLIA",
+    "codigo_ibge": "7136"
+  },
+  {
+    "comarca_codigo": "0460",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO MATO DENTRO",
+    "codigo_ibge": "6699"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "sede",
+    "nome": "OURO PRETO",
+    "codigo_ibge": "0461"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "AMARANTINA",
+    "codigo_ibge": "7022"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "ANTÔNIO PEREIRA",
+    "codigo_ibge": "7031"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA DO CAMPO",
+    "codigo_ibge": "6012"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "ENGENHEIRO CORREIA",
+    "codigo_ibge": "7159"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "GLAURA",
+    "codigo_ibge": "7192"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "MIGUEL BURNIER",
+    "codigo_ibge": "7264"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "RODRIGO SILVA",
+    "codigo_ibge": "7373"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "SANTA RITA DE OURO PRETO",
+    "codigo_ibge": "7386"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO LEITE",
+    "codigo_ibge": "7403"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO SALTO",
+    "codigo_ibge": "6479"
+  },
+  {
+    "comarca_codigo": "0461",
+    "tipo": "distrito",
+    "nome": "SÃO BARTOLOMEU",
+    "codigo_ibge": "7409"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "municipio",
+    "nome": "BARÃO DO MONTE ALTO",
+    "codigo_ibge": "0055"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "sede",
+    "nome": "PALMA",
+    "codigo_ibge": "0467"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA ALEGRE",
+    "codigo_ibge": "7082"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "distrito",
+    "nome": "SILVEIRA CARVALHO",
+    "codigo_ibge": "7489"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "distrito",
+    "nome": "CISNEIROS",
+    "codigo_ibge": "7110"
+  },
+  {
+    "comarca_codigo": "0467",
+    "tipo": "distrito",
+    "nome": "ITAPIRUÇU",
+    "codigo_ibge": "7224"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "FLORESTAL",
+    "codigo_ibge": "0260"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "IGARATINGA",
+    "codigo_ibge": "0302"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "ONÇA DE PITANGUI",
+    "codigo_ibge": "0458"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "sede",
+    "nome": "PARÁ DE MINAS",
+    "codigo_ibge": "0471"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "PEQUI",
+    "codigo_ibge": "0496"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "SÃO GONÇALO DO PARÁ",
+    "codigo_ibge": "0618"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DA VARGINHA",
+    "codigo_ibge": "0631"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "distrito",
+    "nome": "ANTUNES",
+    "codigo_ibge": "7032"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "distrito",
+    "nome": "ASCENÇÃO",
+    "codigo_ibge": "7544"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "distrito",
+    "nome": "CARIOCA",
+    "codigo_ibge": "7096"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "distrito",
+    "nome": "CÓRREGO DO BARRO",
+    "codigo_ibge": "6152"
+  },
+  {
+    "comarca_codigo": "0471",
+    "tipo": "distrito",
+    "nome": "TORNEIROS",
+    "codigo_ibge": "7503"
+  },
+  {
+    "comarca_codigo": "0470",
+    "tipo": "sede",
+    "nome": "PARACATU",
+    "codigo_ibge": "0470"
+  },
+  {
+    "comarca_codigo": "0472",
+    "tipo": "municipio",
+    "nome": "FAMA",
+    "codigo_ibge": "0252"
+  },
+  {
+    "comarca_codigo": "0472",
+    "tipo": "sede",
+    "nome": "PARAGUAÇU",
+    "codigo_ibge": "0472"
+  },
+  {
+    "comarca_codigo": "0472",
+    "tipo": "distrito",
+    "nome": "GUAIPAVA",
+    "codigo_ibge": "6658"
+  },
+  {
+    "comarca_codigo": "0473",
+    "tipo": "municipio",
+    "nome": "CONSOLAÇÃO",
+    "codigo_ibge": "0185"
+  },
+  {
+    "comarca_codigo": "0473",
+    "tipo": "municipio",
+    "nome": "GONÇALVES",
+    "codigo_ibge": "0274"
+  },
+  {
+    "comarca_codigo": "0473",
+    "tipo": "sede",
+    "nome": "PARAISÓPOLIS",
+    "codigo_ibge": "0473"
+  },
+  {
+    "comarca_codigo": "0473",
+    "tipo": "municipio",
+    "nome": "SAPUCAÍ-MIRIM",
+    "codigo_ibge": "0654"
+  },
+  {
+    "comarca_codigo": "0473",
+    "tipo": "distrito",
+    "nome": "COSTAS",
+    "codigo_ibge": "7135"
+  },
+  {
+    "comarca_codigo": "0474",
+    "tipo": "municipio",
+    "nome": "ARAÇAÍ",
+    "codigo_ibge": "0032"
+  },
+  {
+    "comarca_codigo": "0474",
+    "tipo": "municipio",
+    "nome": "CAETANÓPOLIS",
+    "codigo_ibge": "0099"
+  },
+  {
+    "comarca_codigo": "0474",
+    "tipo": "municipio",
+    "nome": "CORDISBURGO",
+    "codigo_ibge": "0189"
+  },
+  {
+    "comarca_codigo": "0474",
+    "tipo": "sede",
+    "nome": "PARAOPEBA",
+    "codigo_ibge": "0474"
+  },
+  {
+    "comarca_codigo": "0474",
+    "tipo": "distrito",
+    "nome": "LAGOA BONITA",
+    "codigo_ibge": "7239"
+  },
+  {
+    "comarca_codigo": "0476",
+    "tipo": "sede",
+    "nome": "PASSA-QUATRO",
+    "codigo_ibge": "0476"
+  },
+  {
+    "comarca_codigo": "0476",
+    "tipo": "distrito",
+    "nome": "PÉ DO MORRO",
+    "codigo_ibge": "7313"
+  },
+  {
+    "comarca_codigo": "0476",
+    "tipo": "distrito",
+    "nome": "PINHEIRINHOS",
+    "codigo_ibge": "7334"
+  },
+  {
+    "comarca_codigo": "0477",
+    "tipo": "sede",
+    "nome": "PASSA-TEMPO",
+    "codigo_ibge": "0477"
+  },
+  {
+    "comarca_codigo": "0477",
+    "tipo": "municipio",
+    "nome": "PIRACEMA",
+    "codigo_ibge": "0506"
+  },
+  {
+    "comarca_codigo": "0479",
+    "tipo": "sede",
+    "nome": "PASSOS",
+    "codigo_ibge": "0479"
+  },
+  {
+    "comarca_codigo": "0479",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO BATISTA DO GLÓRIA",
+    "codigo_ibge": "0622"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "municipio",
+    "nome": "LAGOA FORMOSA",
+    "codigo_ibge": "0375"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "sede",
+    "nome": "PATOS DE MINAS",
+    "codigo_ibge": "0480"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "municipio",
+    "nome": "SÃO GONÇALO DO ABAETÉ",
+    "codigo_ibge": "0617"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "municipio",
+    "nome": "VARJÃO DE MINAS",
+    "codigo_ibge": "0873"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "LIMEIRA DE MINAS",
+    "codigo_ibge": "7246"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "MONJOLINHO DE MINAS",
+    "codigo_ibge": "7273"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "BOM SUCESSO DE PATOS",
+    "codigo_ibge": "7070"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "CHUMBO",
+    "codigo_ibge": "7109"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "MAJOR PORTO",
+    "codigo_ibge": "7256"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "PILAR",
+    "codigo_ibge": "7332"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "PINDAÍBAS",
+    "codigo_ibge": "7333"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "SANTANA DE PATOS",
+    "codigo_ibge": "7394"
+  },
+  {
+    "comarca_codigo": "0480",
+    "tipo": "distrito",
+    "nome": "CANOEIROS",
+    "codigo_ibge": "7093"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "municipio",
+    "nome": "CRUZEIRO DA FORTALEZA",
+    "codigo_ibge": "0207"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "municipio",
+    "nome": "GUIMARÂNIA",
+    "codigo_ibge": "0289"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "sede",
+    "nome": "PATROCÍNIO",
+    "codigo_ibge": "0481"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "municipio",
+    "nome": "SERRA DO SALITRE",
+    "codigo_ibge": "0667"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "BREJO BONITO",
+    "codigo_ibge": "7074"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "SALITRE DE MINAS",
+    "codigo_ibge": "6438"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "SANTA LUZIA DOS BARROS",
+    "codigo_ibge": "6686"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA SERRA NEGRA",
+    "codigo_ibge": "7425"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "SILVANO",
+    "codigo_ibge": "7488"
+  },
+  {
+    "comarca_codigo": "0481",
+    "tipo": "distrito",
+    "nome": "CATIARA",
+    "codigo_ibge": "7100"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "CANTAGALO",
+    "codigo_ibge": "0790"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "COROACI",
+    "codigo_ibge": "0192"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "FREI LAGONEGRO",
+    "codigo_ibge": "0804"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "NACIP RAYDAN",
+    "codigo_ibge": "0442"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "sede",
+    "nome": "PEÇANHA",
+    "codigo_ibge": "0486"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DO JACURI",
+    "codigo_ibge": "0635"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "SÃO PEDRO DO SUAÇUI",
+    "codigo_ibge": "0640"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "municipio",
+    "nome": "VIRGOLÂNDIA",
+    "codigo_ibge": "0719"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DE TRONQUEIRAS",
+    "codigo_ibge": "6067"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO BUGRE",
+    "codigo_ibge": "7457"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "distrito",
+    "nome": "SANTA TERESA DO BONITO",
+    "codigo_ibge": "7391"
+  },
+  {
+    "comarca_codigo": "0486",
+    "tipo": "distrito",
+    "nome": "DIVINO DE VIRGOLÂNDIA",
+    "codigo_ibge": "7145"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "municipio",
+    "nome": "ÁGUAS VERMELHAS",
+    "codigo_ibge": "0010"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "municipio",
+    "nome": "CACHOEIRA DE PAJEÚ",
+    "codigo_ibge": "0774"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "municipio",
+    "nome": "DIVISA ALEGRE",
+    "codigo_ibge": "0801"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "sede",
+    "nome": "PEDRA AZUL",
+    "codigo_ibge": "0487"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "distrito",
+    "nome": "ITAMARATI",
+    "codigo_ibge": "7219"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "distrito",
+    "nome": "MACHADO MINEIRO",
+    "codigo_ibge": "6294"
+  },
+  {
+    "comarca_codigo": "0487",
+    "tipo": "distrito",
+    "nome": "ARAÇAJI DE MINAS",
+    "codigo_ibge": "7532"
+  },
+  {
+    "comarca_codigo": "0491",
+    "tipo": "sede",
+    "nome": "PEDRALVA",
+    "codigo_ibge": "0491"
+  },
+  {
+    "comarca_codigo": "0491",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DO ALEGRE",
+    "codigo_ibge": "0632"
+  },
+  {
+    "comarca_codigo": "0210",
+    "tipo": "municipio",
+    "nome": "CONFINS",
+    "codigo_ibge": "0795"
+  },
+  {
+    "comarca_codigo": "0210",
+    "tipo": "sede",
+    "nome": "PEDRO LEOPOLDO",
+    "codigo_ibge": "0210"
+  },
+  {
+    "comarca_codigo": "0210",
+    "tipo": "distrito",
+    "nome": "DOUTOR LUND",
+    "codigo_ibge": "7155"
+  },
+  {
+    "comarca_codigo": "0210",
+    "tipo": "distrito",
+    "nome": "FIDALGO",
+    "codigo_ibge": "7177"
+  },
+  {
+    "comarca_codigo": "0210",
+    "tipo": "distrito",
+    "nome": "VERA CRUZ DE MINAS",
+    "codigo_ibge": "7513"
+  },
+  {
+    "comarca_codigo": "0498",
+    "tipo": "municipio",
+    "nome": "PEDRINÓPOLIS",
+    "codigo_ibge": "0492"
+  },
+  {
+    "comarca_codigo": "0498",
+    "tipo": "sede",
+    "nome": "PERDIZES",
+    "codigo_ibge": "0498"
+  },
+  {
+    "comarca_codigo": "0499",
+    "tipo": "municipio",
+    "nome": "CANA VERDE",
+    "codigo_ibge": "0119"
+  },
+  {
+    "comarca_codigo": "0499",
+    "tipo": "sede",
+    "nome": "PERDÕES",
+    "codigo_ibge": "0499"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "sede",
+    "nome": "PIRANGA",
+    "codigo_ibge": "0508"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "municipio",
+    "nome": "PORTO FIRME",
+    "codigo_ibge": "0523"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "municipio",
+    "nome": "PRESIDENTE BERNARDES",
+    "codigo_ibge": "0531"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "municipio",
+    "nome": "SENHORA DE OLIVEIRA",
+    "codigo_ibge": "0660"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "distrito",
+    "nome": "PINHEIROS ALTOS",
+    "codigo_ibge": "7335"
+  },
+  {
+    "comarca_codigo": "0508",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO PIRAPETINGA",
+    "codigo_ibge": "7406"
+  },
+  {
+    "comarca_codigo": "0511",
+    "tipo": "municipio",
+    "nome": "ESTRELA-D'ALVA",
+    "codigo_ibge": "0246"
+  },
+  {
+    "comarca_codigo": "0511",
+    "tipo": "sede",
+    "nome": "PIRAPETINGA",
+    "codigo_ibge": "0511"
+  },
+  {
+    "comarca_codigo": "0511",
+    "tipo": "distrito",
+    "nome": "ÁGUA VIVA",
+    "codigo_ibge": "7006"
+  },
+  {
+    "comarca_codigo": "0511",
+    "tipo": "distrito",
+    "nome": "CAIAPÓ",
+    "codigo_ibge": "7086"
+  },
+  {
+    "comarca_codigo": "0511",
+    "tipo": "distrito",
+    "nome": "VALÃO QUENTE",
+    "codigo_ibge": "6608"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "municipio",
+    "nome": "BURITIZEIRO",
+    "codigo_ibge": "0094"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "municipio",
+    "nome": "JEQUITAÍ",
+    "codigo_ibge": "0356"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "sede",
+    "nome": "PIRAPORA",
+    "codigo_ibge": "0512"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA DO MANTEIGA",
+    "codigo_ibge": "7084"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "distrito",
+    "nome": "PAREDÃO DE MINAS",
+    "codigo_ibge": "7309"
+  },
+  {
+    "comarca_codigo": "0512",
+    "tipo": "distrito",
+    "nome": "SAMBAÍBA DE MINAS",
+    "codigo_ibge": "6439"
+  },
+  {
+    "comarca_codigo": "0514",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DO PARÁ",
+    "codigo_ibge": "0176"
+  },
+  {
+    "comarca_codigo": "0514",
+    "tipo": "municipio",
+    "nome": "LEANDRO FERREIRA",
+    "codigo_ibge": "0383"
+  },
+  {
+    "comarca_codigo": "0514",
+    "tipo": "municipio",
+    "nome": "MARAVILHAS",
+    "codigo_ibge": "0397"
+  },
+  {
+    "comarca_codigo": "0514",
+    "tipo": "municipio",
+    "nome": "PAPAGAIOS",
+    "codigo_ibge": "0469"
+  },
+  {
+    "comarca_codigo": "0514",
+    "tipo": "sede",
+    "nome": "PITANGUI",
+    "codigo_ibge": "0514"
+  },
+  {
+    "comarca_codigo": "0515",
+    "tipo": "municipio",
+    "nome": "CAPITÓLIO",
+    "codigo_ibge": "0128"
+  },
+  {
+    "comarca_codigo": "0515",
+    "tipo": "municipio",
+    "nome": "DORESÓPOLIS",
+    "codigo_ibge": "0234"
+  },
+  {
+    "comarca_codigo": "0515",
+    "tipo": "sede",
+    "nome": "PIUMHI",
+    "codigo_ibge": "0515"
+  },
+  {
+    "comarca_codigo": "0517",
+    "tipo": "sede",
+    "nome": "POÇO FUNDO",
+    "codigo_ibge": "0517"
+  },
+  {
+    "comarca_codigo": "0517",
+    "tipo": "distrito",
+    "nome": "PAIOLINHO",
+    "codigo_ibge": "7303"
+  },
+  {
+    "comarca_codigo": "0518",
+    "tipo": "sede",
+    "nome": "POÇOS DE CALDAS",
+    "codigo_ibge": "0518"
+  },
+  {
+    "comarca_codigo": "0520",
+    "tipo": "sede",
+    "nome": "POMPÉU",
+    "codigo_ibge": "0520"
+  },
+  {
+    "comarca_codigo": "0520",
+    "tipo": "distrito",
+    "nome": "SILVA CAMPOS",
+    "codigo_ibge": "7487"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "ACAIACA",
+    "codigo_ibge": "0004"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "AMPARO DA SERRA",
+    "codigo_ibge": "0025"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "BARRA LONGA",
+    "codigo_ibge": "0057"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "GUARACIABA",
+    "codigo_ibge": "0282"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "ORATÓRIOS",
+    "codigo_ibge": "0835"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "sede",
+    "nome": "PONTE NOVA",
+    "codigo_ibge": "0521"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "RIO DOCE",
+    "codigo_ibge": "0550"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "municipio",
+    "nome": "SANTA CRUZ DO ESCALVADO",
+    "codigo_ibge": "0574"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "distrito",
+    "nome": "PADRE FELISBERTO",
+    "codigo_ibge": "7298"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "distrito",
+    "nome": "ROSÁRIO DO PONTAL",
+    "codigo_ibge": "7375"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "distrito",
+    "nome": "VAU-AÇU",
+    "codigo_ibge": "7511"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO SOBERBO",
+    "codigo_ibge": "7464"
+  },
+  {
+    "comarca_codigo": "0521",
+    "tipo": "distrito",
+    "nome": "ZITO SOARES",
+    "codigo_ibge": "7529"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "municipio",
+    "nome": "CATUTI",
+    "codigo_ibge": "0792"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "municipio",
+    "nome": "PAI PEDRO",
+    "codigo_ibge": "0838"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "sede",
+    "nome": "PORTEIRINHA",
+    "codigo_ibge": "0522"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "municipio",
+    "nome": "RIACHO DOS MACHADOS",
+    "codigo_ibge": "0545"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "municipio",
+    "nome": "SERRANÓPOLIS DE MINAS",
+    "codigo_ibge": "0866"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "BARREIRO BRANCO",
+    "codigo_ibge": "7545"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "GORUTUBA",
+    "codigo_ibge": "7197"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "MOCAMBINHO",
+    "codigo_ibge": "7272"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "MULUNGU DE MINAS",
+    "codigo_ibge": "6667"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "PACIÊNCIA",
+    "codigo_ibge": "7296"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "SERRA BRANCA DE MINAS",
+    "codigo_ibge": "6703"
+  },
+  {
+    "comarca_codigo": "0522",
+    "tipo": "distrito",
+    "nome": "TOCANDIRA",
+    "codigo_ibge": "7500"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "municipio",
+    "nome": "CONGONHAL",
+    "codigo_ibge": "0179"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "municipio",
+    "nome": "ESTIVA",
+    "codigo_ibge": "0773"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "sede",
+    "nome": "POUSO ALEGRE",
+    "codigo_ibge": "0525"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "municipio",
+    "nome": "SENADOR JOSÉ BENTO",
+    "codigo_ibge": "0658"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "distrito",
+    "nome": "PÂNTANO DOS ROSAS",
+    "codigo_ibge": "0889"
+  },
+  {
+    "comarca_codigo": "0525",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO PÂNTANO",
+    "codigo_ibge": "7437"
+  },
+  {
+    "comarca_codigo": "0527",
+    "tipo": "municipio",
+    "nome": "DORES DE CAMPOS",
+    "codigo_ibge": "0230"
+  },
+  {
+    "comarca_codigo": "0527",
+    "tipo": "sede",
+    "nome": "PRADOS",
+    "codigo_ibge": "0527"
+  },
+  {
+    "comarca_codigo": "0528",
+    "tipo": "sede",
+    "nome": "PRATA",
+    "codigo_ibge": "0528"
+  },
+  {
+    "comarca_codigo": "0528",
+    "tipo": "distrito",
+    "nome": "JARDINÉSIA",
+    "codigo_ibge": "7232"
+  },
+  {
+    "comarca_codigo": "0528",
+    "tipo": "distrito",
+    "nome": "PATRIMÔNIO",
+    "codigo_ibge": "6363"
+  },
+  {
+    "comarca_codigo": "0529",
+    "tipo": "municipio",
+    "nome": "ITAÚ DE MINAS",
+    "codigo_ibge": "0723"
+  },
+  {
+    "comarca_codigo": "0529",
+    "tipo": "sede",
+    "nome": "PRATÁPOLIS",
+    "codigo_ibge": "0529"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "municipio",
+    "nome": "LAGAMAR",
+    "codigo_ibge": "0371"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "municipio",
+    "nome": "LAGOA GRANDE",
+    "codigo_ibge": "0741"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "sede",
+    "nome": "PRESIDENTE OLEGÁRIO",
+    "codigo_ibge": "0534"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "distrito",
+    "nome": "SÃO BRÁS DE MINAS",
+    "codigo_ibge": "7412"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "distrito",
+    "nome": "GALENA",
+    "codigo_ibge": "7187"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "distrito",
+    "nome": "PONTE FIRME",
+    "codigo_ibge": "7350"
+  },
+  {
+    "comarca_codigo": "0534",
+    "tipo": "distrito",
+    "nome": "SANTIAGO DE MINAS",
+    "codigo_ibge": "6466"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "sede",
+    "nome": "RAUL SOARES",
+    "codigo_ibge": "0540"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "municipio",
+    "nome": "VERMELHO NOVO",
+    "codigo_ibge": "0876"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "distrito",
+    "nome": "BICUÍBA",
+    "codigo_ibge": "7058"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "distrito",
+    "nome": "SANTANA DO TABULEIRO",
+    "codigo_ibge": "7398"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO ÓCULO",
+    "codigo_ibge": "7460"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "distrito",
+    "nome": "SÃO VICENTE DA ESTRELA",
+    "codigo_ibge": "7466"
+  },
+  {
+    "comarca_codigo": "0540",
+    "tipo": "distrito",
+    "nome": "VERMELHO VELHO",
+    "codigo_ibge": "7516"
+  },
+  {
+    "comarca_codigo": "0542",
+    "tipo": "municipio",
+    "nome": "CORONEL XAVIER CHAVES",
+    "codigo_ibge": "0197"
+  },
+  {
+    "comarca_codigo": "0542",
+    "tipo": "sede",
+    "nome": "RESENDE COSTA",
+    "codigo_ibge": "0542"
+  },
+  {
+    "comarca_codigo": "0542",
+    "tipo": "distrito",
+    "nome": "JACARANDIRA",
+    "codigo_ibge": "7231"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "municipio",
+    "nome": "ITUETA",
+    "codigo_ibge": "0341"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "sede",
+    "nome": "RESPLENDOR",
+    "codigo_ibge": "0543"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "municipio",
+    "nome": "SANTA RITA DO ITUETO",
+    "codigo_ibge": "0594"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "QUATITUBA",
+    "codigo_ibge": "7360"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "BOM PASTOR",
+    "codigo_ibge": "7068"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "CALIXTO",
+    "codigo_ibge": "7519"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "CAMPO ALEGRE DE MINAS",
+    "codigo_ibge": "6076"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "INDEPENDÊNCIA",
+    "codigo_ibge": "7212"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "NICOLÂNDIA",
+    "codigo_ibge": "7522"
+  },
+  {
+    "comarca_codigo": "0543",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO ITUETO",
+    "codigo_ibge": "7436"
+  },
+  {
+    "comarca_codigo": "0231",
+    "tipo": "sede",
+    "nome": "RIBEIRÃO DAS NEVES",
+    "codigo_ibge": "0231"
+  },
+  {
+    "comarca_codigo": "0231",
+    "tipo": "distrito",
+    "nome": "JUSTINÓPOLIS",
+    "codigo_ibge": "7237"
+  },
+  {
+    "comarca_codigo": "0549",
+    "tipo": "sede",
+    "nome": "RIO CASCA",
+    "codigo_ibge": "0549"
+  },
+  {
+    "comarca_codigo": "0549",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO GRAMA",
+    "codigo_ibge": "0601"
+  },
+  {
+    "comarca_codigo": "0549",
+    "tipo": "municipio",
+    "nome": "SÃO PEDRO DOS FERROS",
+    "codigo_ibge": "0641"
+  },
+  {
+    "comarca_codigo": "0549",
+    "tipo": "distrito",
+    "nome": "JURUMIRIM",
+    "codigo_ibge": "6001"
+  },
+  {
+    "comarca_codigo": "0549",
+    "tipo": "distrito",
+    "nome": "ÁGUAS FÉRREAS",
+    "codigo_ibge": "7008"
+  },
+  {
+    "comarca_codigo": "0554",
+    "tipo": "municipio",
+    "nome": "GOIANÁ",
+    "codigo_ibge": "0809"
+  },
+  {
+    "comarca_codigo": "0554",
+    "tipo": "municipio",
+    "nome": "PIAU",
+    "codigo_ibge": "0501"
+  },
+  {
+    "comarca_codigo": "0554",
+    "tipo": "sede",
+    "nome": "RIO NOVO",
+    "codigo_ibge": "0554"
+  },
+  {
+    "comarca_codigo": "0555",
+    "tipo": "municipio",
+    "nome": "ARAPUÁ",
+    "codigo_ibge": "0038"
+  },
+  {
+    "comarca_codigo": "0555",
+    "tipo": "sede",
+    "nome": "RIO PARANAÍBA",
+    "codigo_ibge": "0555"
+  },
+  {
+    "comarca_codigo": "0555",
+    "tipo": "distrito",
+    "nome": "ABAETÉ DOS MENDES",
+    "codigo_ibge": "7000"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "municipio",
+    "nome": "MONTEZUMA",
+    "codigo_ibge": "0880"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "municipio",
+    "nome": "NINHEIRA",
+    "codigo_ibge": "0829"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "sede",
+    "nome": "RIO PARDO DE MINAS",
+    "codigo_ibge": "0556"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO RETIRO",
+    "codigo_ibge": "0853"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DO PARAÍSO",
+    "codigo_ibge": "0627"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "municipio",
+    "nome": "VARGEM GRANDE DO RIO PARDO",
+    "codigo_ibge": "0872"
+  },
+  {
+    "comarca_codigo": "0556",
+    "tipo": "distrito",
+    "nome": "SERRA NOVA",
+    "codigo_ibge": "7484"
+  },
+  {
+    "comarca_codigo": "0557",
+    "tipo": "sede",
+    "nome": "RIO PIRACICABA",
+    "codigo_ibge": "0557"
+  },
+  {
+    "comarca_codigo": "0557",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DE PIRACICABA",
+    "codigo_ibge": "7119"
+  },
+  {
+    "comarca_codigo": "0557",
+    "tipo": "distrito",
+    "nome": "PADRE PINTO",
+    "codigo_ibge": "7301"
+  },
+  {
+    "comarca_codigo": "0558",
+    "tipo": "sede",
+    "nome": "RIO POMBA",
+    "codigo_ibge": "0558"
+  },
+  {
+    "comarca_codigo": "0558",
+    "tipo": "municipio",
+    "nome": "SILVEIRÂNIA",
+    "codigo_ibge": "0673"
+  },
+  {
+    "comarca_codigo": "0558",
+    "tipo": "municipio",
+    "nome": "TABULEIRO",
+    "codigo_ibge": "0679"
+  },
+  {
+    "comarca_codigo": "0559",
+    "tipo": "sede",
+    "nome": "RIO PRETO",
+    "codigo_ibge": "0559"
+  },
+  {
+    "comarca_codigo": "0559",
+    "tipo": "municipio",
+    "nome": "SANTA BÁRBARA DO MONTE VERDE",
+    "codigo_ibge": "0849"
+  },
+  {
+    "comarca_codigo": "0559",
+    "tipo": "municipio",
+    "nome": "SANTA RITA DO JACUTINGA",
+    "codigo_ibge": "0595"
+  },
+  {
+    "comarca_codigo": "0559",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DO BARREADO",
+    "codigo_ibge": "7454"
+  },
+  {
+    "comarca_codigo": "0559",
+    "tipo": "distrito",
+    "nome": "ITABOCA",
+    "codigo_ibge": "7215"
+  },
+  {
+    "comarca_codigo": "0560",
+    "tipo": "sede",
+    "nome": "RIO VERMELHO",
+    "codigo_ibge": "0560"
+  },
+  {
+    "comarca_codigo": "0560",
+    "tipo": "distrito",
+    "nome": "PEDRA MENINA",
+    "codigo_ibge": "7317"
+  },
+  {
+    "comarca_codigo": "0567",
+    "tipo": "sede",
+    "nome": "SABARÁ",
+    "codigo_ibge": "0567"
+  },
+  {
+    "comarca_codigo": "0567",
+    "tipo": "distrito",
+    "nome": "CARVALHO DE BRITO",
+    "codigo_ibge": "7097"
+  },
+  {
+    "comarca_codigo": "0567",
+    "tipo": "distrito",
+    "nome": "MESTRE CAETANO",
+    "codigo_ibge": "6069"
+  },
+  {
+    "comarca_codigo": "0567",
+    "tipo": "distrito",
+    "nome": "RAVENA",
+    "codigo_ibge": "6022"
+  },
+  {
+    "comarca_codigo": "0568",
+    "tipo": "municipio",
+    "nome": "MATERLÂNDIA",
+    "codigo_ibge": "0406"
+  },
+  {
+    "comarca_codigo": "0568",
+    "tipo": "municipio",
+    "nome": "PAULISTAS",
+    "codigo_ibge": "0484"
+  },
+  {
+    "comarca_codigo": "0568",
+    "tipo": "sede",
+    "nome": "SABINÓPOLIS",
+    "codigo_ibge": "0568"
+  },
+  {
+    "comarca_codigo": "0568",
+    "tipo": "distrito",
+    "nome": "EUXENITA",
+    "codigo_ibge": "7168"
+  },
+  {
+    "comarca_codigo": "0568",
+    "tipo": "distrito",
+    "nome": "QUILOMBO",
+    "codigo_ibge": "7363"
+  },
+  {
+    "comarca_codigo": "0569",
+    "tipo": "sede",
+    "nome": "SACRAMENTO",
+    "codigo_ibge": "0569"
+  },
+  {
+    "comarca_codigo": "0569",
+    "tipo": "distrito",
+    "nome": "DESEMBOQUE",
+    "codigo_ibge": "6653"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "municipio",
+    "nome": "FRUTA-DE-LEITE",
+    "codigo_ibge": "0805"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "municipio",
+    "nome": "NOVORIZONTE",
+    "codigo_ibge": "0833"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "municipio",
+    "nome": "PADRE CARVALHO",
+    "codigo_ibge": "0837"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "municipio",
+    "nome": "RUBELITA",
+    "codigo_ibge": "0565"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "sede",
+    "nome": "SALINAS",
+    "codigo_ibge": "0570"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "municipio",
+    "nome": "SANTA CRUZ DE SALINAS",
+    "codigo_ibge": "0851"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "distrito",
+    "nome": "FERREIRÓPOLIS",
+    "codigo_ibge": "7175"
+  },
+  {
+    "comarca_codigo": "0570",
+    "tipo": "distrito",
+    "nome": "NOVA MATRONA",
+    "codigo_ibge": "6669"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "municipio",
+    "nome": "CATAS ALTAS",
+    "codigo_ibge": "0791"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "sede",
+    "nome": "SANTA BÁRBARA",
+    "codigo_ibge": "0572"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "municipio",
+    "nome": "SÃO GONÇALO DO RIO ABAIXO",
+    "codigo_ibge": "0619"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "distrito",
+    "nome": "BARRA FELIZ",
+    "codigo_ibge": "7052"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "distrito",
+    "nome": "BRUMAL",
+    "codigo_ibge": "7077"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DO RIO ACIMA",
+    "codigo_ibge": "7122"
+  },
+  {
+    "comarca_codigo": "0572",
+    "tipo": "distrito",
+    "nome": "FLORÁLIA",
+    "codigo_ibge": "7180"
+  },
+  {
+    "comarca_codigo": "0245",
+    "tipo": "sede",
+    "nome": "SANTA LUZIA",
+    "codigo_ibge": "0245"
+  },
+  {
+    "comarca_codigo": "0245",
+    "tipo": "distrito",
+    "nome": "SÃO BENEDITO",
+    "codigo_ibge": "7410"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "municipio",
+    "nome": "JOSÉ RAYDAN",
+    "codigo_ibge": "0817"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "sede",
+    "nome": "SANTA MARIA DO SUAÇUÍ",
+    "codigo_ibge": "0582"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DA SAFIRA",
+    "codigo_ibge": "0630"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DO MARANHÃO",
+    "codigo_ibge": "0645"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "distrito",
+    "nome": "GLUCÍNIO",
+    "codigo_ibge": "7194"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "distrito",
+    "nome": "POAIA",
+    "codigo_ibge": "7343"
+  },
+  {
+    "comarca_codigo": "0582",
+    "tipo": "distrito",
+    "nome": "MÃE DOS HOMENS",
+    "codigo_ibge": "7254"
+  },
+  {
+    "comarca_codigo": "0592",
+    "tipo": "municipio",
+    "nome": "IPUIÚNA",
+    "codigo_ibge": "0315"
+  },
+  {
+    "comarca_codigo": "0592",
+    "tipo": "sede",
+    "nome": "SANTA RITA DE CALDAS",
+    "codigo_ibge": "0592"
+  },
+  {
+    "comarca_codigo": "0592",
+    "tipo": "distrito",
+    "nome": "PIÃO",
+    "codigo_ibge": "6384"
+  },
+  {
+    "comarca_codigo": "0592",
+    "tipo": "distrito",
+    "nome": "SÃO BENTO DE CALDAS",
+    "codigo_ibge": "7411"
+  },
+  {
+    "comarca_codigo": "0596",
+    "tipo": "sede",
+    "nome": "SANTA RITA DO SAPUCAÍ",
+    "codigo_ibge": "0596"
+  },
+  {
+    "comarca_codigo": "0596",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DA BELA VISTA",
+    "codigo_ibge": "0644"
+  },
+  {
+    "comarca_codigo": "0598",
+    "tipo": "sede",
+    "nome": "SANTA VITÓRIA",
+    "codigo_ibge": "0598"
+  },
+  {
+    "comarca_codigo": "0598",
+    "tipo": "distrito",
+    "nome": "CHAVESLÂNDIA",
+    "codigo_ibge": "7107"
+  },
+  {
+    "comarca_codigo": "0598",
+    "tipo": "distrito",
+    "nome": "PERDILÂNDIA",
+    "codigo_ibge": "7327"
+  },
+  {
+    "comarca_codigo": "0604",
+    "tipo": "municipio",
+    "nome": "PEDRA DO INDAIÁ",
+    "codigo_ibge": "0489"
+  },
+  {
+    "comarca_codigo": "0604",
+    "tipo": "sede",
+    "nome": "SANTO ANTÔNIO DO MONTE",
+    "codigo_ibge": "0604"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "municipio",
+    "nome": "ARACITABA",
+    "codigo_ibge": "0033"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "municipio",
+    "nome": "EWBANK DA CÂMARA",
+    "codigo_ibge": "0250"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "municipio",
+    "nome": "OLIVEIRA FORTES",
+    "codigo_ibge": "0457"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "municipio",
+    "nome": "PAIVA",
+    "codigo_ibge": "0466"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "sede",
+    "nome": "SANTOS DUMONT",
+    "codigo_ibge": "0607"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DO FORMOSO",
+    "codigo_ibge": "7121"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "distrito",
+    "nome": "DORES DO PARAIBUNA",
+    "codigo_ibge": "7152"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "distrito",
+    "nome": "MANTIQUEIRA",
+    "codigo_ibge": "7257"
+  },
+  {
+    "comarca_codigo": "0607",
+    "tipo": "distrito",
+    "nome": "SÃO JOÃO DA SERRA",
+    "codigo_ibge": "7424"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "municipio",
+    "nome": "DIONÍSIO",
+    "codigo_ibge": "0218"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "sede",
+    "nome": "SÃO DOMINGOS DO PRATA",
+    "codigo_ibge": "0610"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DO GOIABAL",
+    "codigo_ibge": "0634"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DE MINAS",
+    "codigo_ibge": "7118"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "CÔNEGO JOÃO PIO",
+    "codigo_ibge": "7125"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "ILHÉUS DO PRATA",
+    "codigo_ibge": "7210"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "JUIRAÇU",
+    "codigo_ibge": "7236"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "SANTANA DO ALFIÉ",
+    "codigo_ibge": "7395"
+  },
+  {
+    "comarca_codigo": "0610",
+    "tipo": "distrito",
+    "nome": "VARGEM LINDA",
+    "codigo_ibge": "7510"
+  },
+  {
+    "comarca_codigo": "0611",
+    "tipo": "municipio",
+    "nome": "ICARAÍ DE MINAS",
+    "codigo_ibge": "0736"
+  },
+  {
+    "comarca_codigo": "0611",
+    "tipo": "municipio",
+    "nome": "PINTÓPOLIS",
+    "codigo_ibge": "0844"
+  },
+  {
+    "comarca_codigo": "0611",
+    "tipo": "sede",
+    "nome": "SÃO FRANCISCO",
+    "codigo_ibge": "0611"
+  },
+  {
+    "comarca_codigo": "0611",
+    "tipo": "distrito",
+    "nome": "MORRO",
+    "codigo_ibge": "7279"
+  },
+  {
+    "comarca_codigo": "0611",
+    "tipo": "distrito",
+    "nome": "SANTA ISABEL DE MINAS",
+    "codigo_ibge": "7382"
+  },
+  {
+    "comarca_codigo": "0620",
+    "tipo": "municipio",
+    "nome": "CAREAÇU",
+    "codigo_ibge": "0136"
+  },
+  {
+    "comarca_codigo": "0620",
+    "tipo": "municipio",
+    "nome": "CORDISLÂNDIA",
+    "codigo_ibge": "0190"
+  },
+  {
+    "comarca_codigo": "0620",
+    "tipo": "sede",
+    "nome": "SÃO GONÇALO DO SAPUCAÍ",
+    "codigo_ibge": "0620"
+  },
+  {
+    "comarca_codigo": "0620",
+    "tipo": "distrito",
+    "nome": "FERREIRAS",
+    "codigo_ibge": "6206"
+  },
+  {
+    "comarca_codigo": "0620",
+    "tipo": "distrito",
+    "nome": "RIBEIROS",
+    "codigo_ibge": "6427"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "municipio",
+    "nome": "MATUTINA",
+    "codigo_ibge": "0412"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "sede",
+    "nome": "SÃO GOTARDO",
+    "codigo_ibge": "0621"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "distrito",
+    "nome": "ABAETÉ DOS VENÂNCIOS",
+    "codigo_ibge": "6636"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "distrito",
+    "nome": "FUNCHAL",
+    "codigo_ibge": "6010"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "distrito",
+    "nome": "GUARDA DOS FERREIROS",
+    "codigo_ibge": "7201"
+  },
+  {
+    "comarca_codigo": "0621",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DA BELA VISTA",
+    "codigo_ibge": "7429"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "municipio",
+    "nome": "IBIRACATU",
+    "codigo_ibge": "0811"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "municipio",
+    "nome": "LONTRA",
+    "codigo_ibge": "0743"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "sede",
+    "nome": "SÃO JOÃO DA PONTE",
+    "codigo_ibge": "0624"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "municipio",
+    "nome": "VARZELÂNDIA",
+    "codigo_ibge": "0709"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "CAMPO ALEGRE DE MINAS",
+    "codigo_ibge": "7088"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "UMBUZEIRO",
+    "codigo_ibge": "7507"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "CONDADO DO NORTE",
+    "codigo_ibge": "7124"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "OLÍMPIO CAMPOS",
+    "codigo_ibge": "7294"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DA BOA VISTA",
+    "codigo_ibge": "7399"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "SIMÃO CAMPOS",
+    "codigo_ibge": "7490"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "BREJO DO MUTAMBAL",
+    "codigo_ibge": "7076"
+  },
+  {
+    "comarca_codigo": "0624",
+    "tipo": "distrito",
+    "nome": "CAMPO REDONDO",
+    "codigo_ibge": "7089"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "CONCEIÇÃO DA BARRA DE MINAS",
+    "codigo_ibge": "0152"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "LAGOA DOURADA",
+    "codigo_ibge": "0374"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "NAZARENO",
+    "codigo_ibge": "0445"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "RITÁPOLIS",
+    "codigo_ibge": "0561"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "SANTA CRUZ DE MINAS",
+    "codigo_ibge": "0850"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "sede",
+    "nome": "SÃO JOÃO DEL-REI",
+    "codigo_ibge": "0625"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "SÃO TIAGO",
+    "codigo_ibge": "0650"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "municipio",
+    "nome": "TIRADENTES",
+    "codigo_ibge": "0688"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "ARCÂNGELO",
+    "codigo_ibge": "7038"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "EMBOABAS",
+    "codigo_ibge": "7158"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "RIO DAS MORTES",
+    "codigo_ibge": "7368"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "SÃO GONÇALO DO AMARANTE",
+    "codigo_ibge": "7420"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "SÃO SEBASTIÃO DA VITÓRIA",
+    "codigo_ibge": "7451"
+  },
+  {
+    "comarca_codigo": "0625",
+    "tipo": "distrito",
+    "nome": "MERCÊS DE ÁGUA LIMPA",
+    "codigo_ibge": "7263"
+  },
+  {
+    "comarca_codigo": "0628",
+    "tipo": "municipio",
+    "nome": "COLUNA",
+    "codigo_ibge": "0168"
+  },
+  {
+    "comarca_codigo": "0628",
+    "tipo": "sede",
+    "nome": "SÃO JOÃO EVANGELISTA",
+    "codigo_ibge": "0628"
+  },
+  {
+    "comarca_codigo": "0628",
+    "tipo": "distrito",
+    "nome": "NÉLSON DE SENA",
+    "codigo_ibge": "7285"
+  },
+  {
+    "comarca_codigo": "0628",
+    "tipo": "distrito",
+    "nome": "SÃO GERALDO DO BAGUARI",
+    "codigo_ibge": "7416"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "municipio",
+    "nome": "DESCOBERTO",
+    "codigo_ibge": "0213"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "municipio",
+    "nome": "ROCHEDO DE MINAS",
+    "codigo_ibge": "0562"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "sede",
+    "nome": "SÃO JOÃO NEPOMUCENO",
+    "codigo_ibge": "0629"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "distrito",
+    "nome": "CARLOS ALVES",
+    "codigo_ibge": "6070"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "distrito",
+    "nome": "ITUÍ",
+    "codigo_ibge": "6013"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "distrito",
+    "nome": "ROÇA GRANDE",
+    "codigo_ibge": "7371"
+  },
+  {
+    "comarca_codigo": "0629",
+    "tipo": "distrito",
+    "nome": "TARUAÇU",
+    "codigo_ibge": "7495"
+  },
+  {
+    "comarca_codigo": "0637",
+    "tipo": "municipio",
+    "nome": "POUSO ALTO",
+    "codigo_ibge": "0526"
+  },
+  {
+    "comarca_codigo": "0637",
+    "tipo": "sede",
+    "nome": "SÃO LOURENÇO",
+    "codigo_ibge": "0637"
+  },
+  {
+    "comarca_codigo": "0637",
+    "tipo": "municipio",
+    "nome": "SÃO SEBASTIÃO DO RIO VERDE",
+    "codigo_ibge": "0649"
+  },
+  {
+    "comarca_codigo": "0637",
+    "tipo": "municipio",
+    "nome": "SOLEDADE DE MINAS",
+    "codigo_ibge": "0678"
+  },
+  {
+    "comarca_codigo": "0637",
+    "tipo": "distrito",
+    "nome": "SANTANA DO CAPIVARI",
+    "codigo_ibge": "6071"
+  },
+  {
+    "comarca_codigo": "0642",
+    "tipo": "municipio",
+    "nome": "SANTA FÉ DE MINAS",
+    "codigo_ibge": "0576"
+  },
+  {
+    "comarca_codigo": "0642",
+    "tipo": "sede",
+    "nome": "SÃO ROMÃO",
+    "codigo_ibge": "0642"
+  },
+  {
+    "comarca_codigo": "0642",
+    "tipo": "distrito",
+    "nome": "RIBANCEIRA",
+    "codigo_ibge": "6682"
+  },
+  {
+    "comarca_codigo": "0643",
+    "tipo": "sede",
+    "nome": "SÃO ROQUE DE MINAS",
+    "codigo_ibge": "0643"
+  },
+  {
+    "comarca_codigo": "0643",
+    "tipo": "municipio",
+    "nome": "VARGEM BONITA",
+    "codigo_ibge": "0706"
+  },
+  {
+    "comarca_codigo": "0643",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO BARREIRO",
+    "codigo_ibge": "7434"
+  },
+  {
+    "comarca_codigo": "0643",
+    "tipo": "distrito",
+    "nome": "SERRA DA CANASTRA",
+    "codigo_ibge": "7481"
+  },
+  {
+    "comarca_codigo": "0647",
+    "tipo": "sede",
+    "nome": "SÃO SEBASTIÃO DO PARAÍSO",
+    "codigo_ibge": "0647"
+  },
+  {
+    "comarca_codigo": "0647",
+    "tipo": "municipio",
+    "nome": "SÃO TOMÁS DE AQUINO",
+    "codigo_ibge": "0651"
+  },
+  {
+    "comarca_codigo": "0647",
+    "tipo": "distrito",
+    "nome": "GUARDINHA",
+    "codigo_ibge": "7202"
+  },
+  {
+    "comarca_codigo": "0657",
+    "tipo": "municipio",
+    "nome": "BRÁS PIRES",
+    "codigo_ibge": "0087"
+  },
+  {
+    "comarca_codigo": "0657",
+    "tipo": "municipio",
+    "nome": "DORES DO TURVO",
+    "codigo_ibge": "0233"
+  },
+  {
+    "comarca_codigo": "0657",
+    "tipo": "sede",
+    "nome": "SENADOR FIRMINO",
+    "codigo_ibge": "0657"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "municipio",
+    "nome": "ALVORADA DE MINAS",
+    "codigo_ibge": "0770"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "municipio",
+    "nome": "SANTO ANTÔNIO DO ITAMBÉ",
+    "codigo_ibge": "0602"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "municipio",
+    "nome": "SERRA AZUL DE MINAS",
+    "codigo_ibge": "0665"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "sede",
+    "nome": "SERRO",
+    "codigo_ibge": "0671"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "distrito",
+    "nome": "ITAPANHOACANGA",
+    "codigo_ibge": "7222"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "distrito",
+    "nome": "DEPUTADO AUGUSTO CLEMENTINO",
+    "codigo_ibge": "7142"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "distrito",
+    "nome": "MILHO VERDE",
+    "codigo_ibge": "7266"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "distrito",
+    "nome": "PEDRO LESSA",
+    "codigo_ibge": "7318"
+  },
+  {
+    "comarca_codigo": "0671",
+    "tipo": "distrito",
+    "nome": "SÃO GONÇALO DO RIO DAS PEDRAS",
+    "codigo_ibge": "7422"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "BALDIM",
+    "codigo_ibge": "0050"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "CACHOEIRA DA PRATA",
+    "codigo_ibge": "0096"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "FORTUNA DE MINAS",
+    "codigo_ibge": "0264"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "FUNILÂNDIA",
+    "codigo_ibge": "0272"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "INHAÚMA",
+    "codigo_ibge": "0310"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "JEQUITIBÁ",
+    "codigo_ibge": "0357"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "municipio",
+    "nome": "SANTANA DE PIRAPAMA",
+    "codigo_ibge": "0585"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "sede",
+    "nome": "SETE LAGOAS",
+    "codigo_ibge": "0672"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "distrito",
+    "nome": "AMANDA",
+    "codigo_ibge": "7518"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "distrito",
+    "nome": "SÃO VICENTE",
+    "codigo_ibge": "7465"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "distrito",
+    "nome": "DOUTOR CAMPOLINA",
+    "codigo_ibge": "7154"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "distrito",
+    "nome": "FECHADOS",
+    "codigo_ibge": "7171"
+  },
+  {
+    "comarca_codigo": "0672",
+    "tipo": "distrito",
+    "nome": "SILVA XAVIER",
+    "codigo_ibge": "6577"
+  },
+  {
+    "comarca_codigo": "0674",
+    "tipo": "municipio",
+    "nome": "ESPÍRITO SANTO DO DOURADO",
+    "codigo_ibge": "0244"
+  },
+  {
+    "comarca_codigo": "0674",
+    "tipo": "municipio",
+    "nome": "SÃO JOÃO DA MATA",
+    "codigo_ibge": "0623"
+  },
+  {
+    "comarca_codigo": "0674",
+    "tipo": "sede",
+    "nome": "SILVIANÓPOLIS",
+    "codigo_ibge": "0674"
+  },
+  {
+    "comarca_codigo": "0674",
+    "tipo": "municipio",
+    "nome": "TURVOLÂNDIA",
+    "codigo_ibge": "0698"
+  },
+  {
+    "comarca_codigo": "0680",
+    "tipo": "municipio",
+    "nome": "BERIZAL",
+    "codigo_ibge": "0784"
+  },
+  {
+    "comarca_codigo": "0680",
+    "tipo": "municipio",
+    "nome": "CURRAL DE DENTRO",
+    "codigo_ibge": "0799"
+  },
+  {
+    "comarca_codigo": "0680",
+    "tipo": "municipio",
+    "nome": "INDAIABIRA",
+    "codigo_ibge": "0813"
+  },
+  {
+    "comarca_codigo": "0680",
+    "tipo": "sede",
+    "nome": "TAIOBEIRAS",
+    "codigo_ibge": "0680"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "municipio",
+    "nome": "ENGENHEIRO CALDAS",
+    "codigo_ibge": "0237"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "municipio",
+    "nome": "FERNANDES TOURINHO",
+    "codigo_ibge": "0258"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "municipio",
+    "nome": "SOBRÁLIA",
+    "codigo_ibge": "0677"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "sede",
+    "nome": "TARUMIRIM",
+    "codigo_ibge": "0684"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "DIVINO DO TRAÍRA",
+    "codigo_ibge": "7146"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO ACÁCIO",
+    "codigo_ibge": "7433"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "SENHORA DA PENHA",
+    "codigo_ibge": "7477"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "PLAUTINO SOARES",
+    "codigo_ibge": "7342"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "CAFÉ-MIRIM",
+    "codigo_ibge": "6648"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "SÃO VICENTE DO RIO DOCE",
+    "codigo_ibge": "7468"
+  },
+  {
+    "comarca_codigo": "0684",
+    "tipo": "distrito",
+    "nome": "VAI-VOLTA",
+    "codigo_ibge": "7508"
+  },
+  {
+    "comarca_codigo": "0685",
+    "tipo": "municipio",
+    "nome": "PEDRA DO ANTA",
+    "codigo_ibge": "0488"
+  },
+  {
+    "comarca_codigo": "0685",
+    "tipo": "sede",
+    "nome": "TEIXEIRAS",
+    "codigo_ibge": "0685"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "ATALÉIA",
+    "codigo_ibge": "0047"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "LADAINHA",
+    "codigo_ibge": "0370"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "NOVO ORIENTE DE MINAS",
+    "codigo_ibge": "0832"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "OURO VERDE DE MINAS",
+    "codigo_ibge": "0462"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "PAVÃO",
+    "codigo_ibge": "0485"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "municipio",
+    "nome": "POTÉ",
+    "codigo_ibge": "0524"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "sede",
+    "nome": "TEÓFILO OTÔNI",
+    "codigo_ibge": "0686"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "NOVO HORIZONTE",
+    "codigo_ibge": "7290"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "CONCÓRDIA DO MUCURI",
+    "codigo_ibge": "7123"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "SUCANGA",
+    "codigo_ibge": "6585"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "VALÃO",
+    "codigo_ibge": "7509"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "CRISPIM JACQUES",
+    "codigo_ibge": "7137"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "MUCURI",
+    "codigo_ibge": "7282"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "PEDRO VERSIANI",
+    "codigo_ibge": "7319"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "RIO PRETINHO",
+    "codigo_ibge": "7370"
+  },
+  {
+    "comarca_codigo": "0686",
+    "tipo": "distrito",
+    "nome": "TOPÁZIO",
+    "codigo_ibge": "7502"
+  },
+  {
+    "comarca_codigo": "0687",
+    "tipo": "municipio",
+    "nome": "JAGUARAÇU",
+    "codigo_ibge": "0350"
+  },
+  {
+    "comarca_codigo": "0687",
+    "tipo": "municipio",
+    "nome": "MARLIÉRIA",
+    "codigo_ibge": "0403"
+  },
+  {
+    "comarca_codigo": "0687",
+    "tipo": "sede",
+    "nome": "TIMÓTEO",
+    "codigo_ibge": "0687"
+  },
+  {
+    "comarca_codigo": "0689",
+    "tipo": "sede",
+    "nome": "TIROS",
+    "codigo_ibge": "0689"
+  },
+  {
+    "comarca_codigo": "0689",
+    "tipo": "distrito",
+    "nome": "CANASTRÃO",
+    "codigo_ibge": "7092"
+  },
+  {
+    "comarca_codigo": "0692",
+    "tipo": "municipio",
+    "nome": "PEDRA DOURADA",
+    "codigo_ibge": "0490"
+  },
+  {
+    "comarca_codigo": "0692",
+    "tipo": "sede",
+    "nome": "TOMBOS",
+    "codigo_ibge": "0692"
+  },
+  {
+    "comarca_codigo": "0692",
+    "tipo": "distrito",
+    "nome": "ÁGUA SANTA DE MINAS",
+    "codigo_ibge": "6565"
+  },
+  {
+    "comarca_codigo": "0692",
+    "tipo": "distrito",
+    "nome": "CATUNÉ",
+    "codigo_ibge": "7101"
+  },
+  {
+    "comarca_codigo": "0693",
+    "tipo": "municipio",
+    "nome": "SÃO BENTO ABADE",
+    "codigo_ibge": "0608"
+  },
+  {
+    "comarca_codigo": "0693",
+    "tipo": "municipio",
+    "nome": "SÃO TOMÉ DAS LETRAS",
+    "codigo_ibge": "0652"
+  },
+  {
+    "comarca_codigo": "0693",
+    "tipo": "sede",
+    "nome": "TRÊS CORAÇÕES",
+    "codigo_ibge": "0693"
+  },
+  {
+    "comarca_codigo": "0058",
+    "tipo": "sede",
+    "nome": "TRÊS MARIAS",
+    "codigo_ibge": "0058"
+  },
+  {
+    "comarca_codigo": "0058",
+    "tipo": "distrito",
+    "nome": "ANDREQUICÉ",
+    "codigo_ibge": "7024"
+  },
+  {
+    "comarca_codigo": "0694",
+    "tipo": "municipio",
+    "nome": "SANTANA DA VARGEM",
+    "codigo_ibge": "0583"
+  },
+  {
+    "comarca_codigo": "0694",
+    "tipo": "sede",
+    "nome": "TRÊS PONTAS",
+    "codigo_ibge": "0694"
+  },
+  {
+    "comarca_codigo": "0694",
+    "tipo": "distrito",
+    "nome": "PONTALETE",
+    "codigo_ibge": "7346"
+  },
+  {
+    "comarca_codigo": "0696",
+    "tipo": "municipio",
+    "nome": "ARAPORÃ",
+    "codigo_ibge": "0725"
+  },
+  {
+    "comarca_codigo": "0696",
+    "tipo": "sede",
+    "nome": "TUPACIGUARA",
+    "codigo_ibge": "0696"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "municipio",
+    "nome": "JOSÉ GONÇALVES DE MINAS",
+    "codigo_ibge": "0816"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "municipio",
+    "nome": "LEME DO PRADO",
+    "codigo_ibge": "0820"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "sede",
+    "nome": "TURMALINA",
+    "codigo_ibge": "0697"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "municipio",
+    "nome": "VEREDINHA",
+    "codigo_ibge": "0875"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "distrito",
+    "nome": "CAÇARATIBA",
+    "codigo_ibge": "7080"
+  },
+  {
+    "comarca_codigo": "0697",
+    "tipo": "distrito",
+    "nome": "MENDONÇA",
+    "codigo_ibge": "7262"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "municipio",
+    "nome": "DIVINÉSIA",
+    "codigo_ibge": "0219"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "municipio",
+    "nome": "GUIDOVAL",
+    "codigo_ibge": "0288"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "municipio",
+    "nome": "RODEIRO",
+    "codigo_ibge": "0563"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "municipio",
+    "nome": "TOCANTINS",
+    "codigo_ibge": "0690"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "sede",
+    "nome": "UBÁ",
+    "codigo_ibge": "0699"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "distrito",
+    "nome": "DIAMANTE DE UBÁ",
+    "codigo_ibge": "7144"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "distrito",
+    "nome": "MIRAGAIA",
+    "codigo_ibge": "7267"
+  },
+  {
+    "comarca_codigo": "0699",
+    "tipo": "distrito",
+    "nome": "UBARI",
+    "codigo_ibge": "7506"
+  },
+  {
+    "comarca_codigo": "0701",
+    "tipo": "municipio",
+    "nome": "ÁGUA COMPRIDA",
+    "codigo_ibge": "0007"
+  },
+  {
+    "comarca_codigo": "0701",
+    "tipo": "municipio",
+    "nome": "CAMPO FLORIDO",
+    "codigo_ibge": "0772"
+  },
+  {
+    "comarca_codigo": "0701",
+    "tipo": "municipio",
+    "nome": "DELTA",
+    "codigo_ibge": "0800"
+  },
+  {
+    "comarca_codigo": "0701",
+    "tipo": "sede",
+    "nome": "UBERABA",
+    "codigo_ibge": "0701"
+  },
+  {
+    "comarca_codigo": "0701",
+    "tipo": "municipio",
+    "nome": "VERÍSSIMO",
+    "codigo_ibge": "0711"
+  },
+  {
+    "comarca_codigo": "0702",
+    "tipo": "sede",
+    "nome": "UBERLÂNDIA",
+    "codigo_ibge": "0702"
+  },
+  {
+    "comarca_codigo": "0702",
+    "tipo": "distrito",
+    "nome": "CRUZEIRO DOS PEIXOTOS",
+    "codigo_ibge": "7138"
+  },
+  {
+    "comarca_codigo": "0702",
+    "tipo": "distrito",
+    "nome": "MARTINÉSIA",
+    "codigo_ibge": "7259"
+  },
+  {
+    "comarca_codigo": "0702",
+    "tipo": "distrito",
+    "nome": "MIRAPORANGA",
+    "codigo_ibge": "7269"
+  },
+  {
+    "comarca_codigo": "0702",
+    "tipo": "distrito",
+    "nome": "TAPUIRAMA",
+    "codigo_ibge": "6009"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "municipio",
+    "nome": "CABECEIRA GRANDE",
+    "codigo_ibge": "0788"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "sede",
+    "nome": "UNAÍ",
+    "codigo_ibge": "0704"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "distrito",
+    "nome": "PALMITAL DE MINAS",
+    "codigo_ibge": "6354"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "distrito",
+    "nome": "GARAPUAVA",
+    "codigo_ibge": "7189"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "distrito",
+    "nome": "PALMEIRINHA",
+    "codigo_ibge": "6353"
+  },
+  {
+    "comarca_codigo": "0704",
+    "tipo": "distrito",
+    "nome": "SANTO ANTÔNIO DO BOQUEIRÃO",
+    "codigo_ibge": "6072"
+  },
+  {
+    "comarca_codigo": "0707",
+    "tipo": "municipio",
+    "nome": "CARMO DA CACHOEIRA",
+    "codigo_ibge": "0139"
+  },
+  {
+    "comarca_codigo": "0707",
+    "tipo": "municipio",
+    "nome": "MONSENHOR PAULO",
+    "codigo_ibge": "0426"
+  },
+  {
+    "comarca_codigo": "0707",
+    "tipo": "sede",
+    "nome": "VARGINHA",
+    "codigo_ibge": "0707"
+  },
+  {
+    "comarca_codigo": "0708",
+    "tipo": "municipio",
+    "nome": "LASSANCE",
+    "codigo_ibge": "0381"
+  },
+  {
+    "comarca_codigo": "0708",
+    "tipo": "sede",
+    "nome": "VÁRZEA DA PALMA",
+    "codigo_ibge": "0708"
+  },
+  {
+    "comarca_codigo": "0708",
+    "tipo": "distrito",
+    "nome": "GUAICUÍ",
+    "codigo_ibge": "6237"
+  },
+  {
+    "comarca_codigo": "0710",
+    "tipo": "municipio",
+    "nome": "GUARDA-MOR",
+    "codigo_ibge": "0286"
+  },
+  {
+    "comarca_codigo": "0710",
+    "tipo": "sede",
+    "nome": "VAZANTE",
+    "codigo_ibge": "0710"
+  },
+  {
+    "comarca_codigo": "0710",
+    "tipo": "distrito",
+    "nome": "CLARO DE MINAS",
+    "codigo_ibge": "7111"
+  },
+  {
+    "comarca_codigo": "0290",
+    "tipo": "municipio",
+    "nome": "SÃO JOSÉ DA LAPA",
+    "codigo_ibge": "0763"
+  },
+  {
+    "comarca_codigo": "0290",
+    "tipo": "sede",
+    "nome": "VESPASIANO",
+    "codigo_ibge": "0290"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "municipio",
+    "nome": "CAJURI",
+    "codigo_ibge": "0102"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "municipio",
+    "nome": "CANAÃ",
+    "codigo_ibge": "0117"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "municipio",
+    "nome": "COIMBRA",
+    "codigo_ibge": "0167"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "municipio",
+    "nome": "PAULA CÂNDIDO",
+    "codigo_ibge": "0483"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "municipio",
+    "nome": "SÃO MIGUEL DO ANTA",
+    "codigo_ibge": "0638"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "sede",
+    "nome": "VIÇOSA",
+    "codigo_ibge": "0713"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "distrito",
+    "nome": "PARAGUAI",
+    "codigo_ibge": "6073"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "distrito",
+    "nome": "CACHOEIRA DE SANTA CRUZ",
+    "codigo_ibge": "6075"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "distrito",
+    "nome": "SÃO JOSÉ DO TRIUNFO",
+    "codigo_ibge": "7530"
+  },
+  {
+    "comarca_codigo": "0713",
+    "tipo": "distrito",
+    "nome": "SILVESTRE",
+    "codigo_ibge": "6074"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "municipio",
+    "nome": "DIVINOLÂNDIA DE MINAS",
+    "codigo_ibge": "0222"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "municipio",
+    "nome": "GONZAGA",
+    "codigo_ibge": "0275"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "municipio",
+    "nome": "SANTA EFIGÊNIA DE MINAS",
+    "codigo_ibge": "0575"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "municipio",
+    "nome": "SÃO GERALDO DA PIEDADE",
+    "codigo_ibge": "0616"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "municipio",
+    "nome": "SARDOÁ",
+    "codigo_ibge": "0655"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "sede",
+    "nome": "VIRGINÓPOLIS",
+    "codigo_ibge": "0718"
+  },
+  {
+    "comarca_codigo": "0718",
+    "tipo": "distrito",
+    "nome": "CONCEIÇÃO DA BREJAÚBA",
+    "codigo_ibge": "7115"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "municipio",
+    "nome": "GUIRICEMA",
+    "codigo_ibge": "0779"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "municipio",
+    "nome": "SÃO GERALDO",
+    "codigo_ibge": "0615"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "sede",
+    "nome": "VISCONDE DO RIO BRANCO",
+    "codigo_ibge": "0720"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "distrito",
+    "nome": "TUIUTINGA",
+    "codigo_ibge": "7505"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "distrito",
+    "nome": "VILAS BOAS",
+    "codigo_ibge": "7525"
+  },
+  {
+    "comarca_codigo": "0720",
+    "tipo": "distrito",
+    "nome": "MONTE CELESTE",
+    "codigo_ibge": "6323"
+  }
+]

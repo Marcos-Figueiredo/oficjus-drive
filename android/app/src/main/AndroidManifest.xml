@@ -49,18 +49,11 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".data.service.BubbleBolhaActivity"
-            android:theme="@style/Theme.OficJusDrive"
-            android:exported="false"
-            android:launchMode="singleTask"
-            android:allowEmbedded="true"
-            android:documentLaunchMode="always" />
-
         <service
-            android:name=".data.service.BubbleBolhaService"
+            android:name=".data.service.RouteTrackingService"
             android:exported="false"
-            android:foregroundServiceType="dataSync" />
-    </application>
+            android:foregroundServiceType="location" />
+
+        </application>
 
 </manifest>

@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #0b0f19;
+    --foreground: #e2e8f0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-space-100 antialiased;
+    background-image: radial-gradient(
+        ellipse 80% 50% at 50% -20%,
+        rgba(0, 229, 255, 0.08),
+        transparent
+      ),
+      radial-gradient(
+        ellipse 60% 40% at 80% 50%,
+        rgba(163, 230, 53, 0.04),
+        transparent
+      );
+  }
+
+  ::selection {
+    @apply bg-cyan-electric/30 text-white;
+  }
+}
+
+@layer components {
+  .glass {
+    @apply bg-surface-glass backdrop-blur-xl border border-white/5 shadow-glass;
+  }
+
+  .glass-strong {
+    @apply bg-surface/80 backdrop-blur-2xl border border-white/10 shadow-glass;
+  }
+
+  .border-gradient {
+    position: relative;
+  }
+
+  .border-gradient::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(
+      135deg,
+      rgba(0, 229, 255, 0.4),
+      rgba(163, 230, 53, 0.15),
+      rgba(0, 229, 255, 0.1)
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .text-gradient {
+    @apply bg-gradient-to-r from-cyan-electric via-cyan-soft to-lime-neon bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-electric px-6 py-3.5 text-sm font-semibold text-background transition-all duration-300 hover:bg-cyan-soft hover:shadow-glow focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-electric focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-space-500 bg-surface/50 px-6 py-3.5 text-sm font-medium text-space-100 backdrop-blur-sm transition-all duration-300 hover:border-cyan-electric/50 hover:bg-surface-elevated hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-electric focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  .section-padding {
+    @apply px-4 py-16 sm:px-6 lg:px-8 lg:py-24;
+  }
+
+  .container-narrow {
+    @apply mx-auto max-w-7xl;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

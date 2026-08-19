@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OficJus Drive — Produtividade para Oficiais de Justiça</title>
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Flutuante -->
+    <header class="main-header">
+        <div class="container header-container">
+            <div class="logo">OficJus<span>Drive</span></div>
+            <nav class="nav-menu">
+                <a href="#funcionalidades">Recursos</a>
+                <a href="#simulador">O Aplicativo</a>
+                <a href="#calculadora">Simulador de Ganhos</a>
+                <a href="#faq">Dúvidas</a>
+            </nav>
+            <button class="btn btn-primary" onclick="openModal()">Solicitar Demonstração</button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-text">
+                <span class="badge">Tecnologia para o Judiciário</span>
+                <h1>A rota inteligente entre o bolo de mandados e a certidão.</h1>
+                <p>O OficJus Drive transforma sua rotina em campo. Da importação do tribunal à IA que redige sua certidão, com suporte 100% offline e bolha flutuante sobre o GPS.</p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary btn-lg" onclick="openModal()">Testar Grátis no Tribunal</button>
+                    <a href="#simulador" class="btn btn-secondary btn-lg">Ver em Ação</a>
+                </div>
+            </div>
+            
+            <!-- Simulador de Smartphone Interativo -->
+            <div class="simulator-wrapper" id="simulador">
+                <div class="smartphone-frame">
+                    <div class="screen">
+                        <!-- Tela 1: Rota e Voz -->
+                        <div class="app-screen active" id="screen-rota">
+                            <div class="app-header">🚗 OficJus Rota</div>
+                            <div class="app-content">
+                                <div class="voice-card">
+                                    <div class="pulse-icon">🎤</div>
+                                    <p>"Rua das Palmeiras, 1500, Bloco B"</p>
+                                </div>
+                                <div class="route-list">
+                                    <div class="route-item active">📄 Mandado 1/7 <span class="tag">Próximo</span></div>
+                                    <div class="route-item">📄 Mandado 2/7</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tela 2: Waze + Bolha -->
+                        <div class="app-screen" id="screen-waze">
+                            <div class="waze-bg">
+                                <div class="floating-bubble">
+                                    <div class="bubble-header">🚗 1/7 <span class="timer">50m</span></div>
+                                    <div class="bubble-actions">
+                                        <button class="b-btn delivery">E</button>
+                                        <button class="b-btn fail">X</button>
+                                        <button class="b-btn next">⏭️</button>
+                                    </div>
+                                    <div class="bubble-footer">Bolo: Doc 1</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Tela 3: Registro Local -->
+                        <div class="app-screen" id="screen-registro">
+                            <div class="app-header">📸 Registro de Diligência</div>
+                            <div class="app-content">
+                                <div class="camera-placeholder">
+                                    <span>[ Visualização da Câmera ]</span>
+                                    <p>Fachada do local capturada com sucesso</p>
+                                </div>
+                                <button class="btn btn-primary btn-block">Confirmar Localização GPS</button>
+                            </div>
+                        </div>
+                        <!-- Tela 4: Certidão IA -->
+                        <div class="app-screen" id="screen-certidao">
+                            <div class="app-header">✨ Certidão com Gemini IA</div>
+                            <div class="app-content">
+                                <div class="ai-box">
+                                    <p><strong>Texto Gerado:</strong> Certifico que desloquei-me ao endereço indicado e efetuei a entrega do mandado ao destinatário...</p>
+                                </div>
+                                <div class="export-badge">📄 Exportado em RTF para o PJe</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="simulator-controls">
+                    <button class="control-btn active" onclick="switchScreen('rota', this)">1. Voz e Rota</button>
+                    <button class="control-btn" onclick="switchScreen('waze', this)">2. Bolha no GPS</button>
+                    <button class="control-btn" onclick="switchScreen('registro', this)">3. Registro Local</button>
+                    <button class="control-btn" onclick="switchScreen('certidao', this)">4. Certidão IA</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grade de Funcionalidades -->
+    <section class="features-section" id="funcionalidades">
+        <div class="container">
+            <h2 class="section-title">Construído para a realidade das ruas</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="f-icon">📥</div>
+                    <h3>Importação Direta</h3>
+                    <p>Sincronize mandados do PJe, eProc e SEEU em segundos sem preenchimentos manuais.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="f-icon">📚</div>
+                    <h3>Sincronização do Bolo Físico</h3>
+                    <p>O app avisa qual papel exato da sua pasta física corresponde à parada atual do veículo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="f-icon">💭</div>
+                    <h3>Bolha Flutuante Inteligente</h3>
+                    <p>Controle o fluxo, pule rotas e registre atos com um toque sem sair da navegação do Waze.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="f-icon">🌐</div>
+                    <h3>100% Offline (IBGE/CNEFE)</h3>
+                    <p>Pesquise e valide logradouros em zonas rurais sem sinal utilizando o cache local inteligente.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="f-icon">🤖</div>
+                    <h3>Minuta Automática Google Gemini</h3>
+                    <p>Transforme dados de campo em certidões jurídicas perfeitas prontas para exportação.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="f-icon">🔒</div>
+                    <h3>Segurança de Dados RLS</h3>
+                    <p>Segurança jurídica total com criptografia de ponta a ponta e Row-Level Security por tribunal.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Calculadora Dinâmica de Produtividade -->
+    <section class="calc-section" id="calculadora">
+        <div class="container calc-container">
+            <div class="calc-box">
+                <h2>Simulador de Economia de Tempo</h2>
+                <p>Descubra quantas horas você resgata do seu mês eliminando o trabalho burocrático e otimizando trajetos.</p>
+                <div class="input-group">
+                    <label for="mandados-range">Quantidade de Mandados por Mês: <span id="range-val">120</span></label>
+                    <input type="range" id="mandados-range" min="20" max="400" value="120" step="10">
+                </div>
+            </div>
+            <div class="results-box">
+                <div class="result-card">
+                    <span class="res-num" id="horas-rua">18h</span>
+                    <span class="res-lbl">Economizadas no Trânsito</span>
+                </div>
+                <div class="result-card">
+                    <span class="res-num" id="horas-certidao">24h</span>
+                    <span class="res-lbl">A menos digitando Certidões</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Interativo (Accordion) -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <h2 class="section-title">Perguntas Frequentes</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">O aplicativo é integrado oficialmente aos tribunais?</div>
+                    <div class="accordion-content">Sim. O sistema realiza a leitura segura através das APIs e chaves estruturadas dos sistemas PJe, eProc e SEEU, respeitando os normativos de segurança de dados de cada estado.</div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">Como funciona o GPS e a validação de endereços em locais sem internet?</div>

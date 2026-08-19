@@ -1,5 +1,8 @@
 package br.com.oficjus.drive.ui.routebuild
 
+import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.itemsIndexed
@@ -9,7 +12,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.Logout
 import androidx.compose.material.icons.filled.Delete
-import androidx.compose.material.icons.filled.Route
+import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -17,11 +20,24 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.layout.WindowInsets
+import androidx.compose.foundation.layout.imePadding
+import androidx.compose.foundation.layout.navigationBarsPadding
+import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.ui.focus.FocusRequester
+import androidx.compose.ui.focus.focusRequester
+import androidx.compose.ui.platform.LocalSoftwareKeyboardController
+import androidx.compose.ui.text.input.ImeAction
+import androidx.compose.ui.graphics.Color
+import br.com.oficjus.drive.domain.TipoGeocode
+import androidx.compose.ui.text.input.KeyboardType
+import androidx.lifecycle.Lifecycle
+import androidx.lifecycle.LifecycleEventObserver
+import androidx.lifecycle.compose.LocalLifecycleOwner
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import br.com.oficjus.drive.domain.Endereco
 import br.com.oficjus.drive.ui.routebuild.components.SmartSearchField
-import br.com.oficjus.drive.ui.routebuild.components.VoiceInputButton
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -34,8 +50,21 @@ fun RouteBuildScreen(
 
     LaunchedEffect(state.rotaConfirmadaId) {
         state.rotaConfirmadaId?.let { rotaId ->
+            viewModel.limparRotaConfirmada()
             onRotaConfirmada(rotaId)
         }
+    }
+
+    // Recarrega as paradas do banco ao voltar da tela de rota ativa
+    val lifecycleOwner = LocalLifecycleOwner.current
+    DisposableEffect(lifecycleOwner) {
+        val observer = LifecycleEventObserver { _, event ->
+            if (event == Lifecycle.Event.ON_RESUME) {
+                viewModel.refreshState()
+            }
+        }
+        lifecycleOwner.lifecycle.addObserver(observer)
+        onDispose { lifecycleOwner.lifecycle.removeObserver(observer) }
     }
 
     // AlertDialog de endereço duplicado
@@ -95,11 +124,104 @@ fun RouteBuildScreen(
         },
         containerColor = MaterialTheme.colorScheme.background
     ) { padding ->
+        // Tela de progresso do sync (antes de qualquer conteúdo)
+        state.syncProgresso?.let { progresso ->
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .background(MaterialTheme.colorScheme.background),
+                contentAlignment = Alignment.Center
+            ) {
+                Column(horizontalAlignment = Alignment.CenterHorizontally) {
+                    Text(
+                        text = "Preparando base de endereços...",
+                        fontSize = 18.sp,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onBackground
+                    )
+                    Spacer(Modifier.height(24.dp))
+                    LinearProgressIndicator(
+                        progress = { state.syncProgressoPorcentagem },
+                        modifier = Modifier
+                            .fillMaxWidth(0.7f)
+                            .height(8.dp),
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.surfaceVariant,
+                    )
+                    Spacer(Modifier.height(16.dp))
+                    Text(
+                        text = progresso,
+                        fontSize = 14.sp,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant
+                    )
+                }
+            }
+            return@Scaffold
+        }
+
+        // Bloqueio com mensagem — cobre a tela por 3s, sem permitir interação
+        state.mensagem?.let { msg ->
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .clickable(enabled = false, indication = null, interactionSource = remember { MutableInteractionSource() }) {}
+                    .background(MaterialTheme.colorScheme.scrim.copy(alpha = 0.35f)),
+                contentAlignment = Alignment.Center
+            ) {
+                Card(
+                    modifier = Modifier.padding(32.dp),
+                    shape = RoundedCornerShape(12.dp),
+                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+                ) {
+                    Text(
+                        text = msg,
+                        modifier = Modifier.padding(24.dp),
+                        color = when (state.mensagemTipo) {
+                            MensagemTipo.ERROR -> MaterialTheme.colorScheme.error
+                            MensagemTipo.SUCCESS -> MaterialTheme.colorScheme.primary
+                            MensagemTipo.INFO -> MaterialTheme.colorScheme.onSurface
+                        },
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Medium,
+                        textAlign = androidx.compose.ui.text.style.TextAlign.Center
+                    )
+                }
+            }
+            return@Scaffold
+        }
+
+        // Se está confirmando endereço, usa Column com scroll (IME-friendly)
+        val confirmando = state.confirmandoEndereco
+        if (confirmando != null) {
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(padding)
+                    .padding(horizontal = 16.dp)
+                    .verticalScroll(rememberScrollState())
+                    .imePadding()
+                    .navigationBarsPadding()
+            ) {
+                ConfirmacaoEnderecoCard(
+                    endereco = confirmando,
+                    numeroDigitado = state.numeroDigitado,
+                    onNumeroChanged = viewModel::onNumeroConfirmacaoChanged,
+                    onConfirmar = viewModel::confirmarNumero,
+                    onCancelar = viewModel::cancelarConfirmacao
+                )
+            }
+            return@Scaffold
+        }
+
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(padding)
-                .padding(horizontal = 16.dp),
+                .padding(horizontal = 16.dp)
+                .imePadding()
+                .navigationBarsPadding(),
             verticalArrangement = Arrangement.spacedBy(8.dp)
         ) {
             // Mensagem de status
@@ -141,6 +263,7 @@ fun RouteBuildScreen(
                     SmartSearchField(
                         value = state.searchText,
                         onValueChange = viewModel::onSearchTextChanged,
+                        onVoiceResult = viewModel::onVoiceResult,
                         sugestoes = state.sugestoes,
                         onSelecionarSugestao = viewModel::onSelecionarSugestao,
                         isLoading = state.isLoading
@@ -153,20 +276,6 @@ fun RouteBuildScreen(
                             modifier = Modifier.fillMaxWidth(),
                             horizontalArrangement = Arrangement.spacedBy(8.dp)
                         ) {
-                            OutlinedButton(
-                                onClick = viewModel::otimizarRota,
-                                enabled = state.paradas.size >= 2 && !state.isOptimizing,
-                                modifier = Modifier.weight(1f),
-                                shape = RoundedCornerShape(8.dp)
-                            ) {
-                                if (state.isOptimizing) {
-                                    CircularProgressIndicator(modifier = Modifier.size(16.dp), strokeWidth = 2.dp)
-                                    Spacer(Modifier.width(8.dp))
-                                }
-                                Icon(Icons.Default.Route, contentDescription = null, modifier = Modifier.size(18.dp))
-                                Spacer(Modifier.width(6.dp))
-                                Text("Otimizar", fontSize = 14.sp)
-                            }
                             Button(
                                 onClick = viewModel::confirmarRota,
                                 enabled = state.paradas.isNotEmpty() && !state.isSaving,
@@ -177,7 +286,9 @@ fun RouteBuildScreen(
                                     CircularProgressIndicator(modifier = Modifier.size(16.dp), strokeWidth = 2.dp, color = MaterialTheme.colorScheme.onPrimary)
                                     Spacer(Modifier.width(8.dp))
                                 }
-                                Text("Iniciar Rota", fontSize = 14.sp)
+                                Icon(Icons.Default.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+                                Spacer(Modifier.width(6.dp))
+                                Text("Salvar Rota", fontSize = 14.sp)
                             }
                         }
                     }
@@ -223,6 +334,14 @@ private fun ConfirmacaoEnderecoCard(
     onConfirmar: () -> Unit,
     onCancelar: () -> Unit
 ) {
+    val focusRequester = remember { FocusRequester() }
+    val keyboardController = LocalSoftwareKeyboardController.current
+
+    LaunchedEffect(Unit) {
+        focusRequester.requestFocus()
+        keyboardController?.show()
+    }
+
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
@@ -334,8 +453,12 @@ private fun ConfirmacaoEnderecoCard(
                         color = limeGreen.copy(alpha = 0.7f)
                     )
                 },
-                modifier = Modifier.fillMaxWidth(),
+                modifier = Modifier.fillMaxWidth().focusRequester(focusRequester),
                 singleLine = true,
+                keyboardOptions = KeyboardOptions(
+                    keyboardType = KeyboardType.Number,
+                    imeAction = ImeAction.Done
+                ),
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedBorderColor = MaterialTheme.colorScheme.primary,
                     unfocusedBorderColor = numeroBorderColor,
@@ -344,15 +467,7 @@ private fun ConfirmacaoEnderecoCard(
                     unfocusedTextColor = MaterialTheme.colorScheme.onSurface
                 ),
                 shape = RoundedCornerShape(8.dp),
-                leadingIcon = {
-                    VoiceInputButton(
-                        onResult = { texto ->
-                            // Extrai apenas dígitos do que foi dito
-                            val digitos = texto.filter { it.isDigit() }
-                            if (digitos.isNotBlank()) onNumeroChanged(digitos)
-                        }
-                    )
-                }
+                leadingIcon = null
             )
 
             Spacer(modifier = Modifier.height(16.dp))
@@ -388,10 +503,21 @@ private fun ParadaCard(
     isGeocoding: Boolean,
     onRemover: () -> Unit
 ) {
+    val temCoordenadas = endereco.temCoordenadas
+    val corGeocode = when {
+        isGeocoding -> MaterialTheme.colorScheme.primary
+        endereco.tipoGeocode == TipoGeocode.EXATO -> Color(0xFF4CAF50)   // verde
+        endereco.tipoGeocode == TipoGeocode.ESTIMADO -> Color(0xFFFFC107) // amarelo
+        temCoordenadas -> Color(0xFF4CAF50) // fallback: verde (dado legado sem tipo)
+        else -> MaterialTheme.colorScheme.error // vermelho: sem coordenada
+    }
+
     Card(
         modifier = Modifier.fillMaxWidth(),
         colors = CardDefaults.cardColors(
-            containerColor = MaterialTheme.colorScheme.surface
+            containerColor = if (!temCoordenadas && !isGeocoding)
+                MaterialTheme.colorScheme.errorContainer.copy(alpha = 0.35f)
+            else MaterialTheme.colorScheme.surface
         ),
         shape = RoundedCornerShape(12.dp)
     ) {
@@ -409,12 +535,12 @@ private fun ParadaCard(
             ) {
                 Surface(
                     shape = RoundedCornerShape(8.dp),
-                    color = MaterialTheme.colorScheme.primary,
+                    color = corGeocode,
                     modifier = Modifier.size(36.dp)
                 ) {
                     Box(contentAlignment = Alignment.Center) {
                         Text(
-                            text = "${index + 1}",
+                            text = if (temCoordenadas) "${index + 1}" else "0",
                             color = MaterialTheme.colorScheme.onPrimary,
                             fontWeight = FontWeight.Bold,
                             fontSize = 14.sp
@@ -440,7 +566,7 @@ private fun ParadaCard(
                 }
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = if (isGeocoding) "⏳" else if (endereco.temCoordenadas) "✅" else "",
+                    text = if (isGeocoding) "⏳" else if (temCoordenadas) "✅" else "⚠️",
                     fontSize = 14.sp
                 )
             }
@@ -464,6 +590,15 @@ private fun ParadaCard(
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     fontSize = 11.sp
                 )
+                if (!temCoordenadas && !isGeocoding) {
+                    Spacer(modifier = Modifier.height(2.dp))
+                    Text(
+                        text = "⚠️ Sem coordenadas — será inserido ao final da rota",
+                        color = MaterialTheme.colorScheme.error,
+                        fontSize = 10.sp,
+                        fontWeight = FontWeight.Medium
+                    )
+                }
             }
 
             IconButton(onClick = onRemover) {

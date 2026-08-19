@@ -6,5 +6,6 @@ interface AuthRepository {
     suspend fun login(email: String, password: String): Result<Usuario>
     suspend fun logout()
     suspend fun getSession(): Usuario?
+    suspend fun refreshProfile()
     val isLoggedIn: Boolean
 }

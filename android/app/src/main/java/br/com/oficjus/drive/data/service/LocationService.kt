@@ -28,10 +28,10 @@ class LocationService @Inject constructor(
 
     private val locationRequest = LocationRequest.Builder(
         Priority.PRIORITY_HIGH_ACCURACY,
-        5000L // intervalo de 5 segundos
+        1000L // intervalo de 1 segundo (igual ao Waze)
     ).apply {
-        setMinUpdateIntervalMillis(3000L) // mínimo 3s
-        setMaxUpdateDelayMillis(10000L) // máximo 10s
+        setMinUpdateIntervalMillis(500L) // mínimo 0.5s
+        setMaxUpdateDelayMillis(2000L) // máximo 2s
     }.build()
 
     /**
