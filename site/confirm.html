@@ -19,18 +19,36 @@
   </div>
   <script>
     (async function() {
+      const SUPABASE_URL = 'https://weaqkaaqalvpbxkxrfee.supabase.co';
+      const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6IndlYXFrYWFxYWx2cGJ4a3hyZmVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzUyNzU4NjIsImV4cCI6MjA1MDg1MTg2Mn0.BsW5BdsOXIqqlxKD5sgJ8g8tT5Q1LfIW7A5WZR340qE';
+
       const params = new URLSearchParams(window.location.hash.replace('#', '&'));
       const accessToken = params.get('access_token');
       const refreshToken = params.get('refresh_token');
       const type = params.get('type');
 
-      // Se veio com token, tenta confirmar
-      if (accessToken && type === 'signup') {
+      if (accessToken && (type === 'signup' || type === 'email_confirm' || type === 'invite')) {
         try {
-          // Salva token para usar depois
+          // Salva token
           localStorage.setItem('sb-access-token', accessToken);
           if (refreshToken) localStorage.setItem('sb-refresh-token', refreshToken);
-        } catch {}
+
+          // Busca dados do usuario com o token e salva user_id
+          const res = await fetch(SUPABASE_URL + '/auth/v1/user', {
+            headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': 'Bearer ' + accessToken,
+            },
+          });
+          const userData = await res.json();
+          if (userData && userData.id) {
+            localStorage.setItem('drv_user_id', userData.id);
+          }
+        } catch (e) {
+          // Se falhar, tenta pegar user_id do hash
+          const idMatch = window.location.hash.match(/user_id=([^&]+)/);
+          if (idMatch) localStorage.setItem('drv_user_id', idMatch[1]);
+        }
       }
 
       // Redireciona para completar cadastro (mantendo o hash com o token)
