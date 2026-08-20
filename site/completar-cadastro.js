@@ -133,9 +133,8 @@ form.addEventListener('submit', async (e) => {
     if (!document.getElementById('uf').value) throw new Error('Selecione a UF.');
 
     const profile = {
-      user_id: userId,
+      id: userId,
       nome: nomeInput.value.trim(),
-      email: userEmail,
       cpf: cpf,
       telefone: document.getElementById('telefone').value.replace(/\D/g, ''),
       matricula: document.getElementById('matricula').value.trim(),
