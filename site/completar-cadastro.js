@@ -117,12 +117,6 @@ document.getElementById('cep').addEventListener('blur', async function () {
     // Mantem dados do localStorage
   }
 })();
-    emailInput.removeAttribute('readonly');
-    errorMsg.innerHTML = 'Erro ao carregar. Preencha manualmente.';
-    errorMsg.style.display = 'block';
-  }
-})();
-})();
 
 // Submit
 form.addEventListener('submit', async (e) => {
