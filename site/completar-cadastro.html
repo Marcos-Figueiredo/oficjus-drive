@@ -149,21 +149,20 @@
           <div class="form-group">
             <label for="j">Segmento (J)</label>
             <select id="j">
-              <option value="">Selecione</option>
-              <option value="8">8 — Justiça Estadual</option>
-              <option value="9">9 — Justiça Federal</option>
-              <option value="4">4 — Justiça do Trabalho</option>
-              <option value="5">5 — Justiça Eleitoral</option>
-              <option value="6">6 — Justiça Militar</option>
+              <option value="">Carregando...</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="tr">Tribunal (TR)</label>
-            <input type="text" id="tr" placeholder="Ex: 01" maxlength="2">
+            <label for="tr" id="trLabel">Tribunal (TR)</label>
+            <select id="tr">
+              <option value="">Selecione o segmento primeiro</option>
+            </select>
           </div>
           <div class="form-group">
-            <label for="oooo">Comarca (OOOO)</label>
-            <input type="text" id="oooo" placeholder="Ex: 0001" maxlength="4">
+            <label for="oooo" id="ooooLabel">Comarca (OOOO)</label>
+            <select id="oooo">
+              <option value="">Selecione o tribunal primeiro</option>
+            </select>
           </div>
         </div>
 

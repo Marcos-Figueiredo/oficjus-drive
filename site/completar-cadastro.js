@@ -70,6 +70,99 @@ document.getElementById('cep').addEventListener('blur', async function () {
   } catch { /* ignore */ }
 });
 
+// ---- CNJ Dropdowns em cascata ----
+// Labels do terceiro dropdown conforme o segmento
+function getOoooLabel(segmentoCodigo) {
+  var labels = {
+    '8': 'Comarca',
+    '4': 'Subseção',
+    '5': 'Origem',
+    '2': 'Zona',
+    '6': 'Origem',
+    '9': 'Origem',
+  };
+  return labels[segmentoCodigo] || 'Comarca (OOOO)';
+}
+
+// Popula um select com options
+function populateSelect(selectId, data, valueField, textField, placeholder) {
+  var sel = document.getElementById(selectId);
+  sel.innerHTML = '<option value="">' + placeholder + '</option>';
+  if (data && data.length) {
+    data.forEach(function (item) {
+      var opt = document.createElement('option');
+      opt.value = item[valueField];
+      opt.textContent = item[valueField] + ' — ' + item[textField];
+      sel.appendChild(opt);
+    });
+  }
+}
+
+// Carrega segmentos
+async function loadSegmentos() {
+  try {
+    var res = await xhrRequest('GET', SUPABASE_URL + '/rest/v1/cnj_segmentos?select=codigo,nome&order=nome.asc&ativo=eq.true', {
+      headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': 'Bearer ' + SUPABASE_ANON_KEY },
+    });
+    if (res.ok && res.data) {
+      populateSelect('j', res.data, 'codigo', 'nome', 'Selecione o segmento');
+    }
+  } catch (e) { /* fallback silencioso */ }
+}
+
+// Carrega tribunais quando segmento muda
+document.getElementById('j').addEventListener('change', async function () {
+  var seg = this.value;
+  var trSel = document.getElementById('tr');
+  var ooooSel = document.getElementById('oooo');
+  ooooSel.innerHTML = '<option value="">Selecione o tribunal primeiro</option>';
+
+  // Atualiza label do campo comarca
+  document.getElementById('ooooLabel').textContent = getOoooLabel(seg) + ' (OOOO)';
+
+  if (!seg) {
+    trSel.innerHTML = '<option value="">Selecione o segmento primeiro</option>';
+    return;
+  }
+
+  trSel.innerHTML = '<option value="">Carregando...</option>';
+  try {
+    var res = await xhrRequest('GET', SUPABASE_URL + '/rest/v1/cnj_tribunais?select=codigo,sigla,nome&segmento_codigo=eq.' + encodeURIComponent(seg) + '&order=nome.asc', {
+      headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': 'Bearer ' + SUPABASE_ANON_KEY },
+    });
+    if (res.ok && res.data) {
+      populateSelect('tr', res.data, 'codigo', 'nome', 'Selecione o tribunal');
+    }
+  } catch (e) {
+    trSel.innerHTML = '<option value="">Erro ao carregar</option>';
+  }
+});
+
+// Carrega comarcas quando tribunal muda
+document.getElementById('tr').addEventListener('change', async function () {
+  var seg = document.getElementById('j').value;
+  var tr = this.value;
+  var ooooSel = document.getElementById('oooo');
+
+  if (!seg || !tr) {
+    ooooSel.innerHTML = '<option value="">Selecione o tribunal primeiro</option>';
+    return;
+  }
+
+  ooooSel.innerHTML = '<option value="">Carregando...</option>';
+  try {
+    var res = await xhrRequest('GET', SUPABASE_URL + '/rest/v1/cnj_comarcas?select=codigo,nome&segmento_codigo=eq.' + encodeURIComponent(seg) + '&tribunal_codigo=eq.' + encodeURIComponent(tr) + '&order=nome.asc', {
+      headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': 'Bearer ' + SUPABASE_ANON_KEY },
+    });
+    if (res.ok && res.data) {
+      var label = getOoooLabel(seg);
+      populateSelect('oooo', res.data, 'codigo', 'nome', 'Selecione a ' + label.toLowerCase());
+    }
+  } catch (e) {
+    ooooSel.innerHTML = '<option value="">Erro ao carregar</option>';
+  }
+});
+
 // Inicializar — pegar token da URL, hash ou localStorage
 (async function init() {
   // Tenta de todas as fontes possiveis
@@ -130,6 +223,9 @@ document.getElementById('cep').addEventListener('blur', async function () {
   if (!userId) {
     try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
   }
+
+  // Carrega os dropdowns dos CNJ
+  loadSegmentos();
 })();
 
 // Submit
