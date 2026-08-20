@@ -133,7 +133,6 @@ form.addEventListener('submit', async (e) => {
     if (!document.getElementById('uf').value) throw new Error('Selecione a UF.');
 
     const profile = {
-      id: userId,
       nome: nomeInput.value.trim(),
       cpf: cpf,
       telefone: document.getElementById('telefone').value.replace(/\D/g, ''),
@@ -149,20 +148,40 @@ form.addEventListener('submit', async (e) => {
       cnj_oooo: document.getElementById('oooo').value.trim(),
       valor_urbano: document.getElementById('valor_urbano').value ? parseFloat(document.getElementById('valor_urbano').value.replace(/\./g, '').replace(',', '.')) : null,
       valor_rural: document.getElementById('valor_rural').value ? parseFloat(document.getElementById('valor_rural').value.replace(/\./g, '').replace(',', '.')) : null,
-      foto_data_url: fotoDataUrl || '',
+      foto_url: fotoDataUrl || '',
     };
 
-    // Salva via backend
-    const { ok, data } = await xhrRequest('POST', `${API_URL}/api/complete-profile`, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${accessToken}`,
-      },
-      body: JSON.stringify(profile),
-    });
+    // Salva direto no Supabase REST API (sem backend)
+    // 1. Tenta PATCH (update) no registro existente
+    let patchOk = false;
+    try {
+      const patchRes = await xhrRequest('PATCH', `${SUPABASE_URL}/rest/v1/profiles?id=eq.${userId}`, {
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${accessToken}`,
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify(profile),
+      });
+      patchOk = patchRes.ok;
+    } catch (e) { /* fallback */ }
 
-    if (!ok) {
-      throw new Error(data?.error || 'Erro ao salvar cadastro.');
+    if (!patchOk) {
+      // 2. Se PATCH falhou, tenta INSERT
+      profile.id = userId;
+      const insertRes = await xhrRequest('POST', `${SUPABASE_URL}/rest/v1/profiles`, {
+        headers: {
+          'Content-Type': 'application/json',
+          'apikey': SUPABASE_ANON_KEY,
+          'Authorization': `Bearer ${accessToken}`,
+          'Prefer': 'return=minimal',
+        },
+        body: JSON.stringify(profile),
+      });
+      if (!insertRes.ok) {
+        throw new Error(insertRes.data?.message || 'Erro ao salvar cadastro.');
+      }
     }
 
     loadingOverlay.classList.remove('active');
