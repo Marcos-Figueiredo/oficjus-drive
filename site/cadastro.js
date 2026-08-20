@@ -72,6 +72,11 @@ form.addEventListener('submit', async (e) => {
       throw new Error(data.error || 'Erro ao criar conta.');
     }
 
+    // Salva user_id no localStorage para usar no completar-cadastro
+    if (data.user_id) {
+      try { localStorage.setItem('drv_user_id', data.user_id); } catch { /* */ }
+    }
+
     form.style.display = 'none';
     successMsg.innerHTML = 'Conta criada! 🎉<br><br>Enviamos um e-mail de confirmação para <strong>' + emailInput.value.trim() + '</strong>.<br><br>Após confirmar, você será redirecionado.';
     successMsg.style.display = 'block';

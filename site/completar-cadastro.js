@@ -113,7 +113,7 @@ document.getElementById('cep').addEventListener('blur', async function () {
     return;
   }
 
-  // Buscar dados do usuario
+  // Buscar dados do usuario — se falhar, usa fallback do localStorage
   try {
     const { ok, data } = await xhrRequest('GET', `${SUPABASE_URL}/auth/v1/user`, {
       headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': `Bearer ${accessToken}` },
@@ -126,7 +126,12 @@ document.getElementById('cep').addEventListener('blur', async function () {
       if (userEmail) emailInput.value = userEmail;
     }
   } catch (err) {
-    // Mantem dados do localStorage
+    // Fallback: tenta usar dados do localStorage
+  }
+
+  // Se nao conseguiu userId pela API, tenta do localStorage
+  if (!userId) {
+    try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
   }
 })();
 
