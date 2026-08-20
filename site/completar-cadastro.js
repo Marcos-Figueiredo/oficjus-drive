@@ -70,19 +70,31 @@ document.getElementById('cep').addEventListener('blur', async function () {
   } catch { /* ignore */ }
 });
 
-// Inicializar — pegar token da URL ou localStorage
+// Inicializar — pegar token da URL, hash ou localStorage
 (async function init() {
-  const hash = window.location.hash.replace('#', '&');
-  const params = new URLSearchParams(hash);
+  // Tenta de todas as fontes possiveis
+  // 1. Hash da URL (vindo direto do email ou do confirm.html)
+  var hashStr = window.location.hash.replace('#', '');
+  var params = new URLSearchParams(hashStr);
   accessToken = params.get('access_token') || '';
-  const type = params.get('type') || '';
 
-  // Salva token pra usar depois
-  if (accessToken && (type === 'signup' || type === 'email_confirm')) {
-    try { localStorage.setItem('sb-access-token', accessToken); } catch { /* */ }
-  }
+  // 2. Query string (fallback)
   if (!accessToken) {
-    try { accessToken = localStorage.getItem('sb-access-token') || ''; } catch { /* */ }
+    var qParams = new URLSearchParams(window.location.search);
+    accessToken = qParams.get('access_token') || '';
+  }
+
+  // 3. localStorage (salvo pelo confirm.html ou cadastro.js)
+  if (!accessToken) {
+    try { accessToken = localStorage.getItem('sb-access-token') || ''; } catch (e) {}
+  }
+
+  // Salva token no localStorage se veio da URL
+  if (accessToken) {
+    try { localStorage.setItem('sb-access-token', accessToken); } catch (e) {}
+    var hashParams = new URLSearchParams(window.location.hash.replace('#', ''));
+    var rt = hashParams.get('refresh_token');
+    if (rt) try { localStorage.setItem('sb-refresh-token', rt); } catch (e) {}
   }
 
   // Preenche nome e email do localStorage (sempre salvo no pre-cadastro)
