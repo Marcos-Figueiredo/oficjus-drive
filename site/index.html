@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>OficJus Drive — Navegador Inteligente de Rotas</title>
+  <script>
+    // Se veio do link de confirmacao de email, redireciona para confirm.html
+    (function() {
+      if (window.location.hash && window.location.hash.indexOf('access_token') !== -1) {
+        window.location.href = 'confirm.html' + window.location.hash;
+      }
+    })();
+  </script>
   <meta name="description" content="App Android nativo de navegação inteligente de rotas. Bolha flutuante sobre o Waze, rota dinâmica por GPS, cache offline, entrada por voz e base oficial IBGE.">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
