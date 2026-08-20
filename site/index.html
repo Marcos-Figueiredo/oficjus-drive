@@ -291,5 +291,15 @@
   </footer>
 
   <script src="scripts.js"></script>
+  <script>
+    // Captura token de confirmacao de email (Supabase redireciona para Site URL)
+    (function() {
+      var hash = window.location.hash.replace('#', '&');
+      var params = new URLSearchParams(hash);
+      if (params.get('type') === 'signup' || params.get('access_token')) {
+        window.location.href = 'download.html';
+      }
+    })();
+  </script>
 </body>
 </html>
