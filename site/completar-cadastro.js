@@ -78,7 +78,7 @@ document.getElementById('cep').addEventListener('blur', async function () {
   const type = params.get('type') || '';
 
   // Salva token pra usar depois
-  if (accessToken && type === 'signup') {
+  if (accessToken && (type === 'signup' || type === 'email_confirm')) {
     try { localStorage.setItem('sb-access-token', accessToken); } catch { /* */ }
   }
   if (!accessToken) {

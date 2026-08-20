@@ -290,18 +290,21 @@
     </div>
   </footer>
 
-  <script src="scripts.js"></script>
   <script>
-    // Captura token de confirmacao de email e salva antes de redirecionar
+    // Captura token de confirmacao de email — executa antes de renderizar
     (function() {
-      var hash = window.location.hash.replace('#', '&');
-      var params = new URLSearchParams(hash);
-      var token = params.get('access_token');
-      if (params.get('type') === 'signup' || token) {
-        if (token) try { localStorage.setItem('sb-access-token', token); } catch(e) {}
-        window.location.href = 'completar-cadastro.html' + window.location.hash;
-      }
+      try {
+        var hash = window.location.hash.replace('#', '&');
+        var params = new URLSearchParams(hash);
+        var token = params.get('access_token');
+        var type = params.get('type');
+        if (token && (type === 'signup' || type === 'email_confirm')) {
+          localStorage.setItem('sb-access-token', token);
+          window.location.replace('completar-cadastro.html' + window.location.hash);
+        }
+      } catch(e) {}
     })();
   </script>
+  <script src="scripts.js"></script>
 </body>
 </html>
