@@ -121,7 +121,8 @@ document.getElementById('cep').addEventListener('blur', async function () {
     try {
       var parts = accessToken.split('.');
       if (parts.length === 3) {
-        var payload = JSON.parse(atob(parts[1]));
+        var b64url = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+        var payload = JSON.parse(atob(b64url));
         if (payload.sub) userId = payload.sub;
       }
     } catch (e) {}
