@@ -47,6 +47,12 @@ form.addEventListener('submit', async (e) => {
   successMsg.style.display = 'none';
   loadingOverlay.classList.add('active');
 
+  // Salva dados no localStorage para usar na proxima tela
+  try {
+    localStorage.setItem('drv_nome', nomeInput.value.trim());
+    localStorage.setItem('drv_email', emailInput.value.trim());
+  } catch { /* */ }
+
   try {
     if (senhaInput.value !== senhaConfirm.value) throw new Error('As senhas não conferem.');
 

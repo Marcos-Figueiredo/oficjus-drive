@@ -85,10 +85,17 @@ document.getElementById('cep').addEventListener('blur', async function () {
     try { accessToken = localStorage.getItem('sb-access-token') || ''; } catch { /* */ }
   }
 
+  // Preenche nome e email do localStorage (sempre salvo no pre-cadastro)
+  var savedNome = ''; var savedEmail = '';
+  try { savedNome = localStorage.getItem('drv_nome') || ''; } catch { /* */ }
+  try { savedEmail = localStorage.getItem('drv_email') || ''; } catch { /* */ }
+
+  if (savedNome) nomeInput.value = savedNome;
+  if (savedEmail) emailInput.value = savedEmail;
+
   if (!accessToken) {
-    nomeInput.removeAttribute('readonly');
-    emailInput.removeAttribute('readonly');
-    errorMsg.innerHTML = 'Sessão expirada. Preencha manualmente ou <a href="login.html" style="color:#3b82f6;">faça login</a>.';
+    // Sem token — nao consegue obter user_id, mas nome/email ja estao preenchidos
+    errorMsg.innerHTML = 'Sessão expirada. <a href="login.html" style="color:#3b82f6;">Faça login</a> para continuar.';
     errorMsg.style.display = 'block';
     submitBtn.disabled = false;
     return;
@@ -103,16 +110,13 @@ document.getElementById('cep').addEventListener('blur', async function () {
       userId = data.id || '';
       userEmail = data.email || '';
       userName = data.user_metadata?.full_name || '';
-      nomeInput.value = userName;
-      emailInput.value = userEmail;
-    } else {
-      nomeInput.removeAttribute('readonly');
-      emailInput.removeAttribute('readonly');
-      errorMsg.innerHTML = 'Sessão expirada. Preencha manualmente.';
-      errorMsg.style.display = 'block';
+      if (userName) nomeInput.value = userName;
+      if (userEmail) emailInput.value = userEmail;
     }
   } catch (err) {
-    nomeInput.removeAttribute('readonly');
+    // Mantem dados do localStorage
+  }
+})();
     emailInput.removeAttribute('readonly');
     errorMsg.innerHTML = 'Erro ao carregar. Preencha manualmente.';
     errorMsg.style.display = 'block';
