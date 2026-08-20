@@ -115,6 +115,17 @@ document.getElementById('cep').addEventListener('blur', async function () {
 
   // Pega userId do localStorage (salvo pelo confirm.html ou cadastro.js)
   try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
+
+  // Fallback: se nao achou, tenta extrair do proprio JWT
+  if (!userId && accessToken) {
+    try {
+      var parts = accessToken.split('.');
+      if (parts.length === 3) {
+        var payload = JSON.parse(atob(parts[1]));
+        if (payload.sub) userId = payload.sub;
+      }
+    } catch (e) {}
+  }
 })();
 
 // Submit

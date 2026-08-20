@@ -33,12 +33,13 @@
           localStorage.setItem('sb-access-token', accessToken);
           if (refreshToken) localStorage.setItem('sb-refresh-token', refreshToken);
 
-          // Extrai user_id diretamente do JWT (payload base64 entre os dois pontos)
-          // Nao depende de API, funciona sempre
+          // Extrai user_id diretamente do JWT (payload base64url entre os dois pontos)
           var parts = accessToken.split('.');
           if (parts.length === 3) {
             try {
-              var payload = JSON.parse(atob(parts[1]));
+              // JWT usa base64url (precisa converter -_ para +/)
+              var b64 = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+              var payload = JSON.parse(atob(b64));
               if (payload.sub) {
                 localStorage.setItem('drv_user_id', payload.sub);
               }
