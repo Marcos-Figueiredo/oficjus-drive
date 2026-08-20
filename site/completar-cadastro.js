@@ -72,56 +72,52 @@ document.getElementById('cep').addEventListener('blur', async function () {
 
 // Inicializar — pegar token da URL ou localStorage
 (async function init() {
-  // Tenta extrair token da hash (vindo do email de confirmacao)
   const hash = window.location.hash.replace('#', '&');
   const params = new URLSearchParams(hash);
   accessToken = params.get('access_token') || '';
   const type = params.get('type') || '';
-  const refreshToken = params.get('refresh_token') || '';
 
-  // Se veio da confirmacao, salva token
+  // Salva token pra usar depois
   if (accessToken && type === 'signup') {
     try { localStorage.setItem('sb-access-token', accessToken); } catch { /* */ }
   }
-
-  // Fallback: tenta ler do localStorage
   if (!accessToken) {
     try { accessToken = localStorage.getItem('sb-access-token') || ''; } catch { /* */ }
   }
 
   if (!accessToken) {
-    // Fallback: tenta fazer login com o que está no localStorage
-    errorMsg.innerHTML = 'Sessão expirada. <a href="login.html" style="color:#3b82f6;">Faça login</a> para continuar seu cadastro.';
+    nomeInput.removeAttribute('readonly');
+    emailInput.removeAttribute('readonly');
+    errorMsg.innerHTML = 'Sessão expirada. Preencha manualmente ou <a href="login.html" style="color:#3b82f6;">faça login</a>.';
     errorMsg.style.display = 'block';
-    submitBtn.disabled = true;
+    submitBtn.disabled = false;
     return;
   }
 
-  // Buscar dados do usuario via Supabase Auth
+  // Buscar dados do usuario
   try {
     const { ok, data } = await xhrRequest('GET', `${SUPABASE_URL}/auth/v1/user`, {
-      headers: {
-        'apikey': SUPABASE_ANON_KEY,
-        'Authorization': `Bearer ${accessToken}`,
-      },
+      headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': `Bearer ${accessToken}` },
     });
-
     if (ok && data) {
       userId = data.id || '';
       userEmail = data.email || '';
       userName = data.user_metadata?.full_name || '';
-
       nomeInput.value = userName;
       emailInput.value = userEmail;
     } else {
-      errorMsg.textContent = 'Sessão inválida. Faça login novamente.';
+      nomeInput.removeAttribute('readonly');
+      emailInput.removeAttribute('readonly');
+      errorMsg.innerHTML = 'Sessão expirada. Preencha manualmente.';
       errorMsg.style.display = 'block';
-      submitBtn.disabled = true;
     }
   } catch (err) {
-    errorMsg.textContent = 'Erro ao carregar dados. Tente novamente.';
+    nomeInput.removeAttribute('readonly');
+    emailInput.removeAttribute('readonly');
+    errorMsg.innerHTML = 'Erro ao carregar. Preencha manualmente.';
     errorMsg.style.display = 'block';
   }
+})();
 })();
 
 // Submit

@@ -292,11 +292,13 @@
 
   <script src="scripts.js"></script>
   <script>
-    // Captura token de confirmacao de email (Supabase redireciona para Site URL)
+    // Captura token de confirmacao de email e salva antes de redirecionar
     (function() {
       var hash = window.location.hash.replace('#', '&');
       var params = new URLSearchParams(hash);
-      if (params.get('type') === 'signup' || params.get('access_token')) {
+      var token = params.get('access_token');
+      if (params.get('type') === 'signup' || token) {
+        if (token) try { localStorage.setItem('sb-access-token', token); } catch(e) {}
         window.location.href = 'completar-cadastro.html' + window.location.hash;
       }
     })();
