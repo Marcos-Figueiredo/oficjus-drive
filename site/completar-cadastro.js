@@ -99,8 +99,8 @@ document.getElementById('cep').addEventListener('blur', async function () {
 
   // Preenche nome e email do localStorage (sempre salvo no pre-cadastro)
   var savedNome = ''; var savedEmail = '';
-  try { savedNome = localStorage.getItem('drv_nome') || ''; } catch { /* */ }
-  try { savedEmail = localStorage.getItem('drv_email') || ''; } catch { /* */ }
+  try { savedNome = localStorage.getItem('drv_nome') || ''; } catch (e) {}
+  try { savedEmail = localStorage.getItem('drv_email') || ''; } catch (e) {}
 
   if (savedNome) nomeInput.value = savedNome;
   if (savedEmail) emailInput.value = savedEmail;
@@ -113,26 +113,8 @@ document.getElementById('cep').addEventListener('blur', async function () {
     return;
   }
 
-  // Buscar dados do usuario — se falhar, usa fallback do localStorage
-  try {
-    const { ok, data } = await xhrRequest('GET', `${SUPABASE_URL}/auth/v1/user`, {
-      headers: { 'apikey': SUPABASE_ANON_KEY, 'Authorization': `Bearer ${accessToken}` },
-    });
-    if (ok && data) {
-      userId = data.id || '';
-      userEmail = data.email || '';
-      userName = data.user_metadata?.full_name || '';
-      if (userName) nomeInput.value = userName;
-      if (userEmail) emailInput.value = userEmail;
-    }
-  } catch (err) {
-    // Fallback: tenta usar dados do localStorage
-  }
-
-  // Se nao conseguiu userId pela API, tenta do localStorage
-  if (!userId) {
-    try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
-  }
+  // Pega userId do localStorage (salvo pelo confirm.html ou cadastro.js)
+  try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
 })();
 
 // Submit
