@@ -95,6 +95,19 @@ document.getElementById('cep').addEventListener('blur', async function () {
     var hashParams = new URLSearchParams(window.location.hash.replace('#', ''));
     var rt = hashParams.get('refresh_token');
     if (rt) try { localStorage.setItem('sb-refresh-token', rt); } catch (e) {}
+
+    // Extrai userId do JWT imediatamente (nao espera pelo confirm.html)
+    try {
+      var parts = accessToken.split('.');
+      if (parts.length === 3) {
+        var b64url = parts[1].replace(/-/g, '+').replace(/_/g, '/');
+        var payload = JSON.parse(atob(b64url));
+        if (payload.sub) {
+          userId = payload.sub;
+          try { localStorage.setItem('drv_user_id', userId); } catch (e) {}
+        }
+      }
+    } catch (e) {}
   }
 
   // Preenche nome e email do localStorage (sempre salvo no pre-cadastro)
@@ -113,19 +126,9 @@ document.getElementById('cep').addEventListener('blur', async function () {
     return;
   }
 
-  // Pega userId do localStorage (salvo pelo confirm.html ou cadastro.js)
-  try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
-
-  // Fallback: se nao achou, tenta extrair do proprio JWT
-  if (!userId && accessToken) {
-    try {
-      var parts = accessToken.split('.');
-      if (parts.length === 3) {
-        var b64url = parts[1].replace(/-/g, '+').replace(/_/g, '/');
-        var payload = JSON.parse(atob(b64url));
-        if (payload.sub) userId = payload.sub;
-      }
-    } catch (e) {}
+  // Pega userId do localStorage (salvo pelo confirm.html ou pelo init acima)
+  if (!userId) {
+    try { userId = localStorage.getItem('drv_user_id') || ''; } catch (e) {}
   }
 })();
 
