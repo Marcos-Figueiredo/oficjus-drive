@@ -97,9 +97,9 @@
           throw new Error(data.error_description || data.error || 'Erro ao fazer login.');
         }
 
-        // Login OK — redireciona para download
+        // Login OK — redireciona para completar cadastro
         loadingOverlay.classList.remove('active');
-        window.location.href = 'download.html';
+        window.location.href = 'completar-cadastro.html';
       } catch (err) {
         errorMsg.textContent = err.message;
         errorMsg.style.display = 'block';

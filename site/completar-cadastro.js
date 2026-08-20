@@ -90,7 +90,8 @@ document.getElementById('cep').addEventListener('blur', async function () {
   }
 
   if (!accessToken) {
-    errorMsg.textContent = 'Sessão expirada. Faça login novamente.';
+    // Fallback: tenta fazer login com o que está no localStorage
+    errorMsg.innerHTML = 'Sessão expirada. <a href="login.html" style="color:#3b82f6;">Faça login</a> para continuar seu cadastro.';
     errorMsg.style.display = 'block';
     submitBtn.disabled = true;
     return;
