@@ -361,13 +361,13 @@ class ActiveRouteViewModel @Inject constructor(
             return
         }
 
-        // Se o usuário alterou o roteiro, reotimiza as restantes por GPS
-        if (roteiroFoiAlterado && restantes.size > 1) {
+        // Reotimiza as restantes por GPS a cada parada
+        if (restantes.size > 1) {
             reotimizarParadas(context)
             return
         }
 
-        // Avança para a próxima parada
+        // Avança para a próxima parada (última restante, sem reotimizar)
         if (_state.value.paradaAtual?.temCoordenadas == true) {
             abrirWaze(context)
         }
@@ -457,11 +457,11 @@ class ActiveRouteViewModel @Inject constructor(
         }
 
         if (temProxima) {
-            // Se o usuário alterou o roteiro, reotimiza as restantes por GPS
-            if (roteiroFoiAlterado) {
+            // Reotimiza as restantes por GPS a cada parada
+            if (state.paradasRestantes.size > 1) {
                 reotimizarParadas(context)
             } else {
-                // Avança para a próxima parada (ordem planejada)
+                // Avança para a próxima parada (última restante, sem reotimizar)
                 if (state.paradaAtual?.temCoordenadas == true) {
                     abrirWaze(context)
                 }
